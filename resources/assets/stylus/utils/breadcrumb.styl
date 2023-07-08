@@ -1,0 +1,37 @@
+#breadcrumb {
+    background-color: #239dd6;
+    width: 100%;
+    margin-bottom: 20px;
+
+    h1 {
+        font-size: 30px;
+        font-family: "montserratbold";
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    h1, li, a, .active {
+        text-shadow: 0px 1px 0px #888;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .breadcrumb {
+        background-color: inherit;
+        color: #fff;
+        border-radius 0;
+        padding: 0;
+
+        > li {
+            + li:before {
+                color: #fff;
+                content ">\00a0";
+                font-weight: bold;
+            }
+        }
+
+        .active {
+            font-weight: bold;
+        }
+    }
+}

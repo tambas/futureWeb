@@ -1,0 +1,737 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+.ak-icon-big {
+    background-size: 65px auto
+}
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+.ak-icon-med {
+    background-size: 46px auto
+}
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+.ak-infos-general {
+    padding: 12px;
+    padding: 1.2rem
+}
+.ak-infos-general .col-sm-6 {
+    overflow: hidden
+}
+.ak-infos-general .col-sm-6 .row {
+    margin: 0
+}
+.ak-infos-general .ak-not-logged {
+    overflow: hidden;
+    line-height: 24px;
+    line-height: 2.4rem
+}
+.ak-infos-general .ak-not-logged span:nth-child(1) {
+    font-size: 33px;
+    font-family: "bebas_neueregular", sans-serif
+}
+.ak-infos-general .ak-not-logged .btn {
+    margin-top: 12px;
+    margin-top: 1.2rem
+}
+.ak-infos-general .ak-avatar {
+    float: left;
+    margin-right: 12px;
+    margin-right: 1.2rem;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+.ak-infos-general .ak-avatar img {
+    border: 1px solid;
+    height: 100px;
+    width: 100px
+}
+.ak-infos-general .ak-infos {
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 24px;
+    margin-right: 12px;
+    margin-right: 1.2rem
+}
+.ak-infos-general .ak-infos .ak-peudo {
+    font-size: 33px;
+    font-family: "bebas_neueregular", sans-serif
+}
+.ak-infos-general .ak-infos .ak-abo {
+    font-size: 13px
+}
+.ak-infos-general .ak-infos .ak-cumul {
+    font-size: 23px;
+    font-weight: bold;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+.ak-infos-general .ak-infos .ak-cumul .nb-steps,
+.ak-infos-general .ak-infos .ak-cumul .nb-days {
+    font-size: 23px
+}
+.ak-infos-general .ak-infos .ak-cumul div {
+    font-size: 15px;
+    font-weight: normal
+}
+.ak-infos-general .ak-block-gift-win, .ak-infos-general .ak-block-next-gift {
+    overflow: hidden;
+    padding-top: 12px;
+    padding-top: 1.2rem
+}
+.ak-infos-general .ak-block-gift-win {
+    padding-bottom: 12px;
+    padding-bottom: 1.2rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid
+}
+.ak-infos-general .ak-gift {
+    float: left;
+    margin-right: 12px;
+    margin-right: 1.2rem
+}
+.ak-infos-general .ak-gift img {
+    width: 52px;
+    height: 52px
+}
+.ak-infos-general .ak-gift-win, .ak-infos-general .ak-next-gift {
+    overflow: hidden;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 33px;
+    line-height: 26px
+}
+.ak-infos-general .ak-gift-win span {
+    font-size: 22px;
+    display: block
+}
+.ak-infos-general .ak-next-gift span {
+    font-size: 22px;
+    display: block
+}
+.ak-infos-general .ak-next-gift div {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif
+}
+.ak-block-rewards {
+    overflow: hidden
+}
+.ak-block-rewards .ak-menu-left {
+    display: none;
+    width: 120px;
+    float: left
+}
+.ak-block-rewards .ak-menu-left a {
+    display: block;
+    border-bottom: 1px solid;
+    position: relative;
+    line-height: 33px;
+    font-weight: bold;
+    padding: 1px 8px;
+    padding: 0.1rem 0.8rem;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ak-block-rewards .ak-menu-left a:hover, .ak-block-rewards .ak-menu-left a.ak-selected {
+    border-right: 6px solid
+}
+.ak-block-rewards .ak-menu-left .ak-completed:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 84px;
+    height: 25px;
+    width: 25px
+}
+.ak-block-rewards .ak-select-menu-left {
+    dislay: block;
+    padding: 8px 0;
+    text-align: center
+}
+.ak-block-rewards .ak-select-menu-left select {
+    height: 37px;
+    width: 165px;
+    border: 1px solid;
+    padding: 0 8px;
+    padding: 0 0.8rem;
+}
+.ak-block-rewards .ak-rewards {
+    overflow: hidden;
+    padding: 28px;
+    padding: 2.8rem;
+    padding-top: 0;
+}
+.ak-block-rewards .ak-rewards .ak-title-progression {
+    font-size: 33px;
+    font-family: "bebas_neueregular", sans-serif
+}
+.ak-block-rewards .ak-rewards .progress {
+    border-radius: 0px;
+    margin: 0;
+    height: 15px
+}
+.ak-block-rewards .ak-rewards .ak-time-line {
+    overflow: hidden;
+    display: none
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month {
+    float: left;
+    width: 20%;
+    min-width: 107px
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month-firt-years {
+    width: 16.66%;
+    min-width: 89px
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step .arrow,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month .arrow {
+    width: 32px;
+    height: 30px;
+    top: 55px;
+    left: 12px;
+    left: 1.2rem;
+    position: relative;
+    float: left;
+    display: block
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month-firt-years .arrow {
+    left: 10px;
+    left: 1rem
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 10px;
+    padding: 1.5rem 1rem;
+    position: relative;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    float: right;
+    cursor: pointer;
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a .ak-text,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a .ak-text {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    display: block;
+    padding: 5px 0;
+    padding: 0.5rem 0
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a .ak-text span,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a .ak-text span {
+    display: block;
+    font-size: 40px;
+    line-height: 34px
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a .ak-completed,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a .ak-completed,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a .ak-gift {
+    width: 52px;
+    height: 44px;
+    display: block;
+    margin: 5px 0 10px 0
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a.ak-selected:after,
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a.ak-selected:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    bottom: 0;
+    left: 0
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-month-firt-years a {
+    padding: 15px 5px;
+    padding: 1.5rem 0.5rem
+}
+.ak-block-rewards .ak-rewards .ak-time-line .ak-block-1week a .ak-text {
+    font-size: 15px;
+    padding-bottom: 5px
+}
+.ak-block-rewards .ak-rewards .ak-select-time-line {
+    display: block;
+    padding: 8px 0;
+    text-align: center
+}
+.ak-block-rewards .ak-rewards .ak-select-time-line select {
+    height: 37px;
+    width: 165px;
+    border: 1px solid;
+    padding: 0 8px;
+    padding: 0 0.8rem
+}
+.ak-block-rewards .ak-rewards .ak-block-gift {
+    padding: 12px;
+    border: 1px solid;
+    border-bottom: none
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift {
+    font-size: 30px;
+    font-family: "bebas_neueregular", sans-serif;
+    overflow: hidden;
+    margin-left: 12px
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-text {
+    display: block;
+    overflow: hidden;
+    line-height: 33px;
+    padding-left: 12px
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-step,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-month {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    display: block;
+    padding: 5px 8px;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    float: left
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-1week {
+    font-size: 15px
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-step span,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-month span {
+    display: block;
+    font-size: 40px;
+    line-height: 34px
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-step,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-day {
+    display: block
+}
+.ak-block-rewards .ak-rewards .ak-social {
+    border: 1px solid
+}
+.ak-block-rewards .ak-rewards .ak-social p.ak-likes {
+    display: none
+}
+@media screen and (min-width: 765px) and (max-width: 810px) {
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-step .arrow,
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-month .arrow {
+        left: 4px;
+        left: 0.4rem
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 992px) {
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-step .arrow,
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-month .arrow {
+        left: 14px;
+        left: 1.4rem
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1066px) {
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-step a,
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-month a {
+        padding: 15px 1px;
+        padding: 1.5rem 0.1rem
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1066px) {
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-month-firt-years a {
+        padding: 15px 1px;
+        padding: 1.5rem 0.1rem
+    }
+    .ak-block-rewards .ak-rewards .ak-time-line .ak-block-month-firt-years .arrow {
+        left: 2px;
+        left: 0.2rem
+    }
+}
+aside .ak-btn-notice {
+    display: block;
+    font-size: 26px;
+    line-height: 26px;
+    font-family: "bebas_neueregular", sans-serif;
+    border: 6px solid;
+    padding: 10px 0;
+    padding: 1rem 0;
+    padding-left: 57px;
+    position: relative;
+    min-height: 85px;
+    margin-bottom: 12px
+}
+aside .ak-btn-notice:before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: -7px;
+    width: 70px;
+    height: 85px
+}
+aside .ak-next-gift {
+    margin-bottom: 12px
+}
+aside .ak-next-gift .ak-title {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 34px
+}
+aside .ak-next-gift .ak-title:before {
+    content: " ";
+    width: 52px;
+    height: 54px;
+    display: inline-block;
+    margin: 5px;
+    margin: 0.5rem;
+    vertical-align: middle
+}
+aside .ak-next-gift .ak-gift {
+    text-align: center
+}
+aside .ak-next-gift .ak-gift .ak-name {
+    font-size: 26px;
+    font-family: "bebas_neueregular", sans-serif;
+    padding: 5px;
+    padding: 0.5rem
+}
+aside .ak-next-gift .ak-bottom-block {
+    padding: 12px
+}
+aside .ak-next-gift .ak-bottom-block .btn {
+    white-space: normal
+}
+@media all and (min-width: 768px) {
+    .ak-infos-general .ak-infos {
+        border-right: 1px solid
+    }
+    .ak-infos-general .ak-block-gift-win {
+        border-top: none;
+        padding-top: 0
+    }
+    .ak-block-rewards .ak-menu-left {
+        display: block
+    }
+    .ak-block-rewards .ak-select-menu-left {
+        display: none
+    }
+    .ak-block-rewards .ak-rewards .ak-time-line {
+        display: block
+    }
+    .ak-block-rewards .ak-rewards .ak-select-time-line {
+        display: none
+    }
+    .ak-block-rewards .ak-rewards .ak-social p.ak-likes {
+        display: block
+    }
+}
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+.ak-icon-big {
+    background-size: 65px auto
+}
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+.ak-icon-med {
+    background-size: 46px auto
+}
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+.ak-infos-general {
+    background: #171c1b;
+    color: #fff
+}
+.ak-infos-general .ak-not-logged span {
+    color: #ee5a12
+}
+.ak-infos-general .ak-not-logged span:nth-child(3) {
+    color: #97a800
+}
+.ak-infos-general .ak-avatar img {
+    border-color: #c9c6bb
+}
+.ak-infos-general .ak-infos {
+    color: #fff;
+    border-color: #494942;
+    min-height: 129px;
+}
+.ak-infos-general .ak-infos .ak-abo {
+    color: #979286
+}
+.ak-infos-general .ak-infos .ak-abo a {
+    color: #97a800
+}
+.ak-infos-general .ak-infos .ak-cumul .nb-steps,
+.ak-infos-general .ak-infos .ak-cumul .nb-days {
+    color: #d35417
+}
+.ak-infos-general .ak-gift-win, .ak-infos-general .ak-next-gift {
+    color: #fff
+}
+.ak-infos-general .ak-gift-win, .ak-infos-general .ak-block-gift-win {
+    border-color: #353431
+}
+.ak-infos-general .ak-gift-win span {
+    color: #97a800
+}
+.ak-infos-general .ak-next-gift span {
+    color: #97a800
+}
+.ak-infos-general .ak-next-gift div {
+    color: #979286
+}
+.ak-block-rewards {
+    background: #fff
+}
+.ak-block-rewards .ak-menu-left a {
+    background: #edeae0;
+    color: #422f14;
+    border-bottom-color: #c9c6bb
+}
+.ak-block-rewards .ak-menu-left a:hover, .ak-block-rewards .ak-menu-left a.ak-selected {
+    background: #fff;
+    border-right-color: #97A800
+}
+.ak-block-rewards .ak-menu-left .ak-completed:after {
+    background: url("../imgs/assets/completed.png") 0 0 no-repeat
+}
+.ak-block-rewards .ak-select-menu-left {
+    background: #d2cfc5
+}
+.ak-block-rewards .ak-select-menu-left select {
+    background: #dfd8cc;
+    border-color: #ad9b7f
+}
+.ak-block-rewards .ak-rewards .progress {
+    background: #d2cfc5
+}
+.ak-block-rewards .ak-rewards .progress-bar-info {
+    background: #9dab0b
+}
+.ak-block-rewards .ak-rewards .ak-time-line {
+    background: #2e2d29
+}
+.ak-block-rewards .ak-rewards .ak-select-time-line {
+    background: #171c1b
+}
+.ak-block-rewards .ak-rewards .ak-select-time-line select {
+    background: #dfd8cc;
+    border-color: #ad9b7f
+}
+.ak-block-rewards .ak-rewards .ak-block-step .arrow,
+.ak-block-rewards .ak-rewards .ak-block-month .arrow {
+    background: url("../imgs/assets/separator-time-line.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-step a,
+.ak-block-rewards .ak-rewards .ak-block-month a {
+    border-color: #33322e;
+    color: #33322e
+}
+.ak-block-rewards .ak-rewards .ak-block-step a .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-month a .ak-text {
+    color: #fff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.6) inset
+}
+.ak-block-rewards .ak-rewards .ak-block-step a .ak-completed,
+.ak-block-rewards .ak-rewards .ak-block-month a .ak-completed {
+    background: url("../imgs/assets/completed-big.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-1week .ak-text {
+    background: #737951
+}
+.ak-block-rewards .ak-rewards .ak-block-step1 .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-1month .ak-text {
+    background: #a3be04
+}
+.ak-block-rewards .ak-rewards .ak-block-step2 .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-3month .ak-text {
+    background: #bca502
+}
+.ak-block-rewards .ak-rewards .ak-block-step3 .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-6month .ak-text {
+    background: #de9e00
+}
+.ak-block-rewards .ak-rewards .ak-block-step4 a .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-9month a .ak-text {
+    background: #eb7f00
+}
+.ak-block-rewards .ak-rewards .ak-block-step1 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-step2 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-step3 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-step4 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-1week a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-1month a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-3month a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-6month a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-9month a .ak-gift {
+    background: url("../imgs/assets/gift_little.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-step5 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-12month a .ak-gift {
+    background: url("../imgs/assets/gift_little.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-step5 a .ak-text,
+.ak-block-rewards .ak-rewards .ak-block-12month a .ak-text {
+    background: #d64701
+}
+.ak-block-rewards .ak-rewards .ak-block-step5 a .ak-gift,
+.ak-block-rewards .ak-rewards .ak-block-12month a .ak-gift {
+    background: url("../imgs/assets/gift_big.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-step a:hover,
+.ak-block-rewards .ak-rewards .ak-block-month a:hover {
+    background: #3b3a35;
+    color: transparent
+}
+.ak-block-rewards .ak-rewards .ak-block-step a.ak-selected,
+.ak-block-rewards .ak-rewards .ak-block-month a.ak-selected {
+    background: #3b3a35;
+    color: transparent
+}
+.ak-block-rewards .ak-rewards .ak-block-step a.ak-selected:after,
+.ak-block-rewards .ak-rewards .ak-block-month a.ak-selected:after {
+    background: url("../imgs/assets/arrow.png") center center no-repeat
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift {
+    color: #e86403
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-step,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-month {
+    color: #fff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.6) inset
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-1week {
+    background: #737951
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-step1,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-1month {
+    background: #a3be04
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-step2,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-3month {
+    background: #bca502
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-step3,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-6month {
+    background: #de9e00
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-step4,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-9month {
+    background: #eb7f00
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-step5,
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-12month {
+    background: #d64701
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-title-gift .ak-nb-day {
+    color: #848e02
+}
+.ak-block-rewards .ak-rewards .ak-block-gift .ak-panel {
+    background: #fff
+}
+.ak-block-rewards .ak-rewards .ak-social, .ak-block-rewards .ak-rewards .ak-block-gift {
+    border-color: #c9c6bb
+}
+aside .ak-btn-notice {
+    background: url("../imgs/assets/bg-brown.jpg") 0 0 repeat;
+    color: #fff;
+    border-color: #5a2b02
+}
+aside .ak-btn-notice:hover {
+    background: url("../imgs/assets/bg-brown-over.jpg") 0 0 repeat
+}
+aside .ak-btn-notice span {
+    color: #ffce00
+}
+aside .ak-btn-notice:before {
+    background: url("../imgs/assets/illu-btn-notice.png") 0 0 no-repeat
+}
+aside .ak-next-gift {
+    background: #f8f8f6
+}
+aside .ak-next-gift .ak-title {
+    background: #25c9e6;
+    color: #fff
+}
+aside .ak-next-gift .ak-title:before {
+    background: url("../imgs/assets/gift_big.png") center center no-repeat
+}
+aside .ak-next-gift .ak-gift {
+    background: url("../imgs/assets/bg-item.jpg") center center no-repeat
+}
+aside .ak-next-gift .ak-gift .ak-name {
+    color: #ffce00
+}
+aside .ak-next-gift .ak-bottom-block {
+    background: #e0dbcb
+}
+.vote-rewards .panel-vote-link {
+    margin-bottom: 0;
+    border-bottom: 1px solid #d9d5cf;
+}
+.vote-rewards .panel-vote-link .col-sm-6 {
+    text-align: center;
+}
+.vote-rewards .panel-vote-link .col-sm-6 p {
+    margin-bottom: 0;
+    padding: 13px 0;
+}
+.vote-rewards .panel-vote-link .col-sm-6+.col-sm-6 p {
+    padding: 4px;
+}

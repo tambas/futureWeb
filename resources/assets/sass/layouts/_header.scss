@@ -1,0 +1,189 @@
+header[role=header] {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background: url("../images/_bg.jpg") repeat;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+
+    div {
+        width: 1024px;
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        position: relative;
+        margin: auto;
+
+        h1#logo {
+            width: 190px;
+            height: 190px;
+            position: relative;
+            z-index: 400;
+            top: -50px;
+            left: -15px;
+            background: url("../images/_logo.png") no-repeat center 40px #ffffff;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+
+            &:hover {
+                top: -45px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+                animation: linear logo 0.7s;
+                transform: rotate(-15deg);
+            }
+        }
+    }
+
+    nav[role=navigation] {
+        width: 610px;
+        height: 85px;
+        position: relative;
+        left: 200px;
+        top: -190px;
+
+        ul li {
+            color: #757575;
+            flaot: left;
+            display: inline-block;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 20%;
+            height: 85px;
+            line-height: 85px;
+            margin-right: -3px;
+
+            a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+
+            &:hover a {
+                color: #35b3db;
+                cursor: pointer;
+            }
+
+            &[active] {
+                color: #35b3db;
+                font-family: 'montserratbold';
+                cursor: pointer;
+            }
+        }
+    }
+
+    ul#panel {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        li {
+            cursor: pointer;
+            color: #757575;
+            float: left;
+            display: inline-block;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            width: 40px;
+            height: 85px;
+            line-height: 85px;
+
+            &:hover:before {
+                color: #35b3db;
+            }
+
+            &:nth-child(1) {
+                width: 40px;
+                display: none;
+
+                &:before {
+                    content: "\f0c9";
+                }
+            }
+
+            &:nth-child(2) {
+                width: 40px;
+
+                &:before {
+                    content: "\f007";
+                }
+            }
+
+            &:nth-child(3) {
+                width: 40px;
+
+                &:before {
+                    content: "\f002";
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header[role=header] {
+        div {
+            width: 100%;
+
+            nav[role=navigation] {
+                overflow: hidden;
+                top: -65px;
+                width: 100%;
+                z-index: 300;
+                left: 0;
+                height: 0;
+                box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 0 2px 1px rgba(0, 0, 0, 0.3) inset;
+                background: #ffffff;
+
+                ul li {
+                    width: 100%;
+                    float: none !important;
+                    height: 55px;
+                    line-height: 55px;
+                }
+            }
+
+            h1#logo {
+                width: 150px;
+                height: 150px;
+                top: -35px;
+                background-size: 70% 70%;
+                background-position: center 35px;
+            }
+        }
+
+        ul#panel {
+            right: 10px;
+            li:nth-child(1) {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    header[role=header] {
+        height: 60px;
+
+        div {
+            nav[role=navigation] {
+                top: -60px;
+            }
+
+            h1#logo {
+                width: 120px;
+                height: 120px;
+                top: -30px;
+                background-size: 70% 70%;
+                background-position: center 27px;
+            }
+        }
+
+        ul#panel li {
+            height: 60px;
+            line-height: 60px;
+        }
+    }
+}

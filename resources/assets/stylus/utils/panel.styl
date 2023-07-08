@@ -1,0 +1,48 @@
+.panel {
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    &.panel-default {
+        .panel-heading {
+            background-color: #fff;
+            color: #2aafdc;
+        }
+
+        .panel-body {
+            color: #797979;
+
+            a {
+                color: #2aafdc;
+            }
+        }
+    }
+
+    &.panel-primary {
+        .panel-body {
+            p {
+                color: #fff;
+            }
+        }
+    }
+
+    &.panel-primary, &.panel-primary .panel-heading {
+        background-color: #2aafdc;
+    }
+
+    .panel-heading {
+        font-size: 18px;
+        text-transform: uppercase;
+        border: none;
+        font-family: "montserratbold";
+        /*padding-top: 20px;*/
+    }
+
+    .panel-body {
+        padding: 0 15px;
+
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}

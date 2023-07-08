@@ -1,0 +1,25 @@
+{
+    "fields": [{
+        "type": "select",
+        "name": "Votre problème concerne",
+        "data": [{
+            "value": "Mon mot de passe",
+            "child": "final"
+        }, {
+            "value": "Mon adresse email",
+            "child": "final"
+        }, {
+            "value": "Mon pseudo",
+            "child": "final"
+        }, {
+            "value": "La certification du compte",
+            "child": "final"
+        }, {
+            "value": "La perte de compte",
+            "child": "web_lost_final"
+        }, {
+            "value": "Le signalement d'un problème",
+            "child": "final"
+        }]
+    }]
+}

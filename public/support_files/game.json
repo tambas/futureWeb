@@ -1,0 +1,13 @@
+{
+    "fields": [{
+        "type": "select",
+        "name": "Signaler",
+        "data": [{
+            "value": "Un problème technique",
+            "child": "game_tech_issue"
+        }, {
+            "value": "Le comportement d'un joueur",
+            "child": "game_player_behavior"
+        }]
+    }]
+}

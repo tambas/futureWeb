@@ -1,0 +1,1265 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+
+.ak-eshop-head {
+    background: #f8f8f6
+}
+
+.ak-panel {
+    position: relative;
+    margin-bottom: 12px;
+    background: #f8f8f6;
+    color: #78664c
+}
+
+.ak-panel.ak-collapsible .ak-panel-title {
+    cursor: pointer
+}
+
+.ak-panel.ak-collapsible.ak-collapsed .ak-panel-content {
+    display: none
+}
+
+.ak-panel > h2, .ak-panel > h3, .ak-panel > h4, .ak-panel > .ak-panel-title {
+    display: block;
+    position: relative;
+    font-size: 26px;
+    font-size: 2.6rem;
+    line-height: 33px;
+    line-height: 3.3rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-top: 1rem;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    font-family: "bebas_neueregular", sans-serif;
+    min-height: 50px;
+    text-shadow: 0 2px 2px #888
+}
+
+.ak-panel > h2 > a, .ak-panel > h3 > a, .ak-panel > h4 > a, .ak-panel > .ak-panel-title > a {
+    color: #fff
+}
+
+.ak-panel > h2, .ak-panel > h3, .ak-panel > h4, .ak-panel > .ak-panel-title {
+    background: #97A800 url("../imgs/assets/simple-title.png") left top no-repeat;
+    background-size: 60px auto;
+    color: #fff;
+    border-bottom-color: #6f780d
+}
+
+.ak-panel > h2 a, .ak-panel > h2 span, .ak-panel > h3 a, .ak-panel > h3 span,
+.ak-panel > h4 a, .ak-panel > h4 span, .ak-panel > .ak-panel-title a, .ak-panel > .ak-panel-title span {
+    position: relative
+}
+
+.ak-panel > h2 img, .ak-panel > h3 img, .ak-panel > h4 img, .ak-panel > .ak-panel-title img {
+    position: relative;
+    margin: 0.80em;
+    top: -2px
+}
+
+.ak-panel > h2 .ak-legend, .ak-panel > h3 .ak-legend, .ak-panel > h4 .ak-legend,
+.ak-panel > .ak-panel-title .ak-legend {
+    font-size: 13px;
+    font-size: 1.3rem;
+    font-weight: bold
+}
+
+.ak-panel a.ak-infos {
+    color: #fff;
+    background: #f5f2ed;
+    border-color: #dfddd1;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: normal;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block
+}
+
+.ak-panel .ak-panel-title-icon {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-right: 1.5rem;
+    text-align: center
+}
+
+.ak-panel .ak-panel-title-icon:not(.ak-icon-med) {
+    width: 1.95em;
+    height: 1.75em
+}
+
+.ak-panel .ak-panel-title-icon img {
+    position: relative;
+    display: inline-block;
+    margin: 0
+}
+
+.ak-panel .ak-panel-content {
+    color: #28170e;
+    padding: 12px
+}
+
+.ak-panel .ak-panel-content .ak-panel-intro {
+    margin-bottom: 12px
+}
+
+.ak-panel .ak-panel-content .ak-panel-intro span {
+    color: #c56f07
+}
+
+.ak-panel .ak-panel-bottomlink {
+    text-align: center
+}
+
+.ak-panel .ak-panel-bottomlink .btn {
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
+    margin-top: 12px;
+    margin-top: 1.2rem
+}
+
+.ak-panel .ak-panel-bottomlink .ak-bottom-link {
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    padding: 1rem 0;
+    display: block;
+    margin: 0;
+    border-top: 1px solid #c9c6bb;
+    text-align: center;
+    font-weight: bold;
+    color: #422f14;
+    background: #dad4c9
+}
+
+.ak-panel .ak-panel-bottomlink .ak-bottom-link:hover {
+    text-decoration: underline
+}
+
+.ak-panel .ak-panel-footer {
+    padding-bottom: 15px;
+    padding-bottom: 1.5rem
+}
+
+.ak-panel.ak-nocontentpadding > .ak-panel-title {
+    padding: 0;
+    padding-bottom: 5px;
+    padding-bottom: 0.5rem
+}
+
+.ak-panel.ak-nocontentpadding > .ak-panel-content {
+    padding: 0
+}
+
+.ak-panel.ak-panel-blue .ak-panel-title {
+    background: #064e68 url("../imgs/assets/blue-title.png") 0 0 no-repeat;
+    border-bottom: 1px solid #21a3d3
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content {
+    background: url("../imgs/assets/blue-bg.jpg") 0 0
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-main-content {
+    border-bottom-color: #064e68
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-image img {
+    background: #329fc7;
+    border-color: #0b566f
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-title a {
+    color: #ffffff
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-title a:hover {
+    color: #ffffff
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-text {
+    color: #001f2a
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-text > div {
+    color: #7ddcff
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-aside .ak-edit {
+    background: url("../imgs/assets/character_edit.png") 0 0
+}
+
+.ak-panel.ak-panel-blue .ak-panel-content .ak-list-element .ak-aside .ak-edit:hover {
+    background-color: #064e68
+}
+
+.ak-panel.ak-panel-blue .ak-panel-bottomlink {
+    background: #064e68
+}
+
+.ak-panel.ak-panel-blue .ak-panel-bottomlink a.ak-bottom-link {
+    color: #21a3d3;
+    background: none;
+    border-top-color: #053f54
+}
+
+.ak-panel.ak-panel-blue .ak-panel-bottomlink a.ak-bottom-link:hover {
+    color: #ffffff;
+    background: #00374b
+}
+
+.ak-panel.ak-panel-black {
+    background: #202020
+}
+
+.ak-panel.ak-panel-black .ak-panel-title {
+    background: #202020;
+    border-bottom: 1px solid #4a4a4a;
+    text-shadow: none
+}
+
+.ak-panel.ak-panel-black .ak-panel-content {
+    color: #686868
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-title {
+    background: #112f30 url("../imgs/assets/green-title.png") 0 0 no-repeat;
+    border-bottom: 1px solid #237b7d
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content {
+    background: url("../imgs/assets/green-bg.jpg") 0 0
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content .ak-text {
+    padding: 12px;
+    color: #fff
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content .ak-text .ak-nb-block {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 12px 0 6px 0;
+    font-family: bebas_neueregular;
+    color: #fdc469;
+    border: 1px solid #575d46
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content .ak-text .ak-nb-block {
+    background: #112f30
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content .ak-text .ak-nb-block:after {
+    background: url("../imgs/assets/og.png") 0 0 no-repeat transparent;
+    content: " ";
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 12px
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-content .ak-text a {
+    color: #fdc469
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-bottomlink {
+    background: #183a3b
+}
+
+.ak-panel.ak-container.ak-panel-green .ak-panel-bottomlink a.ak-bottom-link {
+    color: #fff;
+    background: none;
+    border-top-color: #237b7d
+}
+
+.ak-panel-stack .ak-panel, .ak-light-skin .main .ak-panel {
+    overflow: hidden
+}
+
+.ak-panel-stack.ak-glue .ak-panel {
+    margin-bottom: 0
+}
+
+.ak-panel-stack .ak-panel, .ak-nocontentpadding .ak-panel {
+    background: #f8f8f6
+}
+
+.ak-panel-stack .ak-panel > h2, .ak-panel-stack .ak-panel > h3, .ak-panel-stack .ak-panel > h4,
+.ak-panel-stack .ak-panel > .ak-panel-title, .ak-nocontentpadding .ak-panel > h2,
+.ak-nocontentpadding .ak-panel > h3, .ak-nocontentpadding .ak-panel > h4,
+.ak-nocontentpadding .ak-panel > .ak-panel-title {
+    font-size: 26px;
+    font-size: 2.6rem;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "bebas_neueregular", sans-serif;
+    border-bottom: none;
+    height: auto;
+    line-height: 28px;
+    line-height: 2.8rem;
+    min-height: 32px;
+    text-shadow: none;
+    color: #28170e;
+    background: none
+}
+
+.ak-panel-stack .ak-panel > h2 a, .ak-panel-stack .ak-panel > h3 a, .ak-panel-stack .ak-panel > h4 a,
+.ak-panel-stack .ak-panel > .ak-panel-title a, .ak-nocontentpadding .ak-panel > h2 a,
+.ak-nocontentpadding .ak-panel > h3 a, .ak-nocontentpadding .ak-panel > h4 a,
+.ak-nocontentpadding .ak-panel > .ak-panel-title a {
+    color: #aab700
+}
+
+.ak-panel-stack .ak-panel > h2:before, .ak-panel-stack .ak-panel > h3:before,
+.ak-panel-stack .ak-panel > h4:before, .ak-panel-stack .ak-panel > .ak-panel-title:before,
+.ak-nocontentpadding .ak-panel > h2:before, .ak-nocontentpadding .ak-panel > h3:before,
+.ak-nocontentpadding .ak-panel > h4:before, .ak-nocontentpadding .ak-panel > .ak-panel-title:before {
+    display: none
+}
+
+.ak-panel-stack .ak-panel > h2 .ak-panel-title-icon, .ak-panel-stack .ak-panel > h3 .ak-panel-title-icon,
+.ak-panel-stack .ak-panel > h4 .ak-panel-title-icon, .ak-panel-stack .ak-panel > .ak-panel-title .ak-panel-title-icon,
+.ak-nocontentpadding .ak-panel > h2 .ak-panel-title-icon, .ak-nocontentpadding .ak-panel > h3 .ak-panel-title-icon,
+.ak-nocontentpadding .ak-panel > h4 .ak-panel-title-icon, .ak-nocontentpadding .ak-panel > .ak-panel-title .ak-panel-title-icon {
+    background-image: url("../imgs/assets/sprite_common.png");
+    background-position: -148px 0;
+    background-repeat: no-repeat;
+    margin-right: 0.2em;
+    padding: 0 0.2em;
+    vertical-align: middle;
+    width: auto;
+    height: 28px;
+    line-height: 28px
+}
+
+.ak-panel-stack .ak-panel > h2 .ak-legend, .ak-panel-stack .ak-panel > h3 .ak-legend,
+.ak-panel-stack .ak-panel > h4 .ak-legend, .ak-panel-stack .ak-panel > .ak-panel-title .ak-legend,
+.ak-nocontentpadding .ak-panel > h2 .ak-legend, .ak-nocontentpadding .ak-panel > h3 .ak-legend,
+.ak-nocontentpadding .ak-panel > h4 .ak-legend, .ak-nocontentpadding .ak-panel > .ak-panel-title .ak-legend {
+    color: #c56f07;
+    font-size: 13px;
+    font-size: 1.3rem;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-left: 0.5em;
+    text-transform: none
+}
+
+.ak-panel-stack .ak-panel > h2 .ak-options, .ak-panel-stack .ak-panel > h3 .ak-options,
+.ak-panel-stack .ak-panel > h4 .ak-options, .ak-panel-stack .ak-panel > .ak-panel-title .ak-options,
+.ak-nocontentpadding .ak-panel > h2 .ak-options, .ak-nocontentpadding .ak-panel > h3 .ak-options,
+.ak-nocontentpadding .ak-panel > h4 .ak-options, .ak-nocontentpadding .ak-panel > .ak-panel-title .ak-options {
+    display: inline-block
+}
+
+.ak-panel-stack .ak-panel .ak-toggle-closed .ak-panel-title-icon,
+.ak-nocontentpadding .ak-panel .ak-toggle-closed .ak-panel-title-icon {
+    background-image: url("../imgs/assets/sprite_common.png");
+    background-position: -149px -21px;
+    padding: 0 0.3em;
+    margin-right: 0
+}
+
+.ak-light-skin .main .ak-panel {
+    background: #f8f8f6
+}
+
+.ak-light-skin .main .ak-panel h2, .ak-light-skin .main .ak-panel h3,
+.ak-light-skin .main .ak-panel h4, .ak-light-skin .main .ak-panel .ak-panel-title {
+    font-size: 26px;
+    font-size: 2.6rem;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "bebas_neueregular", sans-serif;
+    height: auto;
+    line-height: 28px;
+    line-height: 2.8rem;
+    min-height: 32px;
+    color: #28170e;
+    background: none
+}
+
+.ak-light-skin .main .ak-panel h2:before, .ak-light-skin .main .ak-panel h3:before,
+.ak-light-skin .main .ak-panel h4:before, .ak-light-skin .main .ak-panel .ak-panel-title:before {
+    display: none
+}
+
+.ak-light-skin .main .ak-panel h2 a, .ak-light-skin .main .ak-panel h3 a,
+.ak-light-skin .main .ak-panel h4 a, .ak-light-skin .main .ak-panel .ak-panel-title a {
+    color: #aab700
+}
+
+.ak-light-skin .main .ak-panel h2 .ak-panel-title-icon, .ak-light-skin .main .ak-panel h3 .ak-panel-title-icon,
+.ak-light-skin .main .ak-panel h4 .ak-panel-title-icon, .ak-light-skin .main .ak-panel .ak-panel-title .ak-panel-title-icon {
+    margin-right: 0.2em;
+    padding: 0 0.2em;
+    vertical-align: middle;
+    width: auto;
+    height: 28px;
+    line-height: 28px;
+    background-image: url("../imgs/assets/sprite_common.png");
+    background-position: -148px 0;
+    background-repeat: no-repeat
+}
+
+.ak-light-skin .main .ak-panel h2 .ak-legend, .ak-light-skin .main .ak-panel h3 .ak-legend,
+.ak-light-skin .main .ak-panel h4 .ak-legend, .ak-light-skin .main .ak-panel .ak-panel-title .ak-legend {
+    color: #c56f07;
+    font-size: 13px;
+    font-size: 1.3rem;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-left: 0.5em;
+    text-transform: none
+}
+
+.ak-light-skin .main .ak-panel h2 .ak-options, .ak-light-skin .main .ak-panel h3 .ak-options,
+.ak-light-skin .main .ak-panel h4 .ak-options, .ak-light-skin .main .ak-panel .ak-panel-title .ak-options {
+    display: inline-block
+}
+
+.ak-light-skin .main .ak-panel .ak-toggle-closed .ak-panel-title-icon {
+    background-image: url("../imgs/assets/sprite_common.png");
+    background-position: -149px -21px;
+    padding: 0 0.3em;
+    margin-right: 0
+}
+
+.ak-panel-stack.ak-panel > .ak-panel-title {
+    padding: 0;
+    padding-bottom: 5px;
+    padding-bottom: 0.5rem
+}
+
+.ak-panel-stack.ak-panel > .ak-panel-content {
+    padding: 0
+}
+
+.ak-light-skin .main.ak-panel > .ak-panel-title {
+    padding: 0;
+    padding-bottom: 5px;
+    padding-bottom: 0.5rem
+}
+
+.ak-light-skin .main.ak-panel > .ak-panel-content {
+    padding: 0
+}
+
+.ak-light-skin .ak-panel-stack {
+    background: #f8f8f6
+}
+
+.ak-light-skin .ak-panel-stack .ak-panel {
+    margin: 12px;
+    margin: 1.2rem;
+    padding: 12px;
+    padding: 1.2rem;
+    border: 1px solid
+}
+
+.ak-light-skin .ak-panel-stack > div.ak-container + div.ak-container:before {
+    display: none
+}
+
+.ak-light-skin .ak-main-content .ak-panel {
+    border-top: 1px solid
+}
+
+.ak-light-skin .ak-main-content .ak-panel .ak-panel-title {
+    padding-left: 12px;
+    padding-left: 1.2rem
+}
+
+aside .ak-panel > .ak-panel-title, .ak-light-skin .ak-main-container aside .ak-panel > .ak-panel-title,
+.ak-nocontentpadding .ak-panel > .ak-panel-title {
+    padding: 0;
+    padding-bottom: 5px;
+    padding-bottom: 0.5rem
+}
+
+aside .ak-panel > .ak-panel-content, .ak-light-skin .ak-main-container aside .ak-panel > .ak-panel-content,
+.ak-nocontentpadding .ak-panel > .ak-panel-content {
+    padding: 0
+}
+
+aside .ak-panel .ak-panel-title, .ak-light-skin .ak-main-container aside .ak-panel .ak-panel-title {
+    min-height: 50px;
+    padding: 0;
+    padding-left: 65px;
+    padding-left: 6.5rem;
+    padding-top: 8px;
+    padding-top: 0.8rem;
+    text-align: left;
+    font-size: 26px;
+    font-size: 2.6rem
+}
+
+aside .ak-panel .ak-panel-title .ak-panel-title-icon, .ak-light-skin .ak-main-container aside .ak-panel .ak-panel-title .ak-panel-title-icon {
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 0
+}
+
+aside .ak-panel .ak-panel-title .ak-panel-title-icon img, .ak-light-skin .ak-main-container aside .ak-panel .ak-panel-title .ak-panel-title-icon img {
+    max-width: 1.95em;
+    max-height: 1.70em;
+    top: 3px;
+    left: -2px
+}
+
+.ak-light-skin .ak-panel-stack > div.ak-container + div.ak-container.ak-glue > div.ak-container + div.ak-container,
+.ak-light-skin .ak-panel-stack > div.ak-container + div.ak-container.ak-glue .ak-panel,
+.ak-light-skin .ak-panel-stack .ak-panel.ak-glue > div.ak-container + div.ak-container,
+.ak-light-skin .ak-panel-stack .ak-panel.ak-glue .ak-panel {
+    background: #f5f2ed;
+    border-color: #dfddd1;
+    border-top-color: #dfddd1
+}
+
+.ak-light-skin .ak-panel-stack > div.ak-container + div.ak-container .ak-panel,
+.ak-light-skin .ak-panel-stack .ak-panel .ak-panel {
+    background: none;
+    border-top: none
+}
+
+.ak-light-skin .ak-panel-stack.ak-glue > div.ak-container + div.ak-container .ak-panel,
+.ak-light-skin .ak-panel-stack.ak-glue .ak-panel .ak-panel {
+    background: none;
+    border-top: none
+}
+
+.ak-light-skin .ak-panel-stack > div.ak-container + div.ak-container .ak-panel .ak-panel-title,
+.ak-light-skin .ak-panel-stack .ak-panel .ak-panel .ak-panel-title {
+    border-top: none
+}
+
+.ak-light-skin .ak-panel-stack.ak-glue > div.ak-container + div.ak-container .ak-panel .ak-panel-title,
+.ak-light-skin .ak-panel-stack.ak-glue .ak-panel .ak-panel .ak-panel-title {
+    border-top: none
+}
+
+.ak-light-skin .ak-main-container .ak-panel {
+    border-top-color: #dfddd1
+}
+
+.ak-light-skin .ak-main-container .ak-panel .ak-panel-content {
+    padding: 12px;
+    padding: 1.2rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content {
+    padding: 12px;
+    padding: 1.2rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-bank .ak-title {
+    display: block;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 23px;
+    line-height: 2.3rem;
+    margin-bottom: 3px;
+    margin-bottom: 0.3rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-bank .ak-amount {
+    display: block;
+    border: 1px solid;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 17px;
+    font-size: 1.7rem;
+    padding: 3px;
+    padding: 0.3rem;
+    padding-left: 37px;
+    padding-left: 3.7rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-bank .ak-giftswaiting-connect {
+    text-align: center
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-bank a {
+    display: block;
+    text-align: right;
+    margin-top: 3px;
+    margin-top: 0.3rem;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-bank .ak-separator {
+    height: 0px;
+    display: block;
+    border-top: 1px solid;
+    margin: 5px 0;
+    margin: 0.5rem 0
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-giftswaiting-connect {
+    padding-left: 85px;
+    padding-left: 8.5rem;
+    min-height: 85px
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-giftswaiting-connect a {
+    display: inline-block;
+    margin-top: 5px;
+    margin-top: 0.5rem
+}
+
+aside .ak-panel-giftswaiting.ak-panel .ak-panel-content .ak-giftswaiting-connect a span {
+    text-decoration: underline
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank .ak-title {
+    color: #fff
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank .ak-amount {
+    background: #013145;
+    border-color: #2099c6;
+    color: #2390b1
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank .ak-amount.ak-tokens {
+    background: #013145 url("../imgs/assets/sprite_gifts.png") 5px 2px no-repeat
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank .ak-amount.ak-gifts {
+    background: #013145 url("../imgs/assets/sprite_gifts.png") 5px -30px no-repeat
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank a {
+    color: #1affff
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-bank .ak-separator {
+    border-color: #064e68;
+    opacity: 0.6
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-giftswaiting-connect {
+    background: url("../imgs/assets/connect.png") 0 0 no-repeat;
+    color: #ffffff;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-giftswaiting-connect a {
+    color: #7ddcff;
+    font-size: 13px;
+    font-size: 1.3rem;
+    text-decoration: underline
+}
+
+.ak-panel.ak-panel-giftswaiting .ak-panel-content .ak-giftswaiting-connect .btn-blue {
+    color: #ffffff;
+    font-size: 15px;
+    font-size: 1.5rem;
+    text-decoration: none
+}
+
+.ak-code-aside .ak-panel-title {
+    background: #2c2827 url("../imgs/assets/title.png") 0 0 no-repeat;
+    background-size: 60px auto;
+    color: #97a800;
+    text-shadow: none
+}
+
+.ak-code-aside .ak-panel-content {
+    background: url("../imgs/assets/brown.jpg") 0 0
+}
+
+.ak-code-aside .ak-form {
+    text-align: center
+}
+
+.ak-code-aside .ak-form .form-control {
+    width: 100%
+}
+
+.ak-code-aside .ak-form .field-required {
+    display: none
+}
+
+.ak-code-aside .ak-form .form-group {
+    text-align: center
+}
+
+.ak-code-aside .ak-form .form-group label {
+    text-align: left;
+    font-weight: normal;
+    display: block;
+    color: #ffffff
+}
+
+.ak-code-aside .ak-form .ak-code-support {
+    color: #97a800;
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-panel.ak-summary .ak-panel-content {
+    padding: 12px;
+    font-size: 12px
+}
+
+.ak-panel.ak-summary .ak-panel-content strong {
+    color: #fff
+}
+
+.ak-panel.ak-summary .ak-panel-content strong.ak-ogrines {
+    color: #46cbf7
+}
+
+.ak-panel.ak-summary .ak-panel-content strong.ak-green {
+    color: #95a013
+}
+
+aside .ak-btn-aside {
+    display: block;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 19px;
+    padding: 10px 12px;
+    padding: 1rem 1.2rem;
+    padding-left: 65px;
+    line-height: 23px;
+    text-decoration: none;
+    position: relative
+}
+
+aside .ak-btn-aside em {
+    font-size: 26px;
+    font-style: normal;
+    position: relative
+}
+
+aside .ak-btn-aside:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 50px;
+    height: 60px
+}
+
+aside .ak-btn-aside {
+    background: #f2ede4;
+    box-shadow: 0 0 20px #907e5d inset;
+    color: #7c7367
+}
+
+aside .ak-btn-aside.ak-btn-notice {
+    background: #ffc002;
+    box-shadow: 0 0 10px #b29b71 inset
+}
+
+aside .ak-btn-aside.ak-btn-notice em {
+    color: #ffffff
+}
+
+aside .ak-btn-aside em {
+    color: #97a800
+}
+
+aside .ak-btn-aside:hover {
+    box-shadow: 0 0 10px #907e5d inset
+}
+
+aside .ak-btn-notice:before {
+    background: url("../imgs/assets/tuto.png") center center no-repeat transparent
+}
+
+aside .ak-btn-problem:before {
+    background: url("../imgs/assets/problem.png") center center no-repeat transparent
+}
+
+.ak-main-form-code .ak-form {
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    border: 1px solid;
+    text-align: center
+}
+
+.ak-main-form-code .ak-form .field-required {
+    display: none
+}
+
+.ak-main-form-code .ak-form .form-group {
+    text-align: left
+}
+
+.ak-main-form-code .ak-form input[type="submit"] {
+    margin-top: 30px
+}
+
+.ak-main-form-code .ak-error {
+    display: block;
+    margin: 0 12px;
+    margin: 0 1.2rem
+}
+
+.ak-main-form-code .ak-code-support-container {
+    margin-top: 12px;
+    margin-top: 1.2rem
+}
+
+.ak-main-form-code .ak-code-support {
+    text-align: center
+}
+
+.ak-form .ak-choicereference-form label {
+    display: inline-block;
+    position: relative
+}
+
+.ak-form .ak-choicereference-form label input[type="radio"] {
+    display: inline-block;
+    position: relative
+}
+
+.ak-form .ak-choicereference-form .error {
+    font-weight: bold;
+    margin: 12px 0;
+    margin: 1.2rem 0
+}
+
+.ak-choice-form-container .ak-form {
+    padding: 0
+}
+
+.ak-main-form-code .ak-form {
+    background: #f3f2ed;
+    border-color: #c9c6bb
+}
+
+.ak-main-form-code .ak-error {
+    color: #b02500
+}
+
+.ak-main-form-code .ak-code-support {
+    color: #bebdb0
+}
+
+.ak-choicereference-form .error {
+    color: #b02500
+}
+
+.ak-gifts-waiting .ak-content-list .ak-list-element.ak-code-giftwaiting .ak-main .ak-main-content .ak-image object {
+    background: #a3af12;
+    box-shadow: inset 0 0 4px #222
+}
+
+.ak-tokens-waiting .ak-content-list .ak-list-element.ak-code-giftwaiting .ak-main .ak-main-content .ak-image object {
+    background: #dea430;
+    box-shadow: inset 0 0 3px #222
+}
+
+.ak-gift-full-list .ak-table tr td.ak-action-column, .ak-gift-full-list .ak-table tr th.ak-action-column {
+    padding: 0;
+    width: 120px
+}
+
+.ak-gift-full-list .ak-table tr td.ak-action-column .btn, .ak-gift-full-list .ak-table tr th.ak-action-column .btn {
+    display: none
+}
+
+.ak-gift-full-list .ak-table tr .img-first-column img {
+    width: 43px;
+    height: 43px
+}
+
+.ak-gift-full-list .ak-table tr .item-type {
+    font-style: italic
+}
+
+.ak-gift-full-list .ak-table tr:hover td.ak-action-column {
+    padding: 0
+}
+
+.ak-gift-full-list .ak-table tr:hover td.ak-action-column .btn {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 53px;
+    line-height: 52px
+}
+
+.ak-gift-full-list .ak-table .btn {
+    color: #fff
+}
+
+.ak-gift-full-list .ak-table tr td.item-type {
+    color: #81807a
+}
+
+.ak-code-banner {
+    margin-bottom: 0
+}
+
+.ak-code-banner:before {
+    padding-top: 100%;
+    content: '';
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f8f6;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../imgs/assets/banner-dofus.png");
+    border-radius: 0
+}
+
+.ak-code-banner.ak-gift:before {
+    padding-top: 25%;
+    background-image: url("../imgs/assets/banner-gift.png")
+}
+
+.ak-gift-price.ak-panel {
+    border-top: 1px solid;
+    margin-bottom: 0;
+    border-color: #b1ac9c;
+    background: #f3f2ed
+}
+
+.ak-gift-price.ak-panel .ak-price-content {
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content {
+    padding: 12px;
+    padding: 1.2rem;
+    padding-bottom: 0
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-image {
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-image object {
+    position: relative;
+    display: block;
+    margin: 12px auto;
+    margin: 1.2rem auto
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-name {
+    font-weight: bold
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-description {
+    font-style: italic
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-description > .row {
+    margin-top: 12px;
+    margin-top: 1.2rem
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-description .btn {
+    font-style: normal
+}
+
+.ak-gift-price.ak-panel .ak-code-choicereference .ak-title {
+    font-style: normal
+}
+
+.ak-gift-price.ak-panel .ak-code-choicereference .ak-aside {
+    text-align: right
+}
+
+.ak-gift-price.ak-panel .ak-code-choicereference .ak-aside .form-group {
+    text-align: right;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ak-gift-price.ak-panel .ak-code-choicereference .ak-aside .form-group .radio {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ak-gift-price.ak-panel.ak-log-in-game {
+    padding-bottom: 12px;
+    padding-bottom: 1.2rem
+}
+
+.ak-gift-price.ak-panel .ak-message-choice.ak-error {
+    font-weight: bold
+}
+
+.ak-gift-price.ak-panel .ak-content-list.ak-displaymode-image-col .ak-list-element.ak-error .ak-main .ak-main-content {
+    border: 1px solid
+}
+
+.ak-gift-price.ak-panel > .ak-panel-content .ak-image {
+    background: url("../imgs/assets/bg-article.jpg") no-repeat center center transparent
+}
+
+.ak-gift-price.ak-panel .ak-description .ak-message-choice.ak-error {
+    color: #b02500
+}
+
+.ak-gift-price.ak-panel .ak-content-list.ak-displaymode-image-col .ak-list-element.ak-error .ak-main .ak-main-content {
+    border-color: #b02500
+}
+
+.ak-price-list > .ak-panel-content > .ak-panel {
+    margin-bottom: 0
+}
+
+.ak-panel.ak-price-ankamacard .ak-panel-content {
+    padding: 12px 24px;
+    padding: 1.2rem 2.4rem
+}
+
+.ak-icon-big.ak-gift, .ak-icon-big.ak-token, .ak-icon-big.ak-kama-exchange,
+.ak-icon-big.ak-bank, .ak-icon-big.ak-code, .ak-icon-big.ak-congratulations,
+.ak-icon-med.ak-gift, .ak-icon-med.ak-token, .ak-icon-med.ak-kama-exchange,
+.ak-icon-med.ak-bank, .ak-icon-med.ak-code, .ak-icon-med.ak-congratulations,
+.ak-icon-tiny.ak-gift, .ak-icon-tiny.ak-token, .ak-icon-tiny.ak-kama-exchange,
+.ak-icon-tiny.ak-bank, .ak-icon-tiny.ak-code, .ak-icon-tiny.ak-congratulations,
+.ak-icon-small.ak-gift, .ak-icon-small.ak-token, .ak-icon-small.ak-kama-exchange,
+.ak-icon-small.ak-bank, .ak-icon-small.ak-code, .ak-icon-small.ak-congratulations {
+    background-image: url("../imgs/assets/sprite_shop2.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-gift, .ak-icon-big.ak-token, .ak-icon-big.ak-kama-exchange,
+.ak-icon-big.ak-bank, .ak-icon-big.ak-code, .ak-icon-big.ak-congratulations {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-gift {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-token {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-kama-exchange {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-bank {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-code {
+    background-position: 0 -350px
+}
+
+.ak-icon-big.ak-congratulations {
+    background-position: 0 -435px
+}
+
+.ak-icon-med.ak-gift, .ak-icon-med.ak-token, .ak-icon-med.ak-kama-exchange,
+.ak-icon-med.ak-bank, .ak-icon-med.ak-code, .ak-icon-med.ak-congratulations {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-gift {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-token {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-kama-exchange {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-bank {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-code {
+    background-position: 0 -243px
+}
+
+.ak-icon-med.ak-congratulations {
+    background-position: 0 -306px
+}
+
+.ak-404-page .breadcrumb {
+    display: none
+}
+
+.ak-404-page .container .ak-main-page {
+    background: none;
+    padding: 0
+}
+
+.ak-404-page .ak-btn-play-header {
+    display: none
+}
+
+.ak-404-page .ak-404 {
+    padding-bottom: 50px;
+    text-align: center
+}
+
+.ak-404-page .ak-404 .ak-text {
+    font-family: "bebas_neueregular", sans-serif
+}
+
+.ak-404-page .ak-404 .ak-text div:nth-child(1) {
+    font-size: 74px;
+    font-size: 7.4rem;
+    line-height: 74px;
+    line-height: 7.4rem
+}
+
+.ak-404-page .ak-404 .ak-text div:nth-child(2) {
+    font-size: 33px;
+    font-size: 3.3rem;
+    line-height: 33px;
+    line-height: 3.3rem
+}
+
+.ak-404-page .ak-404 .ak-text div:nth-child(3) {
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 42px;
+    line-height: 4.2rem
+}
+
+.ak-404-page .ak-404 .btn-primary {
+    margin-top: 350px
+}
+
+.ak-404-page .ak-404 .ak-form {
+    display: none
+}
+
+.ak-404-page .ak-404 .ak-form p {
+    text-align: center;
+    text-transform: none;
+    margin-top: 10px
+}
+
+.ak-404-page .ak-404 .ak-form input[type="text"] {
+    width: 60%;
+    text-indent: 22px;
+    font-size: 15px
+}
+
+.ak-404-page .ak-404 .ak-form input[type="submit"] {
+    width: 10%;
+    height: 44px;
+    vertical-align: top
+}
+
+@media all and (min-width: 992px) {
+    .ak-404-page .ak-main-container {
+        margin-top: 45px
+    }
+}
+
+body.ak-404-page .ak-404 .ak-text div:nth-child(1) {
+    color: #848e02
+}
+
+body.ak-404-page .ak-404 .ak-text div:nth-child(2) {
+    color: #3ba7e1
+}
+
+body.ak-404-page .ak-404 .ak-text div:nth-child(3) {
+    color: #bce3f8
+}
+
+body.ak-404-page .ak-404 .ak-form p {
+    color: #fff
+}
+
+body.ak-404-page .ak-404 .ak-form input[type="text"] {
+    color: #28170e
+}
+
+body.ak-404-page .ak-404 .ak-form input[type="submit"] {
+    background: #97A800 url("../imgs/assets/search.png") center center no-repeat
+}

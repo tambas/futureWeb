@@ -1,0 +1,103 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-position {
+    width: 46px
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-position .ak-icon-position {
+    margin: 4px auto;
+    line-height: 37px
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-avatar {
+    width: 42px
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-avatar img {
+    margin: 4px auto;
+    display: block;
+    position: relative
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos {
+    line-height: 1.25em;
+    font-size: 0.8em
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos a {
+    font-weight: bold
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos .ak-breed-icon {
+    margin: 3px;
+    margin: 0.3rem
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos div {
+    font-style: italic
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos span {
+    line-height: 1.25em;
+    font-size: 0.8em
+}
+
+.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt {
+    border-bottom-color: #b1b1b1
+}
+
+.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt img {
+    background: #be9669
+}
+
+.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt .ak-character-infos div {
+    color: #828282
+}

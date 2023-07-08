@@ -1,0 +1,180 @@
+section[role=footer] {
+    clear: both;
+    width: 100%;
+    background: #2d9ed4;
+
+    .content {
+        width: 1024px;
+        padding: 20px 15px;
+        margin: auto;
+        color: #ffffff;
+
+        ul {
+            width: 180px;
+            float: left;
+            font-size: 14px;
+
+            li {
+                line-height: 25px;
+
+                a:hover {
+                    color: #2d9ed4;
+                }
+
+                &:first-child {
+                    text-transform: uppercase;
+                    font-family: "montserratbold";
+                }
+            }
+
+            &.video {
+                float: right;
+                width: calc(100% - 400px);
+
+                li {
+                    &:not(:first-child) {
+                        line-height: 12px;
+                        box-shadow: 0 0 1px rgba(255, 255, 255, 0.8) inset;
+                        border: 1px solid #2489b9;
+                        width: calc(34% - 15px);
+                        margin-right: 15px;
+                        float: left;
+                        height: 80px;
+                    }
+
+                    &:first-child {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+
+                    &:last-child {
+                        margin-right: 0 !important;
+                    }
+
+                    a {
+                        width: 100%;
+                        text-align: center;
+                        color: #ffffff;
+                        font-size: 11px;
+                        padding-top: 22px;
+                        text-shadow: 0 1px 3px #000000, 0 0 5px #000000;
+                        height: 78px;
+                        background: rgba(0, 0, 0, 0.5);
+                        display: inline-block;
+                        opacity: 0;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+
+                        &:before {
+                            content: "\f144";
+                            width: 100%;
+                            font-size: 18px !important;
+                            margin-bottom: 2px;
+                        }
+                    }
+                }
+            }
+
+            &.social {
+                width: 100%;
+                margin-top: -15px;
+
+                li {
+                    color: #aaccdc;
+                    font-size: 25px;
+                    width: 35px;
+                    text-align: center;
+                    float: right;
+                }
+            }
+        }
+    }
+
+    footer {
+        clear: both;
+        width: 100%;
+        padding: 25px 0 18px;
+        background: #2892c4;
+
+        p {
+            width: 1024px;
+            padding: 0 15px;
+            margin: auto;
+            color: #ffffff;
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            br {
+                display: none;
+            }
+
+            img.logo {
+                float: right;
+                margin-top: -16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section[role=footer] {
+        .content {
+            width: 100%;
+            padding: 20px 25px;
+        }
+
+        footer p {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section[role=footer] {
+        footer p {
+            text-align: center;
+
+            img.logo {
+                float: none;
+                margin: 0 0 15px;
+            }
+
+            br {
+                display: block;
+            }
+        }
+
+        .content ul {
+            width: 50%;
+            
+            &.video {
+                width: 100%;
+                margin-top: 15px;
+            }
+
+            &.social {
+                margin-top: 20px;
+                width: 100%;
+                padding-left: calc(50% - 87px) !important;
+                li {
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section[role=footer] .content ul.video li {
+        width: 100% !important;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

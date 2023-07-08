@@ -1,0 +1,24 @@
+{
+  "name": "azote",
+  "version": "1.0",
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "dropify": "*",
+    "sweetalert": "*",
+    "datetimepicker": "*",
+    "dragula": "*",
+    "pick-a-color": "*",
+    "bootstrap-touchspin": "*",
+    "lightbox2": "^2.9.0",
+    "flag-icon-css": "^2.7.0"
+  },
+  "devDependencies": {
+    "dropify": "*",
+    "sweetalert": "*",
+    "datetimepicker": "*",
+    "dragula": "*",
+    "pick-a-color": "*",
+    "bootstrap-touchspin": "*"
+  }
+}

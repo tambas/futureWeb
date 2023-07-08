@@ -1,0 +1,21 @@
+{
+    "fields": [{
+        "type": "text",
+        "name": "Sujet",
+        "required": "required"
+    }, {
+        "type": "textarea",
+        "hint": "Veuillez nous exposer votre demande le plus clairement possible",
+        "name": "Message",
+        "required": "required"
+    }, {
+        "type": "file",
+        "name": "Screenshot",
+        "hint": "Vous pouvez envoyer une capture d'écran du problème si nécessaire.",
+        "input": "image",
+        "accept": "image/*"
+    }, {
+        "type": "submit",
+        "name": "Envoyer"
+    }]
+}

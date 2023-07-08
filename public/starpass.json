@@ -1,0 +1,752 @@
+{
+    "es":{
+        "sms":{
+            "smsKeyword":"GOLD3752",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"35969",
+            "fPalierAppel":"6.96",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"6.96",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":6.96,
+            "fCostPerAction":6.96,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"&euro; 6.96",
+            "smsCostDetail":"6.96 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "fi":{
+        "sms":{
+            "smsKeyword":"MAX5563",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"17292",
+            "fPalierAppel":"4.00",
+            "sContactBookPhone":"+358 (0)800 914 891",
+            "iOneSmsCost":"4.00",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":4,
+            "fCostPerAction":4,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"&euro; 4.00",
+            "smsCostDetail":"4 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "de":{
+        "sms":{
+            "smsKeyword":"ABC2372",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"63000",
+            "fPalierAppel":"4.98",
+            "sContactBookPhone":"+49 (0)692 222 7307",
+            "iOneSmsCost":"4.98",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":4.98,
+            "fCostPerAction":2.49,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 2.49",
+            "smsCostDetail":"2 x 2.49 &euro;",
+            "iMultiStatus":0
+        },
+        "audiotel":{
+            "audiotelPhone":"0900 310 22 57",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":0,
+            "fCostPerAction":0,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"",
+            "audiotelVariableCostDetail":"2.00 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "ch":{
+        "sms":{
+            "smsKeyword":"GEHEN ZAG4366",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"543",
+            "fPalierAppel":"6.00",
+            "sContactBookPhone":"+41 (0)080 022 3018",
+            "iOneSmsCost":"6.00",
+            "sCurrencyToDisplay":"CHF",
+            "fTotalCost":6,
+            "fCostPerAction":3,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x CHF 3.00",
+            "smsCostDetail":"2 x 3 CHF",
+            "iMultiStatus":0
+        },
+        "audiotel":{
+            "audiotelPhone":"0901 902 963",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"CHF",
+            "fTotalCost":5,
+            "fCostPerAction":5,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"5.00 Fr.",
+            "audiotelVariableCostDetail":"",
+            "iMultiStatus":0
+        }
+    },
+    "ee":{
+        "sms":{
+            "smsKeyword":"TXT GET2284",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"1206",
+            "fPalierAppel":"100.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"100.00",
+            "sCurrencyToDisplay":"EEK",
+            "fTotalCost":100,
+            "fCostPerAction":50,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x EEK 50.00",
+            "smsCostDetail":"2 x 50 EEK",
+            "iMultiStatus":0
+        }
+    },
+    "dk":{
+        "sms":{
+            "smsKeyword":"PHP6863",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"1259",
+            "fPalierAppel":"50.00",
+            "sContactBookPhone":"+45 (0)808 895 26",
+            "iOneSmsCost":"50.00",
+            "sCurrencyToDisplay":"DKK",
+            "fTotalCost":50,
+            "fCostPerAction":50,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"DKK 50.00",
+            "smsCostDetail":"50 DKK",
+            "iMultiStatus":0
+        }
+    },
+    "bg":{
+        "sms":{
+            "smsKeyword":"GRAB SUM8992",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"1924",
+            "fPalierAppel":"4.80",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"4.80",
+            "sCurrencyToDisplay":"BGN",
+            "fTotalCost":4.8,
+            "fCostPerAction":2.4,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x BGN 2.40",
+            "smsCostDetail":"2 x 2.4 BGN",
+            "iMultiStatus":0
+        }
+    },
+    "be":{
+        "sms":{
+            "smsKeyword":"TV7377",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"3053",
+            "fPalierAppel":"6.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":2,
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":6,
+            "fCostPerAction":6,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"&euro; 6.00",
+            "smsCostDetail":"6 &euro;",
+            "iMultiStatus":0
+        },
+        "audiotel":{
+            "audiotelPhone":"0904 365 62",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":0,
+            "fCostPerAction":0,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"",
+            "audiotelVariableCostDetail":"2.00 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "fr":{
+        "sms":{
+            "smsKeyword":"ABC8366",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"81211",
+            "fPalierAppel":"4.50",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"4.50",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":4.5,
+            "fCostPerAction":4.5,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"&euro; 4.50",
+            "smsCostDetail":"4.5 &euro;",
+            "aProviderAccess":{
+                "0":{
+                    "sCurrentKeyword":"RR84"
+                },
+                "2":{
+                    "sCurrentKeyword":"ABC8366"
+                }
+            },
+            "aMultipleAccessTariff":[
+                {
+                    "iProviderId":"1",
+                    "sProviderAccessPhone":"81211",
+                    "provider_access_sms_quantity":"1",
+                    "fPalierAppel":"4.50",
+                    "fPalierMinute":"0.00",
+                    "sCurrency":"&euro;",
+                    "sCurrentKeyword":"RR84"
+                },
+                {
+                    "iProviderId":"11",
+                    "sProviderAccessPhone":"81174",
+                    "provider_access_sms_quantity":"1",
+                    "fPalierAppel":"4.50",
+                    "fPalierMinute":"0.00",
+                    "sCurrency":"&euro;",
+                    "sCurrentKeyword":"ABC8366"
+                }
+            ],
+            "iMultiStatus":1
+        },
+        "audiotel":{
+            "audiotelPhone":"0899 230 431",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":1.35,
+            "fCostPerAction":1.35,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"1.35 &euro;",
+            "audiotelVariableCostDetail":" + 0.34 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "gr":{
+        "sms":{
+            "smsKeyword":"GO FAX2769",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"54345",
+            "fPalierAppel":"7.24",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"7.24",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":7.24,
+            "fCostPerAction":3.62,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 3.62",
+            "smsCostDetail":"2 x 3.62 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "hr":{
+        "sms":{
+            "smsKeyword":"GRAB KEY9954",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"860860",
+            "fPalierAppel":"40.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"40.00",
+            "sCurrencyToDisplay":"HRK",
+            "fTotalCost":40,
+            "fCostPerAction":40,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"HRK 40.00",
+            "smsCostDetail":"40 HRK",
+            "iMultiStatus":0
+        }
+    },
+    "hu":{
+        "sms":{
+            "smsKeyword":"GRAB GET6464",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"0690444334",
+            "fPalierAppel":"608.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"608.00",
+            "sCurrencyToDisplay":"HUF",
+            "fTotalCost":608,
+            "fCostPerAction":304,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x HUF 304.00",
+            "smsCostDetail":"2 x 304 HUF",
+            "iMultiStatus":0
+        }
+    },
+    "ie":{
+        "sms":{
+            "smsKeyword":"GET2447",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"57977",
+            "fPalierAppel":"5.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"5.00",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":5,
+            "fCostPerAction":2.5,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 2.50",
+            "smsCostDetail":"2 x 2.5 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "lu":{
+        "sms":{
+            "smsKeyword":"BUY ZAG7325",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"64747",
+            "fPalierAppel":"3.00",
+            "sContactBookPhone":"+41 (0)080 022 3018",
+            "iOneSmsCost":"3.00",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":3,
+            "fCostPerAction":1.5,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 1.50",
+            "smsCostDetail":"2 x 1.5 &euro;",
+            "iMultiStatus":0
+        },
+        "audiotel":{
+            "audiotelPhone":"901 29 526",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":2.23,
+            "fCostPerAction":2.23,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"2.23 &euro;",
+            "audiotelVariableCostDetail":"",
+            "iMultiStatus":0
+        }
+    },
+    "lv":{
+        "sms":{
+            "smsKeyword":"GO WAY6788",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"1868",
+            "fPalierAppel":"4.10",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"4.10",
+            "sCurrencyToDisplay":"LVL",
+            "fTotalCost":4.1,
+            "fCostPerAction":2.05,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x LVL 2.05",
+            "smsCostDetail":"2 x 2.05 LVL",
+            "iMultiStatus":0
+        }
+    },
+    "me":{
+        "sms":{
+            "smsKeyword":"GRAB PUB2934",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"14941",
+            "fPalierAppel":"1.20",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"1.20",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":1.2,
+            "fCostPerAction":0.6,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 0.60",
+            "smsCostDetail":"2 x 0.6 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "no":{
+        "sms":{
+            "smsKeyword":"ABC2558",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"2226",
+            "fPalierAppel":"50.00",
+            "sContactBookPhone":"+31 (0)800 020 4662",
+            "iOneSmsCost":"50.00",
+            "sCurrencyToDisplay":"NOK",
+            "fTotalCost":50,
+            "fCostPerAction":50,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"NOK 50.00",
+            "smsCostDetail":"50 NOK",
+            "iMultiStatus":0
+        }
+    },
+    "pt":{
+        "sms":{
+            "smsKeyword":"GO SEA3636",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"68304",
+            "fPalierAppel":"4.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"4.00",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":4,
+            "fCostPerAction":2,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 2.00",
+            "smsCostDetail":"2 x 2 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "ro":{
+        "sms":{
+            "smsKeyword":"GRAB YEN6885",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"1401",
+            "fPalierAppel":"2.48",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"2.48",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":2.48,
+            "fCostPerAction":1.24,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 1.24",
+            "smsCostDetail":"2 x 1.24 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "se":{
+        "sms":{
+            "smsKeyword":"ASK PUB2582",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"72221",
+            "fPalierAppel":"75.00",
+            "sContactBookPhone":"+46 (0)31 799 0172",
+            "iOneSmsCost":"75.00",
+            "sCurrencyToDisplay":"SEK",
+            "fTotalCost":75,
+            "fCostPerAction":75,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"SEK 75.00",
+            "smsCostDetail":"75 SEK",
+            "iMultiStatus":0
+        }
+    },
+    "sk":{
+        "sms":{
+            "smsKeyword":"GRAB ZAG9948",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"7604",
+            "fPalierAppel":"3.20",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"3.20",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":3.2,
+            "fCostPerAction":1.6,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &euro; 1.60",
+            "smsCostDetail":"2 x 1.6 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "uk":{
+        "sms":{
+            "smsKeyword":"ZAG3285",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"60999",
+            "fPalierAppel":"3.00",
+            "sContactBookPhone":"+44 (0)208 820 5234",
+            "iOneSmsCost":"3.00",
+            "sCurrencyToDisplay":"&pound;",
+            "fTotalCost":3,
+            "fCostPerAction":1.5,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x &pound; 1.50",
+            "smsCostDetail":"2 x 1.5 &pound;",
+            "iMultiStatus":0
+        }
+    },
+    "th":{
+        "sms":{
+            "smsKeyword":"GO PHP5445",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"4541666",
+            "fPalierAppel":"100.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"100.00",
+            "sCurrencyToDisplay":"THB",
+            "fTotalCost":100,
+            "fCostPerAction":50,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x THB 50.00",
+            "smsCostDetail":"2 x 50 THB",
+            "iMultiStatus":0
+        }
+    },
+    "vn":{
+        "sms":{
+            "smsKeyword":"GET ZAG8662",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"8708",
+            "fPalierAppel":"30000.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"30000.00",
+            "sCurrencyToDisplay":"VND",
+            "fTotalCost":30000,
+            "fCostPerAction":15000,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x VND 15000.00",
+            "smsCostDetail":"2 x 15000 VND",
+            "iMultiStatus":0
+        }
+    },
+    "my":{
+        "sms":{
+            "smsKeyword":"GRAB SEA6552",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"32355",
+            "fPalierAppel":"20.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"20.00",
+            "sCurrencyToDisplay":"MYR",
+            "fTotalCost":20,
+            "fCostPerAction":10,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x MYR 10.00",
+            "smsCostDetail":"2 x 10 MYR",
+            "iMultiStatus":0
+        }
+    },
+    "id":{
+        "sms":{
+            "smsKeyword":"GET150 GUY2985",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"5799",
+            "fPalierAppel":"30000.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"30000.00",
+            "sCurrencyToDisplay":"IDR",
+            "fTotalCost":30000,
+            "fCostPerAction":15000,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x IDR 15000.00",
+            "smsCostDetail":"2 x 15000 IDR",
+            "iMultiStatus":0
+        }
+    },
+    "br":{
+        "sms":{
+            "smsKeyword":"GET PUB7346",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"49602",
+            "fPalierAppel":"11.20",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"11.20",
+            "sCurrencyToDisplay":"BRL",
+            "fTotalCost":11.2,
+            "fCostPerAction":5.6,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x BRL 5.60",
+            "smsCostDetail":"2 x 5.6 BRL",
+            "iMultiStatus":0
+        }
+    },
+    "mx":{
+        "sms":{
+            "smsKeyword":"GRAB PAN3272",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"27000",
+            "fPalierAppel":"30.26",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"30.26",
+            "sCurrencyToDisplay":"MXN",
+            "fTotalCost":30.26,
+            "fCostPerAction":30.26,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"MXN 30.26",
+            "smsCostDetail":"30.26 MXN",
+            "iMultiStatus":0
+        }
+    },
+    "ru":{
+        "sms":{
+            "smsKeyword":"200 MAX8725",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"6900",
+            "fPalierAppel":"200.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"200.00",
+            "sCurrencyToDisplay":"RUB",
+            "fTotalCost":200,
+            "fCostPerAction":200,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"RUB 200.00",
+            "smsCostDetail":"200 RUB",
+            "iMultiStatus":0
+        }
+    },
+    "au":{
+        "sms":{
+            "smsKeyword":"PUB6724",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"19911119",
+            "fPalierAppel":"6.60",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"6.60",
+            "sCurrencyToDisplay":"AUD",
+            "fTotalCost":6.6,
+            "fCostPerAction":6.6,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"AUD 6.60",
+            "smsCostDetail":"6.6 AUD",
+            "iMultiStatus":0
+        }
+    },
+    "za":{
+        "sms":{
+            "smsKeyword":"GRAB HUB8765",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"42450",
+            "fPalierAppel":"30.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"30.00",
+            "sCurrencyToDisplay":"ZAR",
+            "fTotalCost":30,
+            "fCostPerAction":30,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"ZAR 30.00",
+            "smsCostDetail":"30 ZAR",
+            "iMultiStatus":0
+        }
+    },
+    "ng":{
+        "sms":{
+            "smsKeyword":"PUB2577",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"35811",
+            "fPalierAppel":"200.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"200.00",
+            "sCurrencyToDisplay":"NGN",
+            "fTotalCost":200,
+            "fCostPerAction":200,
+            "iActionQuantity":"1",
+            "sSmsCostToDisplay":"NGN 200.00",
+            "smsCostDetail":"200 NGN",
+            "iMultiStatus":0
+        }
+    },
+    "ma":{
+        "sms":{
+            "smsKeyword":"MC7987",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"2060",
+            "fPalierAppel":"48.00",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"48.00",
+            "sCurrencyToDisplay":"MAD",
+            "fTotalCost":48,
+            "fCostPerAction":24,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x MAD 24.00",
+            "smsCostDetail":"2 x 24 MAD",
+            "iMultiStatus":0
+        }
+    },
+    "tn":{
+        "sms":{
+            "smsKeyword":"FB29623",
+            "smsKeywordImage":"",
+            "smsPhoneNumber":"85710",
+            "fPalierAppel":"2.78",
+            "sContactBookPhone":"",
+            "iOneSmsCost":"2.78",
+            "sCurrencyToDisplay":"TND",
+            "fTotalCost":2.78,
+            "fCostPerAction":1.39,
+            "iActionQuantity":"2",
+            "sSmsCostToDisplay":"2 x TND 1.39",
+            "smsCostDetail":"2 x 1.39 TND",
+            "iMultiStatus":0
+        }
+    },
+    "at":{
+        "audiotel":{
+            "audiotelPhone":"0900 545 359",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":0,
+            "fCostPerAction":0,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"",
+            "audiotelVariableCostDetail":"3.63 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "ca":{
+        "audiotel":{
+            "audiotelPhone":"1-900-524-0007",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"CAD",
+            "fTotalCost":7,
+            "fCostPerAction":7,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"7.00 CAD",
+            "audiotelVariableCostDetail":"",
+            "iMultiStatus":0
+        },
+        "mobilecall":{
+            "audiotelPhone":"#7007",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"CAD",
+            "fTotalCost":7,
+            "fCostPerAction":7,
+            "iActionQuantity":"",
+            "audiotelFixedCostDetail":"7.00 CAD",
+            "audiotelVariableCostDetail":"",
+            "iMultiStatus":0
+        }
+    },
+    "fd":{
+        "audiotel":{
+            "audiotelPhone":"0899 702 003",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":1.22,
+            "fCostPerAction":0.61,
+            "iActionQuantity":"2",
+            "audiotelFixedCostDetail":"2 x 1.22 &euro;",
+            "audiotelVariableCostDetail":" + 0.31 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "it":{
+        "audiotel":{
+            "audiotelPhone":"899 130 363",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":0,
+            "fCostPerAction":0,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"",
+            "audiotelVariableCostDetail":"1.82 &euro;",
+            "iMultiStatus":0
+        }
+    },
+    "pf":{
+        "audiotel":{
+            "audiotelPhone":"44 27 20",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"CFP",
+            "fTotalCost":136,
+            "fCostPerAction":136,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"136.00 CFP",
+            "audiotelVariableCostDetail":" + 68.00 CFP",
+            "iMultiStatus":0
+        }
+    },
+    "nl":{
+        "audiotel":{
+            "audiotelPhone":"0909 0400044",
+            "sContactBookPhone":"",
+            "sCurrencyToDisplay":"&euro;",
+            "fTotalCost":0,
+            "fCostPerAction":0,
+            "iActionQuantity":"1",
+            "audiotelFixedCostDetail":"",
+            "audiotelVariableCostDetail":"0.80 &euro;",
+            "iMultiStatus":0
+        }
+    }
+}

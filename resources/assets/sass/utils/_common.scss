@@ -1,0 +1,335 @@
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: inherit;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+button,
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+q {
+    &:after,
+    &:before {
+        content: '';
+    }
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+i {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+* {
+    &::-khtml-selection,
+    &::-moz-selection,
+    &::-webkit-selection,
+    &::selection,
+    &::ô-selection {
+        background: rgba(53, 179, 219, 0.6);
+        color: #ffffff;
+    }
+}
+
+:-ms-input-placeholder,
+::-moz-placeholder,
+::-webkit-input-placeholder,
+input:-moz-placeholder {
+    color: #47433b;
+}
+
+strong {
+    font-family: "montserratbold" !important;
+    font-weight: normal !important;
+}
+
+html {
+    font-size: 62.5% !important;
+    background: url("../img/_bg.jpg") repeat;
+}
+
+body {
+    font-family: 'montserratlight';
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+main #left article figure,
+section[role=footer] .content ul.video li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachement: fixed;
+    background-position: center center;
+}
+
+.ico_rss:hover {
+    color: #f79838 !important;
+}
+
+.ico_facebook:hover {
+    color: #3b5998 !important;
+}
+
+.ico_twitter:hover {
+    color: #00aced !important;
+}
+
+.ico_twitch:hover {
+    color: #6441a5 !important;
+}
+
+.ico_youtube:hover {
+    color: #bb0000 !important;
+}
+
+section[role=banner] {
+    background: -webkit-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+    background: -moz-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+    background: -ms-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+    background: -o-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+}
+
+a {
+    &[butt=support] {
+        background: -webkit-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+        background: -moz-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+        background: -ms-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+        background: -o-radial-gradient(center, cover, #35b2da 0%, #2d9ed4 100%);
+    }
+    &[butt=register] {
+        background: -webkit-radial-gradient(center, cover, #b0c51d 0%, #84a107 100%);
+        background: -moz-radial-gradient(center, cover, #b0c51d 0%, #84a107 100%);
+        background: -ms-radial-gradient(center, cover, #b0c51d 0%, #84a107 100%);
+        background: -o-radial-gradient(center, cover, #b0c51d 0%, #84a107 100%);
+    }
+    &[butt=youtube] {
+        background: -webkit-radial-gradient(center, cover, #df5a4d 0%, #c6302e 100%);
+        background: -moz-radial-gradient(center, cover, #df5a4d 0%, #c6302e 100%);
+        background: -ms-radial-gradient(center, cover, #df5a4d 0%, #c6302e 100%);
+        background: -o-radial-gradient(center, cover, #df5a4d 0%, #c6302e 100%);
+    }
+    &[butt=twitch] {
+        background: -webkit-radial-gradient(center, cover, #a954e0 0%, #812cbd 100%);
+        background: -moz-radial-gradient(center, cover, #a954e0 0%, #812cbd 100%);
+        background: -ms-radial-gradient(center, cover, #a954e0 0%, #812cbd 100%);
+        background: -o-radial-gradient(center, cover, #a954e0 0%, #812cbd 100%);
+    }
+}
+
+.voile {
+    background: -webkit-linear-gradient(transparent, #ffffff);
+    background: -moz-linear-gradient(transparent, #ffffff);
+    background: -ms-linear-gradient(transparent, #ffffff);
+    background: -o-linear-gradient(transparent, #ffffff);
+    background: linear-gradient(transparent, #ffffff);
+}
+
+/* LEFT */
+
+@media screen and (max-width: 750px) {
+    main #left {
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width: 630px) {
+    main #left article {
+        float: none;
+        width: 100% !important;
+        margin-right: 0;
+        figure .content img {
+            width: 50%;
+        }
+    }
+}
+
+/* RIGHT */
+
+@media screen and (max-width: 750px) {
+    main #right {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main #right a[butt]:after {
+        font-size: inherit;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    main #right a[butt] {
+        font-size: 16px;
+        float: left;
+        width: calc(50% - 10px);
+        &:nth-child(odd) {
+            margin-right: 20px;
+        }
+        span {
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    main #right a[butt] {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* #logo */
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+/* section[role=banner] */
+
+@keyframes bannerH1 {
+    0% {
+        transform: rotate(7deg);
+        opacity: 0;
+        font-size: 55px;
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes bannerH2 {
+    0% {
+        transform: rotate(-7deg);
+        opacity: 0;
+        font-size: 16px;
+    }
+    50% {
+        transform: rotate(7deg);
+    }
+}
+
+@keyframes bannerA_span1 {
+    0% {
+        height: 0;
+    }
+    50% {
+        transform: rotate(-100deg);
+    }
+}
+
+@keyframes bannerA_span2 {
+    0% {
+        width: 0;
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    80% {
+        transform: rotate(-50deg);
+    }
+}

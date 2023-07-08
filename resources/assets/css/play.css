@@ -1,0 +1,622 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+.ak-icon-big {
+    background-size: 65px auto
+}
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+.ak-icon-med {
+    background-size: 46px auto
+}
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+.ak-page-play {
+    padding-top: 56.25%;
+    margin-top: 43px;
+    margin-top: 4.3rem
+}
+.ak-page-play .row {
+    margin: 0
+}
+.container {
+    padding-top: 0
+}
+.ak-page-play .ak-page-title, .ak-page-download .ak-page-title {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    padding: 65px 0
+}
+.ak-page-play .ak-other-version, .ak-page-download .ak-other-version {
+    margin-bottom: 20px
+}
+.ak-page-play .ak-other-version .ak-title, .ak-page-download .ak-other-version .ak-title {
+    margin-bottom: 10px
+}
+.ak-page-play .ak-other-version a, .ak-page-download .ak-other-version a {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 12px
+}
+.ak-page-play .ak-form-subscription, .ak-page-play .ak-dl-game, .ak-page-play .ak-content-block {
+    padding: 0;
+    position: relative;
+    overflow: visible
+}
+.ak-page-download .ak-form-subscription, .ak-page-download .ak-dl-game, .ak-page-download .ak-content-block {
+    padding: 0;
+    position: relative;
+    overflow: visible
+}
+.ak-page-play .ak-content-block, .ak-page-download .ak-content-block {
+    min-height: 200px;
+    padding: 10px;
+    position: relative
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block, .ak-page-play .ak-dl-game .ak-header-block .ak-title-block {
+    text-align: center;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 38px;
+    padding: 5px;
+    position: relative
+}
+.ak-page-download .ak-form-subscription .ak-header-block .ak-title-block, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block {
+    text-align: center;
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 38px;
+    padding: 5px;
+    position: relative
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block:after, .ak-page-play .ak-dl-game .ak-header-block .ak-title-block:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 5px
+}
+.ak-page-download .ak-form-subscription .ak-header-block .ak-title-block:after, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin-top: 5px
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block span, .ak-page-play .ak-dl-game .ak-header-block .ak-title-block span {
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 42px;
+    padding: 0 10px
+}
+.ak-page-download .ak-form-subscription .ak-header-block .ak-title-block span, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block span {
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 42px;
+    padding: 0 10px
+}
+.ak-page-play .ak-form-subscription .ak-title-text, .ak-page-play .ak-dl-game .ak-title-text {
+    text-align: center;
+    color: #fff;
+    padding: 15px 5px
+}
+.ak-page-download .ak-form-subscription .ak-title-text, .ak-page-download .ak-dl-game .ak-title-text {
+    text-align: center;
+    color: #fff;
+    padding: 15px 5px
+}
+.ak-page-play .ak-form-subscription .block-submit a, .ak-page-play .ak-dl-game .block-submit a {
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-top: 0.8rem;
+    display: inline-block
+}
+.ak-page-download .ak-form-subscription .block-submit a, .ak-page-download .ak-dl-game .block-submit a {
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-top: 0.8rem;
+    display: inline-block
+}
+.ak-page-play .ak-form-subscription .block-submit .btn, .ak-page-play .ak-dl-game .block-submit .btn {
+    display: block;
+    margin: 0 auto
+}
+.ak-page-download .ak-form-subscription .block-submit .btn, .ak-page-download .ak-dl-game .block-submit .btn {
+    display: block;
+    margin: 0 auto
+}
+.ak-page-play .ak-form-subscription .ak-inner-block, .ak-page-download .ak-form-subscription .ak-inner-block {
+    padding: 10px
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm, .ak-page-download .ak-form-subscription .ak-register-confirm {
+    padding: 290px 0 157px 10px;
+    position: relative
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm p span, .ak-page-download .ak-form-subscription .ak-register-confirm p span {
+    font-weight: bold
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm {
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    height: 74px;
+    font-weight: bold;
+    left: 0;
+    text-align: center
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm span, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm span {
+    display: table-cell;
+    height: 74px;
+    vertical-align: middle;
+    width: 700px;
+    padding: 0 10px;
+    padding: 0 1rem
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm .ak-register-email-validate .ak-title, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-register-email-validate .ak-title {
+    text-align: left
+}
+.ak-page-play .ak-form-subscription .ak-register-error, .ak-page-download .ak-form-subscription .ak-register-error {
+    padding: 50px 0 170px 200px;
+    position: relative
+}
+.ak-page-play .ak-form-subscription .ak-register-error h2, .ak-page-download .ak-form-subscription .ak-register-error h2 {
+    font-size: 40px;
+    font-family: "bebas_neueregular", sans-serif
+}
+.ak-page-play .ak-form-subscription .ak-register-error p span, .ak-page-download .ak-form-subscription .ak-register-error p span {
+    font-weight: bold
+}
+.ak-page-play .ak-dl-game .ak-inner-block, .ak-page-download .ak-dl-game .ak-inner-block {
+    text-align: center;
+    padding-top: 10px;
+    overflow: hidden
+}
+.ak-page-play .ak-dl-game .btn-info, .ak-page-download .ak-dl-game .btn-info {
+    margin-bottom: 26px
+}
+.ak-page-play .ak-dl-game .ak-problems, .ak-page-download .ak-dl-game .ak-problems {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 13px
+}
+.ak-page-play .ak-dl-game .warning, .ak-page-download .ak-dl-game .warning {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+@media all and (min-width: 768px) {
+    .ak-page-play, .ak-page-download {
+        padding-top: 140px
+    }
+    .ak-page-play .ak-dl-game, .ak-page-download .ak-dl-game {
+        margin-top: 320px;
+        margin-bottom: 6px
+    }
+    .ak-page-play .ak-canadian-users, .ak-page-download .ak-canadian-users {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .ak-page-play .ak-form-subscription .ak-content-block, .ak-page-download .ak-form-subscription .ak-content-block {
+        margin-right: 6px;
+        margin-bottom: 6px
+    }
+    .ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm-desktop, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm-desktop {
+        padding-right: 82px
+    }
+    .ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm-desktop:after, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm-desktop:after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 82px;
+        height: 74px
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-page-play, .ak-page-download {
+        padding-top: 130px
+    }
+    .ak-page-play .ak-form-subscription .ak-inner-block form, .ak-page-download .ak-form-subscription .ak-inner-block form {
+        margin: 12px 75px
+    }
+    .ak-page-play .ak-form-subscription .ak-register-confirm, .ak-page-download .ak-form-subscription .ak-register-confirm {
+        padding: 10px 0 290px 200px
+    }
+    .ak-page-play .ak-form-subscription .ak-register-confirm .ak-email, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-email {
+        border: 1px solid;
+        text-align: center;
+        font-weight: bold;
+        padding: 12px;
+        padding: 1.2rem;
+        margin-bottom: 12px;
+        margin-bottom: 1.2rem
+    }
+}
+@media all and (min-width: 768px) {
+    .ak-page-play {
+        margin-top: 0
+    }
+    .ak-page-play .ak-first-links .ak-content-block .row {
+        margin: 0
+    }
+}
+@media all and (max-width: 767px) {
+    body.bg-play1, body.bg-play2, body.bg-play3 {
+        background-size: contain !important
+    }
+    body.bg-play1 {
+        background: url("../imgs/assets/jouer_type1_little.jpg") no-repeat center 43px #133d3e
+    }
+    body.bg-play2 {
+        background: url("../imgs/assets/jouer_type2_little.jpg") no-repeat center 43px #0D0A61
+    }
+    body.bg-play3 {
+        background: url("../imgs/assets/jouer_type3_little.jpg") no-repeat center 43px #401A0F
+    }
+}
+.ak-page-play .ak-page-title, .ak-page-download .ak-page-title {
+    color: #fff;
+    text-shadow: 0 0 3px #333
+}
+.ak-page-play .ak-form-subscription .ak-content-block, .ak-page-play .ak-dl-game .ak-content-block {
+    background: rgba(255, 255, 255, 0.15)
+}
+.ak-page-download .ak-form-subscription .ak-content-block, .ak-page-download .ak-dl-game .ak-content-block {
+    background: rgba(255, 255, 255, 0.15)
+}
+.ak-page-play .ak-form-subscription .ak-header-block, .ak-page-download .ak-form-subscription .ak-header-block {
+    background: url("../imgs/assets/bg_header_block1.jpg") repeat top left transparent
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block, .ak-page-download .ak-form-subscription .ak-header-block .ak-title-block {
+    background-color: #c5d432;
+    color: #fff;
+    text-shadow: 1px 1px 1px #888
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block:after, .ak-page-download .ak-form-subscription .ak-header-block .ak-title-block:after {
+    background: url("../imgs/assets/title-bottom1.png") no-repeat top center transparent
+}
+.ak-page-play .ak-form-subscription .ak-header-block .ak-title-block span, .ak-page-download .ak-form-subscription .ak-header-block .ak-title-block span {
+    background: #9dab0b;
+    box-shadow: 0 -2px 0 0 #747D1D inset
+}
+.ak-page-play .ak-form-subscription .ak-inner-block, .ak-page-download .ak-form-subscription .ak-inner-block {
+    background-color: #fafafa
+}
+.ak-page-play .ak-form-subscription .ak-inner-block .ak-form, .ak-page-download .ak-form-subscription .ak-inner-block .ak-form {
+    background-color: transparent
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm, .ak-page-download .ak-form-subscription .ak-register-confirm {
+    background: url("../imgs/assets/comfirm.png") no-repeat 0 0 transparent;
+    color: #362712
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm h2, .ak-page-download .ak-form-subscription .ak-register-confirm h2 {
+    color: #848e02
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm p span, .ak-page-download .ak-form-subscription .ak-register-confirm p span {
+    color: #e4442c
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm {
+    background: url("../imgs/assets/bg_confirm.jpg") repeat-x 0 0 transparent;
+    color: #fff
+}
+.ak-page-play .ak-form-subscription .ak-register-confirm .ak-bottom-confirm:after, .ak-page-download .ak-form-subscription .ak-register-confirm .ak-bottom-confirm:after {
+    background: url("../imgs/assets/bottom-comfirm.jpg") no-repeat 0 0 transparent
+}
+.ak-page-play .ak-form-subscription .ak-register-error, .ak-page-download .ak-form-subscription .ak-register-error {
+    background: url("../imgs/assets/error.png") no-repeat 0 0 transparent;
+    color: #362712
+}
+.ak-page-play .ak-form-subscription .ak-register-error h2, .ak-page-download .ak-form-subscription .ak-register-error h2 {
+    color: #362712
+}
+.ak-page-play .ak-form-subscription .ak-register-error p span, .ak-page-download .ak-form-subscription .ak-register-error p span {
+    color: #b02500
+}
+.ak-page-play .ak-form-subscription .ak-register-error p a, .ak-page-download .ak-form-subscription .ak-register-error p a {
+    text-decoration: underline
+}
+.ak-page-play .ak-dl-game .ak-header-block, .ak-page-download .ak-dl-game .ak-header-block {
+    background: url("../imgs/assets/bg_header_block2.jpg") repeat top left transparent
+}
+.ak-page-play .ak-dl-game .ak-header-block .ak-title-block, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block {
+    background-color: #F7CB00;
+    color: #fff;
+    text-shadow: 1px 1px 1px #888
+}
+.ak-page-play .ak-dl-game .ak-header-block .ak-title-block:after, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block:after {
+    background: url("../imgs/assets/title-bottom2.png") no-repeat top center transparent
+}
+.ak-page-play .ak-dl-game .ak-header-block .ak-title-block span, .ak-page-download .ak-dl-game .ak-header-block .ak-title-block span {
+    background: #FF9D00;
+    box-shadow: 0 -2px 0 0 #8d791c inset
+}
+.ak-page-play .ak-dl-game .ak-inner-block, .ak-page-download .ak-dl-game .ak-inner-block {
+    background-color: #fafafa
+}
+.ak-page-play .ak-dl-game p, .ak-page-play .ak-dl-game .ak-link-versions {
+    color: #56380a
+}
+.ak-page-download .ak-dl-game p, .ak-page-download .ak-dl-game .ak-link-versions {
+    color: #56380a
+}
+.ak-page-play .ak-dl-game .warning, .ak-page-download .ak-dl-game .warning {
+    color: #b02500
+}
+@media all and (min-width: 768px) {
+    body.bg-play1 {
+        background: url("../imgs/assets/jouer_type1.jpg") no-repeat top center #133d3e
+    }
+    body.bg-play2 {
+        background: url("../imgs/assets/jouer_type2.jpg") no-repeat top center #0D0A61
+    }
+    body.bg-play3 {
+        background: url("../imgs/assets/jouer_type3.jpg") no-repeat top center #401A0F
+    }
+}
+.ak-ios, .ak-android {
+    width: 190px;
+    height: 55px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 24px
+}
+.ak-ios.ak-disabled, .ak-android.ak-disabled {
+    opacity: 0.2;
+    cursor: default
+}
+.ak-first-links-container {
+    position: relative;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+.ak-first-links-container .ak-first-links {
+    padding: 0;
+    overflow: hidden
+}
+.ak-first-links-container .ak-first-links .ak-header-block {
+    z-index: 2;
+    overflow: visible;
+    padding: 0
+}
+.ak-first-links-container .ak-first-links .ak-header-block img {
+    display: none
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 38px;
+    padding: 5px;
+    position: relative;
+    margin-top: 0;
+    height: 66px;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    bottom: -13px;
+    display: block;
+    left: 0
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 42px;
+    padding: 0 10px
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    padding-right: 8px
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text p {
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block {
+    padding: 0;
+    position: relative;
+    overflow: hidden
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+    padding: 10px 28px;
+    border-bottom: 1px solid
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 22px;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title div {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 23px
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link {
+    width: 66px;
+    height: 66px;
+    position: relative;
+    margin: 0 auto
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-bottom-link .btn {
+    white-space: normal;
+    margin: 10px 0;
+    padding: 8px 20px;
+    padding: 0.8rem 2rem;
+    vertical-align: middle;
+    line-height: normal
+}
+.ak-first-links-container .ak-first-links .ak-bottom-link {
+    text-align: center
+}
+@media all and (min-width: 768px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        height: 328px;
+        overflow: hidden
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: left bottom;
+        height: 262px;
+        width: 39%;
+        float: left
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+        position: absolute;
+        width: 100%
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+        padding-bottom: 100px;
+        height: 338px;
+        border-left: 1px solid;
+        border-bottom: none
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+        height: 85px;
+        line-height: 85px
+    }
+    .ak-first-links-container .ak-first-links .ak-bottom-link {
+        height: 100px;
+        line-height: 100px;
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        left: 0;
+        width: 100%;
+        padding: 0 22px
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        height: 338px;
+        padding: 0
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        height: 272px;
+        width: 46%
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+        width: auto;
+        position: relative
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .col-md-6, .ak-first-links-container .ak-first-links .ak-header-block .col-md-5 {
+        padding: 0
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text p {
+        text-align: left
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+        text-align: left
+    }
+}
+.ak-page-download .ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    display: none
+}
+.ak-first-links-container {
+    background: rgba(255, 255, 255, 0.15)
+}
+.ak-first-links-container .ak-first-links .ak-header-block {
+    background: url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block {
+    color: #fff;
+    background: #88E0FF;
+    text-shadow: 0px 1px 2px #888
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block:after {
+    background: url("../imgs/assets/title-right3_2.png") no-repeat center center transparent
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    background: #76bef3;
+    box-shadow: 0 -2px 0 0 #608194 inset;
+    color: #fff
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+    color: #fff
+}
+.ak-first-links-container .ak-first-links .ak-links-block {
+    background-color: #f8f8f6
+}
+.ak-first-links-container .ak-first-links .ak-links-block .btn.btn-info {
+    background: #f29c06
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+    border-left-color: #ad9b7f;
+    border-bottom-color: #ad9b7f;
+    color: #ad9b7f
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+    color: #56380a
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+    color: #56380a
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link1 {
+    background: url("../imgs/assets/illu_link1.png") no-repeat top left transparent
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link2 {
+    background: url("../imgs/assets/illu_link2.png") no-repeat top left transparent
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link3 {
+    background: url("../imgs/assets/illu_link3.png") no-repeat top left transparent
+}
+@media all and (min-width: 768px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        background: url("../imgs/assets/illu_block3_left.png") no-repeat bottom left, url("../imgs/assets/tofu.png") no-repeat right 50px, url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-image: url("../imgs/assets/illu_block3_left.png")
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        background: url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-size: cover
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block:after {
+        background: url("../imgs/assets/title-right3.png") no-repeat left center transparent
+    }
+}

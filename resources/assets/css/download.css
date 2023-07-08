@@ -1,0 +1,418 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+.ak-icon-big {
+    background-size: 65px auto
+}
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+.ak-icon-med {
+    background-size: 46px auto
+}
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+.ak-page-download {
+    padding: 8px 12px 0 12px
+}
+.ak-page-download .ak-other-version {
+    margin: 20px 20% 20px 20%;
+    padding: 10px
+}
+.ak-page-download .ak-other-version .ak-title {
+    margin-bottom: 10px
+}
+.ak-page-download .ak-other-version a {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 12px
+}
+.ak-page-download .ak-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+.ak-page-download .ak-banner .ak-content-block {
+    padding-bottom: 0
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block {
+    text-align: center
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .btn-info {
+    margin-top: 22px;
+    margin-top: 2.2rem;
+    margin-bottom: 34px;
+    margin-bottom: 3.4rem
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block select {
+    padding: 5px;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-problems {
+    display: block;
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-create-account-block {
+    padding: 10px 10px 10px 75px;
+    margin: 0 15px;
+    margin: 0 1.5rem;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-create-account-block a {
+    display: block;
+    text-decoration: underline;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+.ak-page-download .warning {
+    margin-bottom: 10px;
+    font-weight: bold
+}
+.ak-page-download .ak-first-links {
+    padding-top: 12px;
+    padding-top: 1.2rem;
+    padding-bottom: 0
+}
+.ak-page-download .ak-first-links .ak-content-block {
+    padding: 0
+}
+.ak-page-download .ak-first-links .ak-content-block .ak-title-block span {
+    display: none
+}
+@media all and (min-width: 992px) {
+    .ak-page-download .ak-banner .ak-content-block .ak-inner-block .btn-info {
+        margin-top: 90px;
+        margin-top: 9rem
+    }
+    .ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-create-account-block {
+        padding: 10px 10px 10px 44px
+    }
+}
+.ak-first-links-container.row {
+    margin: 0
+}
+.ak-page-download {
+    background: rgba(255, 255, 255, 0.4)
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-problems {
+    color: #fff;
+    text-shadow: 0 0 8px #000
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-create-account-block {
+    background: url("../imgs/avatar/default.jpg") no-repeat 6px 6px rgba(0, 0, 0, 0.7);
+    color: #fff;
+    background-size: 45px 45px;
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .ak-create-account-block a {
+    color: #fff
+}
+.ak-page-download .warning {
+    color: #b02500
+}
+.ak-page-download .ak-other-version {
+    background: rgba(0, 0, 0, 0.6)
+}
+.ak-page-download .ak-other-version .ak-title, .ak-page-download .ak-other-version a {
+    color: #fff
+}
+.ak-first-links-container {
+    position: relative;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+.ak-first-links-container .ak-first-links {
+    padding: 0;
+    overflow: hidden
+}
+.ak-first-links-container .ak-first-links .ak-header-block {
+    z-index: 2;
+    overflow: visible;
+    padding: 0
+}
+.ak-first-links-container .ak-first-links .ak-header-block img {
+    display: none
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 38px;
+    padding: 5px;
+    position: relative;
+    margin-top: 0;
+    height: 66px;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    bottom: -13px;
+    display: block;
+    left: 0
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 42px;
+    padding: 0 10px
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    padding-right: 8px
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text p {
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block {
+    padding: 0;
+    position: relative;
+    overflow: hidden
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+    padding: 10px 28px;
+    border-bottom: 1px solid
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+    font-family: "bebas_neueregular", sans-serif;
+    font-size: 22px;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title div {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 23px
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: center
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link {
+    width: 66px;
+    height: 66px;
+    position: relative;
+    margin: 0 auto
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-bottom-link .btn {
+    white-space: normal;
+    margin: 10px 0;
+    padding: 8px 20px;
+    padding: 0.8rem 2rem;
+    vertical-align: middle;
+    line-height: normal
+}
+.ak-first-links-container .ak-first-links .ak-bottom-link {
+    text-align: center
+}
+@media all and (min-width: 768px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        height: 328px;
+        overflow: hidden
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: left bottom;
+        height: 262px;
+        width: 39%;
+        float: left
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+        position: absolute;
+        width: 100%
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+        padding-bottom: 100px;
+        height: 338px;
+        border-left: 1px solid;
+        border-bottom: none
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+        height: 85px;
+        line-height: 85px
+    }
+    .ak-first-links-container .ak-first-links .ak-bottom-link {
+        height: 100px;
+        line-height: 100px;
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        left: 0;
+        width: 100%;
+        padding: 0 22px
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        height: 338px;
+        padding: 0
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        height: 272px;
+        width: 46%
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+        width: auto;
+        position: relative
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .col-md-6, .ak-first-links-container .ak-first-links .ak-header-block .col-md-5 {
+        padding: 0
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-title-text p {
+        text-align: left
+    }
+    .ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+        text-align: left
+    }
+}
+.ak-page-download .ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    display: none
+}
+.ak-first-links-container {
+    background: rgba(255, 255, 255, 0.15)
+}
+.ak-first-links-container .ak-first-links .ak-header-block {
+    background: url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block {
+    color: #fff;
+    background: #88E0FF;
+    text-shadow: 0px 1px 2px #888
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block:after {
+    background: url("../imgs/assets/title-right3_2.png") no-repeat center center transparent
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-block span {
+    background: #76bef3;
+    box-shadow: 0 -2px 0 0 #608194 inset;
+    color: #fff
+}
+.ak-first-links-container .ak-first-links .ak-header-block .ak-title-text {
+    color: #fff
+}
+.ak-first-links-container .ak-first-links .ak-links-block {
+    background-color: #f8f8f6
+}
+.ak-first-links-container .ak-first-links .ak-links-block .btn.btn-info {
+    background: #f29c06
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block {
+    border-left-color: #ad9b7f;
+    border-bottom-color: #ad9b7f;
+    color: #ad9b7f
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-title {
+    color: #56380a
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-link-block .ak-link-text {
+    color: #56380a
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link1 {
+    background: url("../imgs/assets/illu_link1.png") no-repeat top left transparent
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link2 {
+    background: url("../imgs/assets/illu_link2.png") no-repeat top left transparent
+}
+.ak-first-links-container .ak-first-links .ak-links-block .ak-illu-link3 {
+    background: url("../imgs/assets/illu_link3.png") no-repeat top left transparent
+}
+@media all and (min-width: 768px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        background: url("../imgs/assets/illu_block3_left.png") no-repeat bottom left, url("../imgs/assets/tofu.png") no-repeat right 50px, url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-image: url("../imgs/assets/illu_block3_left.png")
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-first-links-container .ak-first-links .ak-header-block {
+        background: url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block .ak-illu {
+        background-size: cover
+    }
+    .ak-first-links-container .ak-first-links .ak-header-block:after {
+        background: url("../imgs/assets/title-right3.png") no-repeat left center transparent
+    }
+}
+.ak-page-download {
+    overflow: hidden
+}
+.ak-page-download .ak-header-block .ak-title-block:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 125px;
+    width: 13px;
+    right: -12px
+}
+.ak-page-download .ak-banner .ak-content-block .ak-inner-block .btn-info {
+    margin-top: 120px;
+    margin-top: 12rem
+}
+@media all and (min-width: 768px) {
+    .ak-page-download .ak-banner .ak-content-block .ak-inner-block .btn-info {
+        margin-top: 30px
+    }
+}
+.ak-first-links-container .ak-header-block {
+    background: url("../imgs/assets/bg_header_block3.jpg") no-repeat top right, url("../imgs/assets/bg_header_block3.jpg") repeat bottom left transparent
+}
+.ak-first-links-container .ak-header-block:after {
+    background: url("../imgs/assets/title-right3_2.png") no-repeat center center transparent
+}
+.ak-page-download .ak-banner {
+    background-image: url("../imgs/assets/banner-mob.jpg");
+    background-size: cover
+}
+@media all and (min-width: 768px) {
+    .ak-page-download .ak-banner {
+        background-image: url("../imgs/assets/banner-tablet.jpg");
+        background-size: cover
+    }
+}
+@media all and (min-width: 992px) {
+    .ak-page-download .ak-banner {
+        background-image: url("../imgs/assets/banner.jpg");
+        background-size: cover
+    }
+}

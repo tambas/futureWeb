@@ -1,0 +1,36 @@
+{
+    "servers": [
+        {
+            "name":     "sigma",
+            "desc":     "Ankalike",
+            "version":  "2.10",
+            "ip":       "0.0.0.0",
+            "port":     9000,
+            "ogrine":   20824,
+            "prestige": true,
+            "db_host":  "127.0.0.1",
+            "db_user":  "root",
+            "db_pass":  "",
+            "db_auth":  "azote_sigma_auth",
+            "db_world": "azote_sigma_world",
+            "db_data":  "azote_sigma_data",
+            "rpg":      107257
+        },
+        {
+            "name":     "epsilon",
+            "desc":     "Semi-Cheat",
+            "version":  "2.40",
+            "ip":       "0.0.0.0",
+            "port":     9000,
+            "ogrine":   20824,
+            "prestige": true,
+            "db_host":  "127.0.0.1",
+            "db_user":  "root",
+            "db_pass":  "",
+            "db_auth":  "azote_epsilon_auth",
+            "db_world": "azote_epsilon_world",
+            "db_data":  "azote_epsilon_data",
+            "rpg":      108290
+        }
+    ]
+}

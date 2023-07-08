@@ -1,0 +1,19 @@
+{
+    "fields": [{
+        "type": "select",
+        "name": "Ma demande concerne",
+        "data": [{
+            "value": "Mon compte web",
+            "child": "web"
+        }, {
+            "value": "Un problème en jeu",
+            "child": "server"
+        }, {
+            "value": "La boutique",
+            "child": "shop"
+        }, {
+            "value": "Un autre problème",
+            "child": "final"
+        }]
+    }]
+}

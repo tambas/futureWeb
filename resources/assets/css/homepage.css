@@ -1,0 +1,678 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+
+.ak-carrousel-bg-title .ak-title-link .ak-layer .ak-title:before {
+    content: '';
+    width: 10px;
+    font-size: 28px;
+    height: 19px;
+    line-height: 19px;
+    position: absolute;
+    text-indent: -11px;
+    overflow: hidden;
+    left: -15px;
+    top: 4px
+}
+
+.ak-carrousel-bg-title .ak-title-link .ak-title:before {
+    background-image: url("../imgs/assets/sprite_encyclopedia.png");
+    background-repeat: no-repeat;
+    background-position: -98px -1384px
+}
+
+.ak-homepage-menu {
+    display: none
+}
+
+@media all and (min-width: 768px) {
+    .ak-homepage-menu {
+        background: rgba(255, 255, 255, 0.3);
+        position: absolute;
+        top: -32px;
+        left: -6px;
+        display: block
+    }
+
+    .ak-homepage-menu .ak-homepage-menu-handler {
+        width: 100%
+    }
+
+    .ak-homepage-menu .ak-homepage-menu-handler a {
+        padding: 6px 20px;
+        min-width: 150px;
+        display: block;
+        position: relative
+    }
+
+    .ak-homepage-menu .ak-homepage-menu-handler a:after {
+        content: "";
+        display: inline-block;
+        margin-left: 5px;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #fff
+    }
+
+    .ak-homepage-menu a {
+        color: #fff;
+        text-shadow: 0 1px 0 #000;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-size: 1.1rem
+    }
+
+    .ak-homepage-menu a:hover {
+        text-decoration: none
+    }
+
+    .ak-homepage-menu .ak-homepage-menu-content {
+        background: rgba(255, 255, 255, 0.3);
+        position: absolute;
+        bottom: 27px;
+        width: 100%;
+        left: 0
+    }
+
+    .ak-homepage-menu .ak-homepage-menu-content a {
+        display: block;
+        padding: 3px 20px
+    }
+
+    .ak-homepage-menu .ak-universe-mmorpg:hover {
+        background-color: #9ba712
+    }
+
+    .ak-homepage-menu .ak-universe-animation:hover {
+        background-color: #f28e00
+    }
+
+    .ak-homepage-menu .ak-universe-plus-dofus:hover {
+        background-color: #383737
+    }
+
+    .ak-homepage-menu .ak-universe-krosmaster:hover {
+        background-color: #0257a9
+    }
+
+    .ak-homepage-menu .ak-universe-editions:hover {
+        background-color: #9c00a4
+    }
+
+    .ak-homepage-menu .ak-universe-all:hover {
+        background-color: #a6a295
+    }
+}
+
+@media all and (min-width: 992px) {
+    .ak-main-container .ak-icons-filter {
+        position: absolute;
+        top: -52px;
+        left: -5px
+    }
+}
+
+.ak-main-container .ak-link-news, .ak-main-container .ak-link-devblog,
+.ak-main-container .ak-link-patch, .ak-main-container .ak-link-calandar {
+    display: block;
+    text-transform: uppercase;
+    font-family: "bebas_neueregular", sans-serif;
+    position: relative
+}
+
+.ak-main-container .ak-icons-filter {
+    position: relative;
+    left: 1px;
+    top: 13px
+}
+
+.ak-main-container .ak-icons-filter a {
+    float: left;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-left: 0.3rem;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+
+.ak-main-container .ak-icons-filter img {
+    height: 48px;
+    width: 48px;
+    display: inline-block
+}
+
+.ak-main-container .ak-icons-filter span, .ak-main-container .ak-icons-filter div {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease
+}
+
+.ak-main-container .ak-icons-filter span:hover, .ak-main-container .ak-icons-filter div:hover {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6)
+}
+
+.ak-main-container .ak-link-news, .ak-main-container .ak-link-devblog,
+.ak-main-container .ak-link-patch, .ak-main-container .ak-link-calandar {
+    font-size: 26px;
+    font-size: 2.6rem;
+    margin: 12px 0;
+    margin: 1.2rem 0;
+    line-height: 60px;
+    line-height: 6rem;
+    padding-left: 80px;
+    padding-left: 8rem;
+    height: 60px
+}
+
+.ak-main-container .ak-link-news:before, .ak-main-container .ak-link-devblog:before,
+.ak-main-container .ak-link-patch:before, .ak-main-container .ak-link-calandar:before {
+    content: '';
+    height: 63px;
+    left: 15px;
+    position: absolute;
+    top: 5px;
+    width: 56px
+}
+
+.ak-main-container .ak-filters-universe {
+    margin-top: 12px;
+    margin-top: 1.2rem
+}
+
+.ak-main-container .ak-filters-gotop {
+    display: none
+}
+
+.ak-main-container .ak-link-news, .ak-main-container .ak-link-devblog,
+.ak-main-container .ak-link-patch, .ak-main-container .ak-link-calandar {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6)
+}
+
+.ak-main-container .ak-link-news:before {
+    background: url("../imgs/assets/btn-news.png") center -7px no-repeat
+}
+
+.ak-main-container .ak-link-devblog:before {
+    background: url("../imgs/assets/btn-devblog.png") top center no-repeat
+}
+
+.ak-main-container .ak-link-patch:before {
+    background: url("../imgs/assets/btn-patch.png") top center no-repeat
+}
+
+.ak-main-container .ak-link-calandar:before {
+    background: url("../imgs/assets/btn-calandar.png") top center no-repeat
+}
+
+.ak-main-container .ak-twitter-timeline {
+    height: 350px;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem
+}
+
+.ak-main-container .ak-twitter-timeline iframe {
+    min-width: 0;
+    width: 100% !important;
+    height: 350px;
+    background: #E8E8E8
+}
+
+@media all and (min-width: 768px) {
+    .ak-main-container .ak-home-youtube, .ak-main-container .ak-home-facebook,
+    .ak-main-container .ak-home-twitter, .ak-main-container .ak-home-youtube:hover,
+    .ak-main-container .ak-home-facebook:hover, .ak-main-container .ak-home-twitter:hover {
+        -webkit-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain
+    }
+
+    .ak-main-container .ak-home-youtube {
+        margin-bottom: 12px;
+        margin-bottom: 1.2rem
+    }
+
+    .ak-main-container .ak-home-facebook > span, .ak-main-container .ak-home-youtube > span, .ak-main-container .ak-home-twitter > span {
+        display: inline
+    }
+}
+
+.ak-main-container .ak-home-tutorial {
+    display: block;
+    text-transform: uppercase;
+    font-family: "bebas_neueregular", sans-serif;
+    position: relative;
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 22px;
+    line-height: 2.2rem;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
+    padding: 8px;
+    padding: 0.8rem;
+    text-align: left;
+    text-decoration: none;
+    min-height: 140px;
+    background: #2D4FAA url("../imgs/assets/icon-tofu-tutorial.png") no-repeat 5px 15px;
+    box-shadow: inset 0px 0px 54px rgba(0, 0, 0, 0.75);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: #fff
+}
+
+.ak-main-container .ak-home-tutorial > span {
+    display: inline-block
+}
+
+.ak-main-container .ak-home-tutorial .ak-tuto-big {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 20px;
+    line-height: 2rem
+}
+
+.ak-main-container .ak-home-tutorial:hover {
+    background-color: #1F5CFF
+}
+
+.ak-main-container .ak-home-tutorial .ak-tuto-link {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background: #C15426;
+    color: #fff;
+    font-size: 26px;
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 30px;
+    line-height: 3rem;
+    display: inline-block;
+    padding: 6px 30px;
+    padding: 0.6rem 3rem
+}
+
+.ak-main-container .ak-home-tutorial:hover .ak-tuto-link {
+    background: #F56F03
+}
+
+.ak-main-container .ak-home-tutorial span {
+    color: #ffe509;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6)
+}
+
+.ak-main-container .ak-home-tutorial-container > div {
+    padding-left: 110px;
+    margin-top: 10px
+}
+
+.ak-main-container .ak-home-tutorial-container > div:first-child {
+    min-height: 110px
+}
+
+@media all and (min-width: 768px) {
+    .ak-main-container .ak-home-tutorial .ak-tuto-link {
+        display: block;
+        padding: 6px 0;
+        padding: 0.6rem 0;
+        margin-left: 15px;
+        margin-left: 1.5rem;
+        margin-right: 15px;
+        margin-right: 1.5rem
+    }
+
+    .ak-main-container .ak-home-tutorial-container > div + div {
+        padding-left: 0px;
+        margin-top: 10px
+    }
+}
+
+@media all and (min-width: 992px) {
+    .ak-main-container .ak-home-tutorial {
+        margin-bottom: 12px;
+        margin-bottom: 1.2rem
+    }
+}
+
+.ak-block-buzz {
+    display: none;
+    position: absolute;
+    font-size: 22px;
+    color: #d9eff0;
+    width: 330px;
+    text-align: center;
+    top: -270px;
+    text-transform: uppercase;
+    right: -34%;
+    font-family: bebas_neueregular;
+    text-shadow: 0 0 7px #7ce0e6;
+    animation: fadein 8s;
+    opacity: 0
+}
+
+.ak-block-buzz span {
+    font-size: 39px;
+    line-height: 39px
+}
+
+@media all and (min-width: 992px) {
+    .ak-block-buzz {
+        display: block
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0
+        }
+
+        25% {
+            opacity: 1
+        }
+
+        50% {
+            opacity: 1
+        }
+
+        75% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: 0
+        }
+}
+}
+
+.ak-btn-play-header .btn {
+    padding: 8px 34px;
+    padding: 0.8rem 3.4rem
+}
+
+.ak-main-container .ak-widget-video {
+    background-size: 100%;
+    width: 100%
+}
+
+.ak-main-container aside {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative
+}
+
+.ak-main-container .ak-main-page {
+    padding-top: 0
+}
+
+.ak-main-container .ak-egg {
+    background-color: #a6a295
+}
+
+.ak-main-container .ak-mmo {
+    background-color: #9ba712
+}
+
+.ak-main-container .ak-edition {
+    background-color: #9c00a4
+}
+
+.ak-main-container .ak-animation {
+    background-color: #f28e00
+}
+
+.ak-main-container .ak-krosmaster {
+    background-color: #0257a9
+}
+
+.ak-main-container .ak-plus-dofus, .ak-main-container .ak-plus_dofus {
+    background-color: #383737
+}
+
+.ak-main-container .ak-link-news {
+    background-color: #E08402
+}
+
+.ak-main-container .ak-link-news:hover {
+    background-color: #FFA626
+}
+
+.ak-main-container .ak-link-devblog {
+    background-color: #77372E
+}
+
+.ak-main-container .ak-link-devblog:hover {
+    background-color: #B04739
+}
+
+.ak-main-container .ak-link-calandar {
+    background-color: #77372E
+}
+
+.ak-main-container .ak-link-calandar:hover {
+    background-color: #B04739
+}
+
+.ak-main-container .ak-link-patch {
+    background-color: #3585A2
+}
+
+.ak-main-container .ak-link-patch:hover {
+    background-color: #1AA2D5
+}
+
+.ak-main-container .ak-universe-key-mmorpg {
+    background-color: #9ba712;
+    height: 482px;
+}
+
+.ak-main-container .ak-universe-key-animation {
+    background-color: #f28e00
+}
+
+.ak-main-container .ak-universe-key-plus-dofus {
+    background-color: #383737
+}
+
+.ak-main-container .ak-universe-key-krosmaster {
+    background-color: #0257a9
+}
+
+.ak-main-container .ak-universe-key-editions {
+    background-color: #9c00a4
+}
+
+@media all and (min-width: 992px) {
+    .ak-main-container aside {
+        padding-top: 12px
+    }
+}
+
+.ak-twitch-aside .ak-panel-title {
+    background: url("../imgs/assets/title-twitch.png") left top no-repeat #333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.ak-twitch-aside .ak-panel-title .ak-picto-twitch {
+    background: url("../imgs/assets/picto-twitch.png") 10px 13px no-repeat transparent
+}
+
+.ak-youtube-aside .ak-panel-title {
+    background: url("../imgs/assets/title-yt.png") left top no-repeat #333;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+
+.ak-youtube-aside .ak-panel-title .ak-picto-yt {
+    background: url("../imgs/assets/picto-yt.png") 10px 16px no-repeat transparent
+}
+
+.ak-twitch-channel, .ak-youtube-channel {
+    padding: 12px 8px;
+    padding: 1.2rem 0.8rem;
+    border-bottom: 1px solid #c9c6bb;
+    background: #edeae0
+}
+
+.ak-twitch-channel .ak-channel-img, .ak-youtube-channel .ak-channel-img {
+    position: relative
+}
+
+.ak-twitch-channel .ak-channel-img:before, .ak-youtube-channel .ak-channel-img:before {
+    background: url("../imgs/assets/overlay-channel.png") 0 0 no-repeat transparent;
+    width: 55px;
+    height: 57px;
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -27px;
+    top: 50%;
+    margin-top: -28px
+}
+
+.ak-twitch-channel p, .ak-youtube-channel p {
+    padding: 5px 0;
+    padding: 0.5rem 0;
+    color: #362712;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-twitch-channel .ak-twitch-links, .ak-twitch-channel .ak-youtube-links,
+.ak-youtube-channel .ak-twitch-links, .ak-youtube-channel .ak-youtube-links {
+    padding-top: 6px
+}
+
+.ak-twitch-channel .ak-twitch-links a, .ak-twitch-channel .ak-youtube-links a,
+.ak-youtube-channel .ak-twitch-links a, .ak-youtube-channel .ak-youtube-links a {
+    text-align: left;
+    color: #462b09;
+    display: inline-block;
+    width: 50%;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-twitch-channel .ak-twitch-links a + a, .ak-twitch-channel .ak-youtube-links a + a,
+.ak-youtube-channel .ak-twitch-links a + a, .ak-youtube-channel .ak-youtube-links a + a {
+    text-align: right;
+    color: #9a9387;
+    position: relative;
+    padding-right: 25px
+}
+
+.ak-twitch-channel .ak-twitch-links a + a:after, .ak-twitch-channel .ak-youtube-links a + a:after,
+.ak-youtube-channel .ak-twitch-links a + a:after, .ak-youtube-channel .ak-youtube-links a + a:after {
+    content: '';
+    background: url("../imgs/assets/picto-view.png") 0 0 no-repeat transparent;
+    width: 18px;
+    height: 11px;
+    position: absolute;
+    right: 0;
+    top: 4px
+}
+
+@media all and (min-width: 768px) {
+    .pt .ak-main-container .ak-link-news, .pt .ak-main-container .ak-link-devblog,
+    .pt .ak-main-container .ak-link-patch, .pt .ak-main-container .ak-link-calandar {
+        font-size: 18px;
+        font-size: 1.8rem
+    }
+}

@@ -1,0 +1,3761 @@
+.ak-picto-less-white {
+display:inline-block;
+width:26px;
+height:26px;
+background-position:-287px 0;
+background-repeat:no-repeat;
+}
+
+.ak-picto-more-white {
+display:inline-block;
+width:26px;
+height:26px;
+background-position:-260px 0;
+background-repeat:no-repeat;
+}
+
+.ak-picto-help {
+display:inline-block;
+width:26px;
+height:26px;
+background-position:-116px 2px;
+background-repeat:no-repeat;
+cursor:help;
+}
+
+.ak-picto-help.ak-orange {
+background-position:-116px -25px;
+}
+
+.ak-icon-big.ak-filter,.ak-icon-med.ak-filter,.ak-icon-tiny.ak-filter {
+background-image:url("../imgs/assets/sprite_zoom.png");
+background-repeat:no-repeat;
+}
+
+.ak-icon-specific.ak-settings
+{
+background-image:url("../imgs/assets/settings.png");
+background-repeat:no-repeat;
+background-size: 25px auto;
+display: inline-block;
+width: 25px;
+height: 25px;
+}
+
+.ak-icon-big {
+background-size:65px auto;
+}
+
+.ak-icon-big.ak-filter {
+background-position:0 -10px;
+}
+
+.ak-icon-med {
+background-size:46px auto;
+}
+
+.ak-icon-med.ak-filter {
+background-position:0 -7px;
+}
+
+.ak-icon-tiny.ak-filter {
+    background-position:0 -3px;
+    background-size: 30px auto
+}
+
+.ak-icon-tiny.ak-cart {
+    background-position: 0 -42px;
+     background-size: 30px auto
+}
+.ak-icon-tiny.ak-cart,.ak-icon-tiny.ak-trashcan {
+    background-image: url("../imgs/assets/sprite_market.png");
+    background-repeat:no-repeat;
+}
+
+.ak-icon-tiny.ak-trashcan {
+    background-size: auto auto;
+    background-position: -12px -703px
+}
+
+
+.ak-directories-header {
+height:58px;
+overflow:hidden;
+font-size:1.3rem;
+padding-top:.8rem;
+background:#3a3932;
+}
+
+.ak-directories-header .ak-directories-icon,.ak-directories-header .ak-directories-main-infos {
+display:inline-block;
+position:relative;
+vertical-align:middle;
+}
+
+.ak-directories-header .ak-directories-property {
+display:inline-block;
+margin-left:1.25em;
+padding-left:.5em;
+position:relative;
+color:#28170e;
+border-color:#494942;
+}
+
+.ak-directories-header .ak-directories-property img {
+display:inline-block;
+margin-right:.2em;
+position:relative;
+}
+
+.ak-directories-header .ak-directories-property-server .server {
+display:inline-block;
+vertical-align:middle;
+margin-top:.3rem;
+}
+
+.ak-directories-header .ak-directories-property-server .server span {
+float:none;
+vertical-align:middle;
+display:inline-block;
+}
+
+.ak-directories-header .ak-directories-property-server .ak-directories-server-name {
+border:none;
+display:inline-block;
+line-height:35px;
+vertical-align:middle;
+background:none;
+color:#fff;
+}
+
+.ak-directories-header .ak-directories-message {
+display:block;
+font-family:bebas_neueregular,sans-serif;
+font-size:1.9rem;
+height:43px;
+line-height:43px;
+padding-right:20px;
+text-align:right;
+text-transform:uppercase;
+width:206px;
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/_message.png) 15px center no-repeat #97A800;
+color:#fff;
+margin:1em 0 1em 1.2em;
+}
+
+.ak-directories-header .ak-directories-message img {
+display:inline-block;
+margin-right:.5em;
+}
+
+.ak-directories-header .ak-directories-grade {
+padding-left:25px;
+line-height:43px;
+background:url(../imgs/assets/characters/_grade.png) 0 center no-repeat;
+}
+
+.ak-directories-header .ak-directories-creation-date {
+line-height:43px;
+color:#828282;
+}
+
+.ak-character-actions ul li {
+list-style:none;
+margin:0;
+}
+
+.ak-character-actions .ak-list-text .ak-elt {
+font-size:1.5rem;
+min-height:15px;
+padding:.5rem 1.2rem;
+}
+
+.ak-character-banner {
+height:250px;
+position:relative;
+background:url(../imgs/assets/characters/bg_perso.jpg);
+background-size:cover;
+background-position:left bottom;
+}
+
+.ak-character-banner .ak-character-picture {
+margin-left:60px;
+}
+
+.ak-character-banner .ak-character-illu {
+height:220px;
+left:5em;
+position:absolute;
+top:1em;
+width:150px;
+}
+
+.ak-character-banner .ak-character-ornament span {
+display:block;
+font-weight:700;
+position:relative;
+text-align:center;
+height:40px;
+line-height:36px;
+width:160px;
+color:#fff;
+margin:0 auto;
+}
+
+.ak-character-banner .ak-character-edit-banner {
+display:none;
+text-align:right;
+color:#848e02;
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/bg_edit_banner.png) right top repeat-y;
+}
+
+.ak-character-banner .ak-character-edit-banner img {
+display:inline-block;
+margin-right:.25em;
+position:relative;
+top:-2px;
+}
+
+.ak-character-banner .ak-character-picture-show {
+display:block;
+height:45px;
+line-height:45px;
+position:absolute;
+right:0;
+text-align:center;
+top:15px;
+width:40px;
+z-index:5;
+cursor:pointer;
+background:#97A800 url(/dofus/ng/modules/mmorpg/community/directories/characters/perso.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament-show {
+display:block;
+height:45px;
+line-height:45px;
+position:absolute;
+right:0;
+text-align:center;
+width:40px;
+z-index:5;
+cursor:pointer;
+top:70px;
+background:#97A800 url(/dofus/ng/modules/mmorpg/community/directories/characters/ornament.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament {
+display:none;
+height:250px;
+left:0;
+position:absolute;
+top:0;
+width:360px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-1 span {
+margin-top:107px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-6 span {
+margin-top:118px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-9 span {
+margin-top:135px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-15 span,.ak-character-banner .ak-character-ornament.ornament-16 span,.ak-character-banner .ak-character-ornament.ornament-17 span {
+margin-top:142px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-23 span {
+margin-top:134px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-30 span {
+margin-top:124px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-32 span {
+margin-top:132px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-38 span {
+margin-top:120px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-39 span {
+margin-top:128px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-44 span {
+margin-top:126px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-46 span {
+margin-top:113px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-47 span {
+margin-top:133px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-49 span {
+margin-top:123px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-50 span {
+margin-top:119px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-51 span {
+margin-top:117px;
+}
+
+.ak-character-banner .ak-banner-edit {
+position:absolute;
+display:inline-block;
+right:0;
+top:0;
+background:rgba(0,0,0,0.6);
+color:#fff;
+cursor:pointer;
+padding:.5rem;
+}
+
+.ak-directories-header-alliance .ak-character-banner {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/bg_alliance.jpg);
+background-size:cover;
+}
+
+.ak-character-banner .ak-character-picture .ak-entitylook {
+margin-top:20px;
+}
+
+.ak-character-banner .ak-character-picture-show,.ak-character-banner .ak-character-ornament-show {
+box-shadow:0 2px 8px #000;
+}
+
+.ak-character-banner .ak-character-picture-show.on,.ak-character-banner .ak-character-ornament-show.on {
+background-color:#171c1b;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-1 {
+background:url(../imgs/assets/ornaments/ornament_1.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-2 {
+background:url(../imgs/assets/ornaments/ornament_2.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-3 {
+background:url(../imgs/assets/ornaments/ornament_3.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-4 {
+background:url(../imgs/assets/ornaments/ornament_4.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-5 {
+background:url(../imgs/assets/ornaments/ornament_5.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-6 {
+background:url(../imgs/assets/ornaments/ornament_6.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-7 {
+background:url(../imgs/assets/ornaments/ornament_7.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-8 {
+background:url(../imgs/assets/ornaments/ornament_8.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-9 {
+background:url(../imgs/assets/ornaments/ornament_9.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-10 {
+background:url(../imgs/assets/ornaments/ornament_10.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-11 {
+background:url(../imgs/assets/ornaments/ornament_11.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-12 {
+background:url(../imgs/assets/ornaments/ornament_12.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-13 {
+background:url(../imgs/assets/ornaments/ornament_13.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-14 {
+background:url(../imgs/assets/ornaments/ornament_14.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-15 {
+background:url(../imgs/assets/ornaments/ornament_15.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-16 {
+background:url(../imgs/assets/ornaments/ornament_16.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-17 {
+background:url(../imgs/assets/ornaments/ornament_17.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-18 {
+background:url(../imgs/assets/ornaments/ornament_18.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-19 {
+background:url(../imgs/assets/ornaments/ornament_19.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-20 {
+background:url(../imgs/assets/ornaments/ornament_20.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-21 {
+background:url(../imgs/assets/ornaments/ornament_21.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-22 {
+background:url(../imgs/assets/ornaments/ornament_22.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-23 {
+background:url(../imgs/assets/ornaments/ornament_23.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-24 {
+background:url(../imgs/assets/ornaments/ornament_24.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-25 {
+background:url(../imgs/assets/ornaments/ornament_25.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-26 {
+background:url(../imgs/assets/ornaments/ornament_26.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-27 {
+background:url(../imgs/assets/ornaments/ornament_27.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-28 {
+background:url(../imgs/assets/ornaments/ornament_28.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-29 {
+background:url(../imgs/assets/ornaments/ornament_29.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-30 {
+background:url(../imgs/assets/ornaments/ornament_30.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-31 {
+background:url(../imgs/assets/ornaments/ornament_31.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-32 {
+background:url(../imgs/assets/ornaments/ornament_32.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-33 {
+background:url(../imgs/assets/ornaments/ornament_33.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-34 {
+background:url(../imgs/assets/ornaments/ornament_34.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-35 {
+background:url(../imgs/assets/ornaments/ornament_35.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-36 {
+background:url(../imgs/assets/ornaments/ornament_36.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-37 {
+background:url(../imgs/assets/ornaments/ornament_37.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-38 {
+background:url(../imgs/assets/ornaments/ornament_38.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-39 {
+background:url(../imgs/assets/ornaments/ornament_39.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-40 {
+background:url(../imgs/assets/ornaments/ornament_40.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-41 {
+background:url(../imgs/assets/ornaments/ornament_41.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-42 {
+background:url(../imgs/assets/ornaments/ornament_42.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-43 {
+background:url(../imgs/assets/ornaments/ornament_43.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-44 {
+background:url(../imgs/assets/ornaments/ornament_44.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-45 {
+background:url(../imgs/assets/ornaments/ornament_45.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-46 {
+background:url(../imgs/assets/ornaments/ornament_46.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-47 {
+background:url(../imgs/assets/ornaments/ornament_47.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-48 {
+background:url(../imgs/assets/ornaments/ornament_48.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-49 {
+background:url(../imgs/assets/ornaments/ornament_49.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-50 {
+background:url(../imgs/assets/ornaments/ornament_50.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-51 {
+background:url(../imgs/assets/ornaments/ornament_51.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-52 {
+background:url(../imgs/assets/ornaments/ornament_52.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-53 {
+background:url(../imgs/assets/ornaments/ornament_53.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-54 {
+background:url(../imgs/assets/ornaments/ornament_54.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-55 {
+background:url(../imgs/assets/ornaments/ornament_55.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-56 {
+background:url(../imgs/assets/ornaments/ornament_56.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-57 {
+background:url(../imgs/assets/ornaments/ornament_57.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-58 {
+background:url(../imgs/assets/ornaments/ornament_58.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-59 {
+background:url(../imgs/assets/ornaments/ornament_59.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-60 {
+background:url(../imgs/assets/ornaments/ornament_60.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-61 {
+background:url(../imgs/assets/ornaments/ornament_61.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-62 {
+background:url(../imgs/assets/ornaments/ornament_62.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-63 {
+background:url(../imgs/assets/ornaments/ornament_63.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-64 {
+background:url(../imgs/assets/ornaments/ornament_64.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-65 {
+background:url(../imgs/assets/ornaments/ornament_65.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-66 {
+background:url(../imgs/assets/ornaments/ornament_66.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-67 {
+background:url(../imgs/assets/ornaments/ornament_67.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-68 {
+background:url(../imgs/assets/ornaments/ornament_68.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-69 {
+background:url(../imgs/assets/ornaments/ornament_69.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-70 {
+background:url(../imgs/assets/ornaments/ornament_70.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-71 {
+background:url(../imgs/assets/ornaments/ornament_71.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-72 {
+background:url(../imgs/assets/ornaments/ornament_72.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-73 {
+background:url(../imgs/assets/ornaments/ornament_73.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-74 {
+background:url(../imgs/assets/ornaments/ornament_74.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-75 {
+background:url(../imgs/assets/ornaments/ornament_75.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-76 {
+background:url(../imgs/assets/ornaments/ornament_76.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-77 {
+background:url(../imgs/assets/ornaments/ornament_77.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-78 {
+background:url(../imgs/assets/ornaments/ornament_78.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-79 {
+background:url(../imgs/assets/ornaments/ornament_79.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-80 {
+background:url(../imgs/assets/ornaments/ornament_80.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-81 {
+background:url(../imgs/assets/ornaments/ornament_81.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-82 {
+background:url(../imgs/assets/ornaments/ornament_82.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-83 {
+background:url(../imgs/assets/ornaments/ornament_83.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-84 {
+background:url(../imgs/assets/ornaments/ornament_84.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-85 {
+background:url(../imgs/assets/ornaments/ornament_85.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-86 {
+background:url(../imgs/assets/ornaments/ornament_86.png) center center no-repeat;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-87 {
+background:url(../imgs/assets/ornaments/ornament_87.png) center center no-repeat;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-accountcharacters-login {
+font-size:13px;
+padding:.75rem .75rem .75rem 7.5rem;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-accountcharacters-login>a.btn-blue {
+margin-top:.5rem;
+text-decoration:none;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element {
+border-bottom:none;
+padding:0 .5rem;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-image img {
+display:inline-block;
+width:55px;
+max-width:55px;
+height:55px;
+margin:.5rem 0;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element .ak-aside .ak-edit {
+width:25px;
+height:25px;
+display:inline-block;
+vertical-align:middle;
+cursor:pointer;
+}
+
+.ak-accountcharacters .ak-accountcharacters-login {
+color:#fff;
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/my_characters_intro.png) 0 0 no-repeat;
+}
+
+.ak-accountcharacters .ak-accountcharacters-login>a.ak-accountcharacters-login-link {
+color:#7ddcff;
+}
+
+.ak-successsummary {
+overflow:auto;
+padding:12px 12px 0;
+}
+
+.ak-successsummary .ak-success {
+display:table;
+position:relative;
+width:100%;
+margin:0 0 12px;
+}
+
+.ak-successsummary .ak-success .ak-picto {
+border-bottom:1px solid;
+border-left:1px solid;
+border-top:1px solid;
+display:table-cell;
+float:none;
+height:30px;
+width:30px;
+border-color:#b1ac9c;
+}
+
+.ak-successsummary .ak-success .progress {
+border-radius:0;
+border:1px solid;
+border-left:none;
+display:table-cell;
+height:30px;
+position:relative;
+width:auto;
+background:#edeae0;
+border-color:#b1ac9c;
+}
+
+.ak-successsummary .ak-success .progress .ak-name {
+position:absolute;
+left:37px;
+line-height:30px;
+font-weight:700;
+color:#848e02;
+}
+
+.ak-successsummary .ak-success .progress .progress-bar {
+box-shadow:none;
+background:#bfcb16;
+}
+
+.ak-successsummary .ak-success .ak-value {
+display:table-cell;
+font-family:bebas_neueregular,sans-serif;
+font-size:21px;
+line-height:30px;
+padding-right:12px;
+text-align:right;
+vertical-align:middle;
+width:75px;
+color:#81873f;
+}
+
+.ak-successsummary .ak-success.ak-success-15 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 0 no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-6 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -30px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-3 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -60px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-25 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -90px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-8 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -120px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-7 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -150px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-5 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -180px no-repeat;
+}
+
+.ak-successsummary .ak-success.ak-success-9 .ak-picto {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/assets/success.jpg) 0 -210px no-repeat;
+}
+
+.ak-famous-objects ul {
+display:block;
+float:none;
+position:relative;
+margin:0;
+padding:0;
+}
+
+.ak-famous-objects ul:after {
+content:' ';
+display:block;
+position:relative;
+clear:both;
+}
+
+.ak-famous-objects ul li {
+position:relative;
+display:block;
+}
+
+.ak-famous-objects .ak-elt {
+border-bottom-color:#b1ac9c;
+}
+
+.ak-famous-objects .ak-elt:nth-child(odd) {
+border-right-color:#b1ac9c;
+}
+
+.ak-directories .ak-pagination {
+margin-top:2px;
+}
+
+.ak-directories .ak-directories-left {
+display:block;
+overflow:hidden;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-block-points {
+margin-bottom:2.2rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-character-score {
+position:relative;
+display:block;
+height:48px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-character-score a {
+display:block;
+text-decoration:none;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-character-score a span {
+display:block;
+position:absolute;
+height:48px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-character-score .ak-score-text {
+font-size:42px;
+font-family:bebas_neueregular,sans-serif;
+display:block;
+text-align:center;
+line-height:4.8rem;
+position:static;
+margin-left:4.7rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-character-score .ak-icon-big.ak-success {
+background-position:0 -2138px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-success {
+border-right:1px solid;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-points-block .progress {
+border-radius:0;
+position:relative;
+height:32px;
+margin-bottom:0;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-points-block-container {
+margin:.5rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-points-block .ak-progress-bar-text {
+position:absolute;
+overflow:hidden;
+height:32px;
+line-height:32px;
+width:100%;
+text-align:center;
+font-family:bebas_neueregular,sans-serif;
+font-size:2.1rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-points-block .ak-progress-bar-text .ak-progress-bar-total {
+font-size:13px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-achievement-ranking a {
+text-decoration:none;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-last-achievement {
+line-height:17px;
+margin-bottom:1.2rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-last-achievement .title {
+font-weight:700;
+font-size:15px;
+margin:8px 0;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-last-achievement .title img {
+margin-right:6px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success,.ak-directories .ak-directories-left .ak-infos-spouse {
+font-size:1.2rem;
+line-height:30px;
+}
+
+.ak-directories .ak-directories-left .ak-infos-spouse {
+border-top:1px solid;
+}
+
+.ak-directories .ak-directories-left .ak-list-image-col .ak-elt .ak-main .ak-content {
+padding-left:.5rem;
+float:left;
+}
+
+.ak-directories .ak-directories-left .ak-infos-jobs .ak-list-image-col .ak-elt .ak-main {
+border:none;
+border-bottom:1px dashed;
+}
+
+.ak-directories.ak-directories-right .ak-list-text .ak-elt {
+border-bottom:1px dashed;
+line-height:1.9rem;
+min-height:1.5rem;
+}
+
+.ak-directories .ak-character-posts .ak-elt {
+font-size:1.5rem;
+}
+
+.ak-directories .ak-actions .ak-character-name {
+font-style:normal;
+font-weight:700;
+text-transform:uppercase;
+color:#28170e;
+}
+
+.ak-directories .ak-character-ranking .ak-total-xp,.ak-directories .ak-character-ranking .ak-total-kolizeum,.ak-directories .ak-character-ranking .ak-total-kolizeum-max,.ak-directories .ak-character-ranking .ak-total-success {
+font-weight:700;
+font-size:15px;
+color:#422f14;
+}
+
+.ak-directories .ak-character-ranking .ak-total-success {
+margin-bottom:12px;
+}
+
+.ak-directories .ak-character-ranking .ak-total-kolizeum-max {
+margin-bottom:12px;
+}
+
+.ak-directories .ak-character-ranking .ak-total-honor {
+margin-bottom:12px;
+}
+
+.ak-directories .ak-character-ranking .ak-table {
+border:1px solid;
+border-color:#a5a288;
+}
+
+.ak-directories .ak-character-ranking .ak-table td {
+font-size:1.3rem;
+}
+
+.ak-character-infos .ak-character-achievement,.ak-character-infos .ak-character-married {
+display:block;
+margin:.5rem 1.5rem;
+}
+
+.ak-character-infos .ak-character-achievement {
+margin-top:1.5rem;
+}
+
+.ak-character-infos .ak-character-married {
+margin-bottom:1.5rem;
+}
+
+.ak-character-infos .ak-character-col-info {
+border-top:1px dashed;
+vertical-align:top;
+}
+
+.ak-character-infos .ak-character-jobs {
+padding:.5rem 0 0;
+}
+
+.ak-character-infos .ak-character-jobs ul .ak-character-job {
+list-style:none;
+margin:0 .5rem;
+padding:.5rem 0;
+}
+
+.ak-character-infos .ak-character-job-info {
+display:inline-block;
+height:43px;
+vertical-align:top;
+}
+
+.ak-character-infos .ak-character-job {
+border-bottom:1px dashed;
+margin:0 .3rem;
+padding:.3rem 0;
+}
+
+.ak-character-infos .ak-character-jobs .ak-character-job:first-child {
+margin-top:.5rem;
+}
+
+.ak-character-infos .ak-character-jobs .ak-character-job:last-child {
+border-bottom:none;
+}
+
+.ak-character-infos .ak-character-alliances {
+text-align:center;
+margin-bottom:1em;
+}
+
+.ak-character-infos .ak-character-alliance {
+display:block;
+position:relative;
+width:100%;
+margin-bottom:.8rem;
+}
+
+.ak-character-infos .ak-character-alliance img {
+display:inline-block;
+position:relative;
+margin-top:-45px;
+}
+
+.ak-character-infos .ak-character-alliance div {
+vertical-align:top;
+max-width:200px;
+display:block;
+position:relative;
+float:left;
+height:80px;
+}
+
+.ak-character-infos .ak-character-alliance object {
+margin-right:.8rem;
+display:block;
+position:relative;
+float:left;
+height:80px;
+}
+
+.ak-infos-alignement .ak-alignment {
+width:220px;
+height:190px;
+line-height:27px;
+text-transform:uppercase;
+margin:0 auto;
+}
+
+.ak-infos-alignement .ak-alignment .ak-alignment-name {
+text-align:center;
+display:block;
+}
+
+.ak-infos-alignement .ak-alignment .ak-alignment-level {
+left:0;
+position:absolute;
+text-align:center;
+top:158px;
+width:100%;
+text-indent:4px;
+margin:0 auto;
+}
+
+.ak-infos-alignement .ak-alignment.ak-alignment-bonta .ak-alignment-level {
+text-indent:9px;
+top:140px;
+}
+
+.ak-infos-alignement .ak-alignment.ak-alignment-brakmar {
+background-position:3px 15px!important;
+}
+
+.ak-infos-alignement .ak-alignment.ak-alignment-brakmar .ak-alignment-level {
+text-indent:12px;
+top:164px;
+}
+
+.ak-directories .ak-character-ranking .ak-table tbody>tr:hover {
+background-color:#f3f2ed;
+}
+
+.ak-character-infos .ak-character-job.job-grey-circle .illu {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/no_job.png) 2px 2px no-repeat;
+}
+
+.ak-character-infos .ak-character-job.job-grey-star .illu {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/no_skill.png) 2px 2px no-repeat;
+}
+
+.ak-infos-alignement .ak-alignment-neutral {
+color:#e6cc95;
+}
+
+.ak-infos-alignement .ak-alignment-bonta {
+color:#9ecedc;
+}
+
+.ak-infos-alignement .ak-alignment-brakmar {
+color:#da2b09;
+}
+
+.ak-infos-alignement.ak-brakmar .ak-panel-content {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/bg_alignement_brakmar.jpg) center 12px no-repeat;
+}
+
+.ak-infos-alignement.ak-bonta .ak-panel-content {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/bg_alignement_bonta.jpg) center 12px no-repeat;
+}
+
+.ak-infos-alignement.ak-neutral .ak-panel-content {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/bg_alignement_neutral.jpg) center 12px no-repeat;
+}
+
+.ak-infos-success .ak-block-points {
+border:1px solid #bdbdbd;
+}
+
+.ak-infos-success .ak-block-points .ak-character-score .ak-character-score-layer {
+border-color:#bdbdbd;
+}
+
+.ak-infos-success .ak-character-score {
+background:#dc7200;
+}
+
+.ak-infos-success .ak-character-score .ak-character-score-layer .ak-success {
+background-color:#FC9421;
+border-color:#ffae59;
+}
+
+.ak-infos-success .ak-points-block {
+background:#3a3932;
+box-shadow:inset 0 0 10px #000;
+}
+
+.ak-infos-success .ak-points-block .progress-bar {
+background:#bfcb16;
+box-shadow:inset 0 0 5px #959e0f;
+}
+
+.ak-infos-success .ak-points-block .progress {
+background-color:transparent;
+}
+
+.ak-infos-success .ak-points-block .ak-progress-bar-text {
+color:#fff;
+text-shadow:0 0 2px #333;
+}
+
+.ak-character-item-preview {
+left:0;
+position:relative;
+width:98%;
+z-index:2;
+}
+
+.ak-character-item-preview.opened {
+margin-top:-415px;
+}
+
+.ak-character-item-preview .ak-character-item-close {
+cursor:pointer;
+display:inline-block;
+height:22px;
+position:absolute;
+right:10px;
+top:10px;
+width:20px;
+z-index:1;
+background:url(../imgs/assets/characters/caracteristics/btn_close.png) 0 0 no-repeat transparent;
+}
+
+.ak-character-item {
+border:1px solid;
+overflow:hidden;
+position:relative;
+background:#f8f8f6;
+box-shadow:3px 3px 0 #c2c2c0;
+border-color:#c9c6bb;
+padding:.8em;
+}
+
+.ak-character-item .ak-item-name {
+font-family:bebas_neueregular,sans-serif;
+font-size:2.6rem;
+font-weight:700;
+text-transform:uppercase;
+color:#362712;
+margin:0;
+}
+
+.ak-character-item .ak-item-level {
+font-weight:700;
+color:#c56f07;
+}
+
+.ak-character-item .ak-item-effects,.ak-character-item .ak-item-conditions,.ak-character-item .ak-item-set,.ak-character-item .ak-item-links {
+margin-top:1.2rem;
+border-color:#b1ac9c;
+}
+
+.ak-character-item .ak-picto-star,.ak-character-item .ak-picto-eye {
+display:inline-block;
+height:18px;
+width:18px;
+}
+
+.ak-character-item a {
+color:#362712;
+}
+
+.ak-character-item .ak-item-effects .ak-elt:nth-child(odd),.ak-character-item .ak-item-conditions .ak-elt:nth-child(odd),.ak-character-item .ak-item-set .ak-elt:nth-child(odd),.ak-character-item .ak-item-links .ak-elt:nth-child(odd) {
+background:#e4e0d7;
+}
+
+.ak-character-item .ak-item-effects .ak-elt:nth-child(even),.ak-character-item .ak-item-conditions .ak-elt:nth-child(even),.ak-character-item .ak-item-set .ak-elt:nth-child(even),.ak-character-item .ak-item-links .ak-elt:nth-child(even) {
+background:#f8f8f6;
+}
+
+.ak-character-item .ak-picto-star {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/star.png) 0 0 no-repeat transparent;
+}
+
+.ak-character-item .ak-picto-eye {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/eye.png) 0 0 no-repeat transparent;
+}
+
+.ak-character-points .ak-points-block {
+border-left-color:#b1ac9c;
+border-bottom-color:#b1ac9c;
+padding:.5em;
+}
+
+.ak-character-points .ak-points-block:first-child {
+border-left:none;
+border-bottom:1px dashed;
+}
+
+.ak-character-points .progress {
+border-radius:3px;
+display:block;
+position:relative;
+border:1px solid;
+height:38px;
+background:#e4e0d7;
+border-color:#ad9b7f;
+margin:0 0 1em;
+padding:0;
+}
+
+.ak-character-points .progress .text {
+position:relative;
+line-height:38px;
+font-size:1.3rem;
+color:#fff;
+margin:0 1.5em;
+}
+
+.ak-character-points .progress .progress-bar {
+position:absolute;
+height:36px;
+border-radius:3px;
+margin:0;
+}
+
+.ak-character-points .ak-points-label {
+text-align:center;
+color:#28170e;
+margin:.5em 0;
+}
+
+.ak-character-points .ak-points-label img {
+display:inline-block;
+position:relative;
+margin-right:.5em;
+top:-1px;
+}
+
+.ak-character-points .progress.xp .progress-bar {
+background:#00c7ff;
+}
+
+.ak-character-points .progress.energy .progress-bar {
+background:#ff8500;
+}
+
+.ak-character-points .progress.life .progress-bar {
+background:#7dc300;
+}
+
+.ak-character-posts ul li {
+list-style:none;
+}
+
+.ak-character-posts ul li.ak-elt {
+margin:.8rem 0;
+padding:0 1.2rem;
+}
+
+.ak-character-presentation .ak-presentation-date {
+display:inline-block;
+float:right;
+font-family:Roboto,sans-serif;
+font-size:1rem;
+margin-right:1.5em;
+text-transform:none;
+color:#828282;
+}
+
+.ak-success-content {
+margin-bottom:0;
+background-color:#f8f8f6;
+}
+
+.ak-success-content .ak-character-score {
+float:left;
+width:200px;
+padding:.5em;
+}
+
+.ak-success-content .ak-character-score-layer {
+border:1px solid;
+min-height:83px;
+border-color:#b1ac9c;
+padding:.5em;
+}
+
+.ak-success-content span.ak-score-text {
+font-family:bebas_neueregular,sans-serif;
+font-size:3.3rem;
+position:relative;
+top:10px;
+color:#c56f07;
+}
+
+.ak-success-content .ak-points-block-container {
+position:relative;
+margin-left:19rem;
+overflow:hidden;
+padding:.5em;
+}
+
+.ak-success-content .ak-success-category-0 {
+border:1px solid;
+border-color:#c3bda8;
+padding:.5em;
+}
+
+.ak-success-content .ak-progress-bar-text {
+font-family:bebas_neueregular,sans-serif;
+font-size:4.2rem;
+line-height:66px;
+position:absolute;
+text-align:center;
+width:100%;
+color:#fff;
+}
+
+.ak-success-content .ak-score-img {
+display:inline-block;
+float:left;
+height:52px;
+margin-right:10px;
+margin-top:7px;
+width:52px;
+}
+
+.ak-success-points {
+margin-bottom:1em;
+}
+
+.ak-success-points .ak-points-block {
+text-align:center;
+margin-bottom:1.5em;
+clear:both;
+border-left-color:#b1ac9c;
+border-bottom-color:#b1ac9c;
+}
+
+.ak-success-points .ak-points-label a {
+font-family:bebas_neueregular,sans-serif;
+font-size:2.1rem;
+text-transform:uppercase;
+color:#848e02;
+}
+
+.ak-success-points .ak-success-container {
+border-radius:50%;
+height:173px;
+top:4px;
+left:4px;
+position:relative;
+width:173px;
+margin:0 auto;
+}
+
+.ak-success-points .ak-success-container:hover {
+border:4px solid;
+top:0;
+left:0;
+border-color:#cdc8b8;
+}
+
+.ak-success-points .ak-success {
+border-radius:50%;
+height:155px;
+left:5px;
+position:relative;
+top:5px;
+width:155px;
+background:#e4e0d7;
+}
+
+.ak-success-points .ak-success-layer {
+border-radius:50%;
+height:155px;
+left:-5px;
+position:absolute;
+top:-5px;
+width:155px;
+z-index:2;
+margin:5px;
+}
+
+.ak-success-points .ak-success-hover {
+border-radius:50%;
+position:absolute;
+z-index:2;
+background-color:rgba(0,0,0,0.6);
+height:135px;
+left:5px;
+padding-top:25px;
+text-align:center;
+top:5px;
+width:135px;
+opacity:0;
+filter:alpha(opacity=0);
+transition:opacity 150ms linear .1s;
+color:#848e02;
+margin:5px;
+}
+
+.ak-success-points .ak-success:hover .ak-success-hover {
+opacity:1;
+filter:alpha(opacity=100);
+transition:opacity 150ms linear .1s;
+text-decoration:none;
+}
+
+.ak-success-points .ak-success-hover-percent {
+font-size:5rem;
+line-height:5rem;
+font-weight:700;
+color:#97a800;
+}
+
+.ak-success-points .ak-hover-percent {
+font-size:3rem;
+}
+
+.ak-success-points .ak-success-hover span.ak-success-see {
+font-family:bebas_neueregular,sans-serif;
+text-decoration:none;
+text-transform:uppercase;
+color:#fff;
+}
+
+.ak-success-points .ak-circle-progessbar-wrapper {
+border-radius:50%;
+height:155px;
+left:-5px;
+position:absolute;
+top:-5px;
+width:155px;
+z-index:1;
+margin:5px;
+}
+
+.ak-success-points .ak-semi-circle {
+border-radius:50%;
+border:10px solid;
+clip:rect(0px,77.5px,155px,0);
+height:155px;
+position:absolute;
+width:155px;
+}
+
+.ak-success-points .ak-circle-progressbar-less-50 {
+clip:rect(0,155px,155px,77.5px);
+}
+
+.ak-success-points .ak-semi-circle-right {
+transform:rotate(180deg);
+}
+
+.ak-success-points .progress {
+background:#3a3932;
+border-color:#ad9b7f;
+}
+
+.ak-success-points .ak-semi-circle,.ak-success-points .ak-semi-circle-right {
+border-color:#bfcb16;
+}
+
+.ak-success-search {
+margin-bottom:0;
+margin-top:.8rem;
+}
+
+.ak-success-search .ak-success-search-type,.ak-success-search .ak-success-search-text {
+border:1px solid;
+min-width:230px;
+background:#e4e0d7;
+border-color:#c9c6bb;
+padding:.5em;
+}
+
+.ak-success-search .ak-success-search-type {
+margin:0 1em;
+}
+
+.ak-success-search .ak-success-search-text {
+position:relative;
+box-sizing:border-box;
+height:40px;
+padding:.55em;
+}
+
+.ak-success-search .ak-success-search-group .ak-btn-search {
+height:40px;
+width:40px;
+border-left:none;
+box-sizing:border-box;
+background-color:#e4e0d7;
+background:#e4e0d7 url(/g/modules/masterpage/block/header/navbar/dofus/picto-search.png) no-repeat scroll center center;
+color:transparent;
+border-color:#c9c6bb;
+}
+
+.ak-success-accomplished .ak-actions-list .ak-list-text ul li {
+border-bottom:1px dashed;
+height:auto;
+border-color:#b1ac9c;
+margin:0;
+padding:.5em 0 .5em .5em;
+}
+
+.ak-success-accomplished .ak-actions-list .ak-list-text ul li:last-child {
+border-bottom:1px solid;
+border-color:#b1ac9c;
+padding:.5em;
+}
+
+.ak-success-accomplished .ak-pagination {
+margin-top:5px;
+}
+
+.ak-objective-done,.ak-picto-accomplished {
+display:inline-block;
+height:16px;
+width:20px;
+}
+
+.ak-picto-accomplished,.ak-objective-done {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/ak-picto-accomplished.png) center center no-repeat transparent;
+}
+
+.ak-success-details-content {
+border-bottom:1px solid;
+background:#f8f8f6;
+border-color:#b1ac9c;
+padding:.5em 0;
+}
+
+.ak-success-details-content .ak-success-detail-illu {
+text-align:center;
+float:left;
+width:195px;
+}
+
+.ak-success-details-content .ak-success-detail-score {
+margin-left:19.5rem;
+overflow:hidden;
+}
+
+.ak-success-details-content .ak-success-detail-illu div {
+border-radius:50%;
+border:11px solid;
+float:left;
+height:154px;
+margin-left:1em;
+width:154px;
+border-color:#dfdbcd;
+}
+
+.ak-success-details-content .ak-character-score-layer {
+border:1px solid;
+margin-right:.5em;
+min-height:67px;
+text-align:center;
+vertical-align:middle;
+border-color:#b1ac9c;
+padding:0 .5em;
+}
+
+.ak-success-details-content .ak-icon-big {
+vertical-align:middle;
+display:inline-block;
+}
+
+.ak-success-details-content span.ak-score-text {
+font-family:bebas_neueregular,sans-serif;
+font-size:3.3rem;
+position:relative;
+vertical-align:middle;
+display:inline-block;
+color:#c56f07;
+}
+
+.ak-success-details-content .ak-progress-bar-text {
+font-family:bebas_neueregular,sans-serif;
+font-size:4.2rem;
+line-height:66px;
+position:absolute;
+text-align:center;
+left:0;
+right:0;
+width:100%;
+color:#fff;
+}
+
+.ak-success-details-content .ak-character-score {
+padding:.5em 0;
+}
+
+.ak-success-details-content .ak-success-points {
+border:none;
+overflow:hidden;
+padding:.5em 0;
+}
+
+.ak-success-details-content .ak-success-details-list {
+padding-top:.5em;
+}
+
+.ak-success-details-content .ak-score-img {
+display:inline-block;
+float:left;
+height:52px;
+margin-top:5px;
+width:60px;
+background:url("../imgs/assets/sprite_encyclopedia.png") 0 -2135px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-category-title {
+width:100%;
+}
+
+.ak-success-details-list {
+padding-top:1em;
+background:#f8f8f6;
+}
+
+.ak-success-details-list .ak-list-image-col .ak-elt .ak-main .ak-content .ak-text {
+font-size:1.5rem;
+font-weight:700;
+}
+
+.ak-success-details-list .ak-objective-done,.ak-success-details-list .ak-objective-not-done {
+height:25px;
+width:25px;
+display:block;
+margin:0 auto;
+}
+
+.ak-success-details-list .ak-success-accomplished {
+background:#e4e0d7;
+color:#78664c;
+background-color:#f8f8f6;
+}
+
+.ak-success-details-list .ak-objective-done {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/objective_done.jpg) no-repeat transparent;
+}
+
+.ak-success-details-list .ak-objective-not-done {
+background:url(/dofus/ng/modules/mmorpg/community/directories/characters/success/objective_not_done.jpg) no-repeat transparent;
+}
+
+.ak-success-details-list .ak-success-details-title {
+padding-left:1.2em;
+background:url(/g/modules/components/panel/dofus/inner-title.png) no-repeat scroll .5em center transparent;
+}
+
+.ak-success-details-list .ak-success-not-accomplished,.ak-success-details-list .ak-responsivetable tbody>tr.ak-success-not-accomplished>td.ak-responsivetable-expand {
+background-color:#edeae0;
+}
+
+.ak-success-details-list .ak-success-accomplished td,.ak-success-details-list .ak-responsivetable tbody>tr.ak-success-accomplished>td.ak-responsivetable-expand {
+color:#8a7f66;
+}
+
+.ak-caracteristics-content .ak-equipment-item {
+border:4px solid;
+height:72px;
+position:relative;
+width:72px;
+display:inline-block;
+left:auto;
+top:auto;
+border-color:#b1ac9c #c9c6bb #dfdbcd;
+margin:0 0 10px;
+}
+
+.ak-caracteristics-content .ak-equipment-item img {
+max-width:52px;
+margin:6px;
+}
+
+.ak-caracteristics-content .ak-equipment-item.selected,.ak-caracteristics-content .ak-equipment-item:hover {
+border:none;
+cursor:pointer;
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_selected.jpg) 0 0 no-repeat transparent;
+padding:4px;
+}
+
+.ak-caracteristics-content .ak-character-equipments {
+border:4px solid;
+height:415px;
+position:relative;
+margin-bottom:15px;
+background:url(../imgs/assets/characters/caracteristics/bg_equipment.jpg) center -130px no-repeat transparent;
+background-size:auto;
+border-color:#b1ac9c #c9c6bb #dfdbcd;
+}
+
+.ak-caracteristics-content .ak-equipment-shield {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_shield.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-amulet {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_amulet.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-ring1 {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_ring1.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-cap {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_cap.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-boots {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_boots.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-dofus {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_dofus.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-weapon {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_weapon.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-hat {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_hat.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-ring2 {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_ring2.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-belt {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_belt.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-pet {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_pet.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-idol {
+background:url(../imgs/assets/characters/caracteristics/bg_equipment_idol.jpg) 0 0 no-repeat transparent;
+background-size:cover;
+}
+
+.ak-caracteristics-content .ak-equipment-bottom {
+display:block;
+position:relative;
+text-align:center;
+margin:12px auto 0;
+}
+
+.ak-caracteristics-content .ak-equipment-bottom .ak-equipment-item {
+display:inline-block;
+position:relative;
+left:auto;
+text-align:center;
+overflow:hidden;
+margin:0;
+}
+
+.ak-caracteristics-content .ak-equipment-bottom .ak-equipment-item+.ak-equipment-item {
+margin-left:12px;
+}
+
+.ak-caracteristics-details .ak-update-info {
+text-align:center;
+color:#e4442c;
+}
+
+.ak-caracteristics-details .ak-update-info .ak-icon-big {
+position:relative;
+float:left;
+top:5px;
+}
+
+.ak-caracteristics-details .ak-update-info:after {
+content:' ';
+clear:both;
+display:block;
+margin-bottom:24px;
+}
+
+.ak-caracteristics-details .ak-caracteristics-progress {
+border:1px solid;
+border-color:#b1ac9c;
+padding:1em;
+}
+
+.ak-caracteristics-details .ak-progress-left {
+padding-right:10px;
+}
+
+.ak-caracteristics-details .ak-progress-right {
+padding-left:10px;
+}
+
+.ak-caracteristics-details .progress {
+border:1px solid;
+height:40px;
+position:relative;
+background-color:#cfcabc;
+border-color:#b1ac9c;
+margin:0;
+}
+
+.ak-caracteristics-details .ak-progress-text {
+font-size:1.3rem;
+padding-left:1rem;
+font-weight:700;
+left:0;
+line-height:38px;
+position:absolute;
+text-align:left;
+width:100%;
+color:#fff;
+}
+
+.ak-caracteristics-details .ak-caracteristics-table-container tr td:first-child {
+width:30px;
+}
+
+.ak-caracteristics-details .ak-progress-bar-exp {
+background-color:#0078bd;
+}
+
+.ak-caracteristics-spells-content {
+overflow:auto;
+}
+
+.ak-spells-list .ak-spell {
+border:1px solid;
+float:left;
+height:72px;
+position:relative;
+width:72px;
+display:table-cell;
+opacity:0.7;
+filter:alpha(opacity=70);
+border-color:#b1ac9c;
+padding:.5em;
+}
+
+.ak-spells-list .ak-spell-selected {
+opacity:1;
+filter:alpha(opacity=100);
+background:none;
+}
+
+.ak-spells-list .ak-spell:hover {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.ak-spells-list .ak-spell+.ak-spell {
+border-left:none;
+}
+
+.ak-spells-list .ak-spell-nb {
+background-color:rgba(0,0,0,0.6);
+border-radius:4px;
+font-size:1rem;
+font-weight:700;
+line-height:12px;
+position:absolute;
+right:1.2em;
+text-align:center;
+top:1.2em;
+color:#fff;
+padding:.2em .3em;
+}
+
+.ak-spells-list .ak-spell-details-level-selector a.ak-selected {
+font-weight:700;
+text-decoration:underline;
+}
+
+.ak-spells-list .ak-spell-out {
+background-color:#c9c6bb;
+}
+
+.ak-spell-details {
+padding:1em .5em;
+}
+
+.ak-spell-details .ak-spell-detail-title {
+border-bottom:#c9c6bb;
+}
+
+.ak-spell-details h2 {
+margin-bottom:0;
+}
+
+.ak-spell-details h2.ak-spell-name {
+padding-left:1.2rem;
+margin-top:0;
+}
+
+.ak-spell-details p {
+margin-bottom:0;
+padding-left:2em;
+}
+
+.ak-spell-details .ak-spell-lvl {
+margin-left:1em;
+letter-spacing:1px;
+}
+
+.ak-spell-details .ak-spell-po-pa {
+margin-left:1.5em;
+letter-spacing:1px;
+}
+
+.ak-spell-details .ak-spell-lvl,.ak-spell-details .ak-spell-po-pa,.ak-spell-details .ak-spell-carac {
+font-weight:400;
+font-size:1.3rem;
+}
+
+.ak-spell-details .ak-spell-required-lvl {
+margin-left:1.2rem;
+font-style:italic;
+}
+
+.ak-spell-details .ak-spell-details-level-selector {
+display:inline;
+}
+
+.ak-spell-details .ak-spell-details-effects,.ak-spell-details .ak-spell-details-other {
+margin:.8rem 0;
+}
+
+.ak-spell-details .ak-spell-details-effects h2,.ak-spell-details .ak-spell-details-other h2 {
+font-size:1.9rem;
+padding-left:1.5rem;
+margin-bottom:.8rem;
+font-weight:400;
+}
+
+.ak-spell-details .ak-list-text-col .ak-elt .ak-content span {
+font-style:normal;
+text-align:right;
+line-height:1.75em;
+}
+
+.ak-spell-details .ak-list-text-col .ak-elt .ak-aside {
+border:0;
+text-align:right;
+padding-right:.5rem;
+}
+
+.ak-spell-details .ak-spell-details-effects .ak-list-text .ak-elt:first-child {
+border-top:1px solid;
+border-color:#b1ac9c;
+}
+
+.ak-spell-details .ak-damage-fire .ak-aside {
+border-left:1px solid;
+height:100%;
+width:33px;
+border-color:#b1ac9c;
+}
+
+.ak-spell-details .ak-spell-effects {
+padding:0 4em;
+}
+
+.ak-spell-details .ak-spell-detail-other-effect .ak-elt {
+padding:0 .5em;
+}
+
+.ak-spell-details .ak-spell-details-effects .ak-elt {
+line-height:1.5em;
+}
+
+.ak-spell-details>div>.row {
+padding-bottom:.5em;
+padding-top:.5em;
+}
+
+.ak-spell-details>div>.row+.row {
+border-top:1px dotted;
+padding-bottom:0;
+padding-top:.5em;
+border-color:#ad9b7f;
+}
+
+.ak-spell-details .ak-spell-details-illu {
+text-align:left;
+float:left;
+width:70px;
+height:70px;
+position:relative;
+margin:0;
+}
+
+.ak-spell-details .ak-spell-details-illu>span {
+display:inline-block;
+position:relative;
+margin:0;
+padding:0;
+}
+
+.ak-spell-details .ak-spell-details-illu .ak-spell-nb {
+display:inline-block;
+text-align:center;
+width:auto;
+position:absolute;
+top:5px;
+right:auto;
+left:45px;
+}
+
+.ak-spell-details .ak-spell-details-infos {
+margin-left:7rem;
+overflow:hidden;
+}
+
+.ak-spell-details .ak-spell-lvl,.ak-spell-details .ak-spell-details-effects h2,.ak-spell-details .ak-spell-details-other h2 {
+color:#c56f07;
+}
+
+.ak-spell-details h2.ak-spell-name,.ak-spell-details .ak-spell-details-effects h2,.ak-spell-details .ak-spell-details-other h2 {
+background:url(../imgs/assets/characters/caracteristics/puce_red.png) 2px 8px no-repeat transparent;
+background-size:auto auto;
+}
+
+.ak-spell-details ul li.ak-elt {
+background:none;
+}
+
+.ak-stats .ak-first-col .ak-server-name {
+font-weight:400;
+}
+
+.ak-adminbanner-image-list .ak-image-block {
+cursor:pointer;
+text-transform:uppercase;
+margin-bottom:12px;
+}
+
+.ak-adminbanner-image-list .ak-image-block .ak-image-container {
+height:120px;
+background-size:cover;
+background-position:center center;
+}
+
+.ak-adminbanner-image-list .ak-image-block span {
+display:block;
+font-weight:700;
+padding:5px;
+}
+
+.ak-adminbanner-image-list .ak-image-block:hover .ak-image-container {
+box-shadow:inset 0 0 0 5px #9ba712;
+}
+
+.ak-adminbanner {
+position:absolute;
+top:0;
+right:0;
+display:inline-block;
+height:100%;
+}
+
+.ak-adminbanner.ak-panel {
+background:none;
+width:300px;
+}
+
+.ak-adminbanner .ak-confirmation {
+display:none;
+bottom:0;
+right:0;
+position:absolute;
+padding:5px;
+}
+
+.ak-adminbanner .confirmation-message {
+background:rgba(0,0,0,0.5);
+color:#fff;
+display:none;
+bottom:0;
+right:0;
+position:absolute;
+font-size:13px;
+padding:5px;
+}
+
+.ak-guilds .ak-guild-member {
+border:1px solid;
+display:inline-block;
+height:37px;
+width:36px;
+background-color:#fff;
+border-color:#876d52;
+margin:4px;
+}
+
+.ak-guilds .ak-alliance-member {
+display:inline-block;
+height:50px;
+width:50px;
+border:none;
+margin:4px;
+}
+
+.ak-guilds .ak-list-text .ak-elt .ak-list-icon {
+top:0;
+}
+
+.ak-guilds .ak-list-text .ak-elt .gagne_niveau,.ak-guilds .ak-list-text .ak-elt .achete_maison {
+top:12px;
+}
+
+.ak-guilds .ak-list-text .ak-elt .ak-list-icon.alliance_invite,.ak-guilds .ak-list-text .ak-elt .ak-list-icon.alliance_exclude,.ak-guilds .ak-list-text .ak-elt .ak-list-icon.alliance_territory_conquest,.ak-guilds .ak-list-text .ak-elt .ak-list-icon.alliance_territory_loss {
+top:1px;
+height:25px;
+}
+
+.ak-guilds .ak-alliance-tooltip,.ak-guilds .ak-guild-tooltip {
+border:1px solid;
+display:none;
+left:20px;
+position:absolute;
+top:-20px;
+z-index:1;
+background-color:#dad4c9;
+box-shadow:0 0 8px #000;
+border-color:#ad9b7f;
+padding:10px;
+}
+
+.ak-guilds .ak-alliance-member .ak-alliance-tooltip .ak-breed-icon,.ak-guilds .ak-guild-member .ak-guild-tooltip .ak-breed-icon {
+border:2px inset;
+text-align:center;
+padding:5px;
+}
+
+.ak-guilds .ak-guilds-list-members {
+padding:1em;
+}
+
+.ak-tooltip-members .ak-allianceguild-emblem {
+width:60px;
+}
+
+.ak-tooltip-members .ak-member-name,.ak-tooltip-members .ak-member-status,.ak-tooltip-members .ak-member-level {
+text-align:left;
+padding:.3rem .5rem;
+}
+
+.ak-tooltip-members .ak-member-name {
+font-weight:700;
+color:#422f14;
+}
+
+.ak-tooltip-members .ak-member-status {
+font-style:italic;
+font-size:1.3rem;
+color:#828282;
+}
+
+.ak-guilds .ak-guild-member:hover {
+background-color:#83592a;
+}
+
+.ak-guilds .ak-alliance-members .ak-alliance-member .ak-alliance-tooltip img,.ak-guilds .ak-guild-members .ak-guild-member .ak-guild-tooltip img {
+border-color:#b1ac9c #c9c6bb #dfdbcd;
+}
+
+.ak-guilds .ak-guild-name a {
+color:#422f14;
+}
+
+.ak-directories-header-guild .ak-character-banner {
+background:url(../imgs/assets/characters/bg_guild.jpg) 0 center no-repeat;
+background-size:cover;
+}
+.ak-directories-header .ak-directories-prestige {
+font-weight:700;
+color:#d1501c;
+}
+
+.ak-best-alliance .ak-ladder-first,.ak-best-alliance .ak-ladder-second,.ak-best-alliance .ak-ladder-third {
+display:inline-block;
+float:left;
+height:36px;
+width:38px;
+}
+
+.ak-best-alliance .ak-alliance-name {
+padding-left:.5rem;
+display:block;
+line-height:1.25em;
+font-weight:700;
+}
+
+.ak-best-alliance .ak-alliance-members {
+padding-left:.5rem;
+display:block;
+}
+
+.ak-best-alliance .ak-list-text .ak-elt {
+border-bottom:1px dashed;
+line-height:2em;
+border-color:#b1ac9c;
+}
+
+.ak-best-alliance .ak-picto-guild {
+margin-top:3px;
+}
+
+.ak-best-alliance .ak-ladder-first {
+background:url(/g/modules/tables/responsive/dofus/ladder_first.png) center center no-repeat;
+}
+
+.ak-best-alliance .ak-ladder-second {
+background:url(/g/modules/tables/responsive/dofus/ladder_second.png) center center no-repeat;
+}
+
+.ak-best-alliance .ak-ladder-third {
+background:url(/g/modules/tables/responsive/dofus/ladder_third.png) center center no-repeat;
+}
+
+.ak-list-icon.gagne_niveau {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -150px no-repeat;
+}
+
+.ak-list-icon.achivement_unlock {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -100px no-repeat;
+}
+
+.ak-list-icon.gagne_combat_boss {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -225px no-repeat;
+}
+
+.ak-list-icon.alliance_territory_conquest {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -296px no-repeat;
+}
+
+.ak-list-icon.alliance_territory_loss {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -320px no-repeat;
+}
+
+.ak-list-icon.alliance_invite {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -370px no-repeat;
+}
+
+.ak-list-icon.alliance_exclude {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -345px no-repeat;
+}
+
+.ak-list-icon.craft_objet {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -125px no-repeat;
+}
+
+.ak-list-icon.trouve_dofus {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -200px no-repeat;
+}
+
+.ak-list-icon.achete_enclos {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -50px no-repeat;
+}
+
+.ak-list-icon.gagne_pvp {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -250px no-repeat;
+}
+
+.ak-list-icon.perd_pvp {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -275px no-repeat;
+}
+
+.ak-list-icon.achete_maison {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -75px no-repeat;
+}
+
+.ak-list-icon.gagne_niveau_metier {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center 0 no-repeat;
+}
+
+.ak-list-icon.mariage {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/actions_icons.png) center -25px no-repeat;
+}
+
+.ak-success-points .ak-success-illu-15 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_15.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-15 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_15_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-6 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_6.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-6 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_6_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-3 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_3.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-3 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_3_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-25 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_25.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-25 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_25_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-8 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_8.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-8 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_8_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-7 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_7.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-7 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_7_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-5 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_5.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-5 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_5_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-success-illu-9 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_9.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-points .ak-current-success .ak-success-illu-9 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_9_current.png) 0 -2px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-15,.ak-success-details-content .ak-success-illu-0 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_15.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-6 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_6.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-3 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_3.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-25 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_25.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-8 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_8.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-7 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_7.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-5 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_5.png) -10px -13px no-repeat transparent;
+}
+
+.ak-success-details-content .ak-success-illu-9 {
+background:url(/dofus/ng/modules/mmorpg/community/directories/assets/success/bg_success_9.png) -10px -13px no-repeat transparent;
+}
+
+.ak-job-icon-w43h43 {
+float:left;
+height:43px;
+position:relative;
+width:43px;
+background:url(/dofus/ng/modules/mmorpg/encyclopedia/jobs/assets/jobs-43.png) 0 0 no-repeat;
+}
+
+.ak-job-icon-w30h30 {
+float:left;
+height:30px;
+position:relative;
+width:30px;
+background:url(/dofus/ng/modules/mmorpg/encyclopedia/jobs/assets/jobs-30.png) 0 0 no-repeat;
+margin:0 .25em 0 0;
+}
+
+.ak-job-simple {
+padding:5px 5px 0;
+}
+
+.ak-pnj-jobs {
+margin:0 0 5px 15px;
+}
+
+.ak-job-icon-w43h43.ak-job-11 {
+background-position:-138px -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-13 {
+background-position:-139px 0;
+}
+
+.ak-job-icon-w43h43.ak-job-14 {
+background-position:-184px -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-15 {
+background-position:-93px 0;
+}
+
+.ak-job-icon-w43h43.ak-job-16 {
+background-position:-93px -94px;
+}
+
+.ak-job-icon-w43h43.ak-job-17 {
+background-position:-93px -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-18 {
+background-position:-46px -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-19 {
+background-position:0 -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-20 {
+background-position:-185px 0;
+}
+
+.ak-job-icon-w43h43.ak-job-24 {
+background-position:0 -93px;
+}
+
+.ak-job-icon-w43h43.ak-job-25 {
+background-position:-46px 0;
+}
+
+.ak-job-icon-w43h43.ak-job-26 {
+background-position:-46px -94px;
+}
+
+.ak-job-icon-w43h43.ak-job-27 {
+background-position:-46px -140px;
+}
+
+.ak-job-icon-w43h43.ak-job-28 {
+background-position:-231px 0;
+}
+
+.ak-job-icon-w43h43.ak-job-31 {
+background-position:0 -140px;
+}
+
+.ak-job-icon-w43h43.ak-job-36 {
+background-position:-231px -93px;
+}
+
+.ak-job-icon-w43h43.ak-job-41 {
+background-position:-46px -232px;
+}
+
+.ak-job-icon-w43h43.ak-job-43 {
+background-position:-93px -140px;
+}
+
+.ak-job-icon-w43h43.ak-job-44 {
+background-position:-230px -46px;
+}
+
+.ak-job-icon-w43h43.ak-job-45 {
+background-position:0 -186px;
+}
+
+.ak-job-icon-w43h43.ak-job-46 {
+background-position:-46px -186px;
+}
+
+.ak-job-icon-w43h43.ak-job-47 {
+background-position:-185px -140px;
+}
+
+.ak-job-icon-w43h43.ak-job-48 {
+background-position:-138px -185px;
+}
+
+.ak-job-icon-w43h43.ak-job-49 {
+background-position:-185px -186px;
+}
+
+.ak-job-icon-w43h43.ak-job-50 {
+background-position:-138px -139px;
+}
+
+.ak-job-icon-w43h43.ak-job-56 {
+background-position:-93px -232px;
+}
+
+.ak-job-icon-w43h43.ak-job-58 {
+background-position:0 -232px;
+}
+
+.ak-job-icon-w43h43.ak-job-60 {
+background-position:-93px -186px;
+}
+
+.ak-job-icon-w43h43.ak-job-62 {
+background-position:-185px -232px;
+}
+
+.ak-job-icon-w43h43.ak-job-63 {
+background-position:-139px -93px;
+}
+
+.ak-job-icon-w43h43.ak-job-64 {
+background-position:-184px -232px;
+}
+
+.ak-job-icon-w43h43.ak-job-65 {
+background-position:-139px -232px;
+}
+
+.ak-job-icon-w43h43.ak-no-job {
+background:url(/dofus/ng/modules/mmorpg/encyclopedia/jobs/assets/no_job.png) 0 0 no-repeat;
+}
+
+.ak-job-icon-w30h30.ak-job-11 {
+background-position:-95px -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-13 {
+background-position:-95px 0;
+}
+
+.ak-job-icon-w30h30.ak-job-14 {
+background-position:-126px -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-15 {
+background-position:-63px 0;
+}
+
+.ak-job-icon-w30h30.ak-job-16 {
+background-position:-63px -63px;
+}
+
+.ak-job-icon-w30h30.ak-job-17 {
+background-position:-63px -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-18 {
+background-position:-32px -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-19 {
+background-position:0 -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-20 {
+background-position:-126px 0;
+}
+
+.ak-job-icon-w30h30.ak-job-24 {
+background-position:0 -63px;
+}
+
+.ak-job-icon-w30h30.ak-job-25 {
+background-position:-32px 0;
+}
+
+.ak-job-icon-w30h30.ak-job-27 {
+background-position:-32px -95px;
+}
+
+.ak-job-icon-w30h30.ak-job-28 {
+background-position:-158px 0;
+}
+
+.ak-job-icon-w30h30.ak-job-31 {
+background-position:0 -95px;
+}
+
+.ak-job-icon-w30h30.ak-job-36 {
+background-position:-158px -63px;
+}
+
+.ak-job-icon-w30h30.ak-job-43 {
+background-position:-63px -95px;
+}
+
+.ak-job-icon-w30h30.ak-job-44 {
+background-position:-158px -31px;
+}
+
+.ak-job-icon-w30h30.ak-job-45 {
+background-position:0 -126px;
+}
+
+.ak-job-icon-w30h30.ak-job-46 {
+background-position:-32px -126px;
+}
+
+.ak-job-icon-w30h30.ak-job-47 {
+background-position:-126px -95px;
+}
+
+.ak-job-icon-w30h30.ak-job-48 {
+background-position:-95px -126px;
+}
+
+.ak-job-icon-w30h30.ak-job-49 {
+background-position:-126px -126px;
+}
+
+.ak-job-icon-w30h30.ak-job-50 {
+background-position:-95px -95px;
+}
+
+.ak-job-icon-w30h30.ak-job-56 {
+background-position:-63px -158px;
+}
+
+.ak-job-icon-w30h30.ak-job-58 {
+background-position:0 -158px;
+}
+
+.ak-job-icon-w30h30.ak-job-60 {
+background-position:-63px -126px;
+}
+
+.ak-job-icon-w30h30.ak-job-62 {
+background-position:-126px -63px;
+}
+
+.ak-job-icon-w30h30.ak-job-63 {
+background-position:-95px -63px;
+}
+
+.ak-job-icon-w30h30.ak-job-64 {
+background-position:-126px -158px;
+}
+
+.ak-job-icon-w30h30.ak-job-65 {
+background-position:-95px -158px;
+}
+
+.ak-breed-icon {
+display:inline-block;
+height:35px;
+position:relative;
+width:35px;
+background-image:url(/dofus/ng/modules/mmorpg/encyclopedia/breeds/assets/breeds.jpg);
+}
+
+.ak-breed-icon-big {
+display:inline-block;
+height:54px;
+width:54px;
+background:transparent url(../imgs/assets/breeds_big.png) 0 0 no-repeat;
+}
+
+aside .ak-right-breed-list .ak-panel-content {
+text-align:left;
+padding:1rem .6rem 0 1rem;
+}
+
+.ak-breed-icon.ak-selected {
+box-shadow:inset 0 0 0 4px #e78a11;
+}
+
+.ak-breed-icon.breed1_0 {
+background-position:0 -35px;
+}
+
+.ak-breed-icon.breed2_1 {
+background-position:-35px 0;
+}
+
+.ak-breed-icon.breed2_0 {
+background-position:-35px -35px;
+}
+
+.ak-breed-icon.breed3_1 {
+background-position:-70px 0;
+}
+
+.ak-breed-icon.breed3_0 {
+background-position:-70px -35px;
+}
+
+.ak-breed-icon.breed4_1 {
+background-position:-105px 0;
+}
+
+.ak-breed-icon.breed4_0 {
+background-position:-105px -35px;
+}
+
+.ak-breed-icon.breed5_1 {
+background-position:-140px 0;
+}
+
+.ak-breed-icon.breed5_0 {
+background-position:-140px -35px;
+}
+
+.ak-breed-icon.breed6_1 {
+background-position:-175px 0;
+}
+
+.ak-breed-icon.breed6_0 {
+background-position:-175px -35px;
+}
+
+.ak-breed-icon.breed7_1 {
+background-position:-210px 0;
+}
+
+.ak-breed-icon.breed7_0 {
+background-position:-210px -35px;
+}
+
+.ak-breed-icon.breed8_1 {
+background-position:-245px 0;
+}
+
+.ak-breed-icon.breed8_0 {
+background-position:-245px -35px;
+}
+
+.ak-breed-icon.breed9_1 {
+background-position:-280px 0;
+}
+
+.ak-breed-icon.breed9_0 {
+background-position:-280px -35px;
+}
+
+.ak-breed-icon.breed10_1 {
+background-position:-315px 0;
+}
+
+.ak-breed-icon.breed10_0 {
+background-position:-315px -35px;
+}
+
+.ak-breed-icon.breed11_1 {
+background-position:-350px 0;
+}
+
+.ak-breed-icon.breed11_0 {
+background-position:-350px -35px;
+}
+
+.ak-breed-icon.breed12_1 {
+background-position:-385px 0;
+}
+
+.ak-breed-icon.breed12_0 {
+background-position:-385px -35px;
+}
+
+.ak-breed-icon.breed13_1 {
+background-position:-420px 0;
+}
+
+.ak-breed-icon.breed13_0 {
+background-position:-420px -35px;
+}
+
+.ak-breed-icon.breed14_1 {
+background-position:-455px 0;
+}
+
+.ak-breed-icon.breed14_0 {
+background-position:-455px -35px;
+}
+
+.ak-breed-icon.breed15_1 {
+background-position:-490px 0;
+}
+
+.ak-breed-icon.breed15_0 {
+background-position:-490px -35px;
+}
+
+.ak-breed-icon.breed16_1 {
+background-position:-525px 0;
+}
+
+.ak-breed-icon.breed16_0 {
+background-position:-525px -35px;
+}
+.ak-breed-icon.breed17_1 {
+    background-position: -1155px 0
+}
+
+.ak-breed-icon.breed17_0 {
+    background-position: -1155px -35px
+}
+
+.ak-breed-icon-big.breed1_0 {
+background-position:-56px 0;
+}
+
+.ak-breed-icon-big.breed2_0 {
+background-position:-56px -397px;
+}
+
+.ak-breed-icon-big.breed3_0 {
+background-position:-56px -453px;
+}
+
+.ak-breed-icon-big.breed4_0 {
+background-position:-56px -510px;
+}
+
+.ak-breed-icon-big.breed5_0 {
+background-position:-56px -567px;
+}
+
+.ak-breed-icon-big.breed6_0 {
+background-position:-56px -623px;
+}
+
+.ak-breed-icon-big.breed7_0 {
+background-position:-56px -680px;
+}
+
+.ak-breed-icon-big.breed8_0 {
+background-position:-56px -737px;
+}
+
+.ak-breed-icon-big.breed9_0 {
+background-position:-56px -793px;
+}
+
+.ak-breed-icon-big.breed10_0 {
+background-position:-56px -57px;
+}
+
+.ak-breed-icon-big.breed11_0 {
+background-position:-56px -114px;
+}
+
+.ak-breed-icon-big.breed12_0 {
+background-position:-56px -169px;
+}
+
+.ak-breed-icon-big.breed13_0 {
+background-position:-56px -227px;
+}
+
+.ak-breed-icon-big.breed14_0 {
+background-position:-56px -284px;
+}
+
+.ak-breed-icon-big.breed15_0 {
+background-position:-56px -340px;
+}
+
+.ak-breed-icon-big.breed16_0 {
+background-position:-56px -850px;
+}
+
+.ak-breed-icon-big.breed17_0 {
+background-position:-56px -910px;
+}
+
+.ak-server-list {
+line-height:2em;
+margin-bottom:1.2rem;
+}
+
+.ak-server-list th .ak-picto-common {
+display:inline-block;
+vertical-align:middle;
+}
+
+.ak-server-list th .ak-picto-common.ak-picto-help {
+top:-5px;
+position:relative;
+}
+
+.ak-server-list .server span {
+display:inline-block;
+position:relative;
+width:35px;
+height:35px;
+border:1px solid;
+vertical-align:middle;
+border-color:#b1ac9c;
+margin:0 .5em 0 0;
+}
+
+.ak-server-list td.ak-server-access {
+padding-left:45px;
+}
+
+.ak-server-list .ak-server-access.no {
+background:url(/dofus/ng/modules/mmorpg/community/servers/no.png) 14px center no-repeat;
+color:#df5011;
+}
+
+.ak-server-list .ak-server-access.yes {
+background:url(/dofus/ng/modules/mmorpg/community/servers/yes.png) 14px center no-repeat;
+color:#848e21;
+}
+
+.ak-server-list .full {
+color:#df0a0a;
+}
+
+.ak-server-list .medium {
+color:#817159;
+}
+
+.server span {
+background:url(/dofus/ng/modules/mmorpg/community/servers/servers.jpg) 0 -2069px no-repeat;
+}
+
+.server_36 span {
+background-position:0 -39px;
+}
+
+.server_4002 span {
+background-position:0 -78px;
+}
+
+.server_19 span {
+background-position:0 -117px;
+}
+
+.server_4001 span {
+background-position:0 -156px;
+}
+
+.server_15 span {
+background-position:0 -195px;
+}
+
+.server_4005 span {
+background-position:0 -234px;
+}
+
+.server_37 span {
+background-position:0 -273px;
+}
+
+.server_11 span {
+background-position:0 -312px;
+}
+
+.server_4003 span {
+background-position:0 -351px;
+}
+
+.server_32 span {
+background-position:0 -390px;
+}
+
+.server_24 span {
+background-position:0 -429px;
+}
+
+.server_7001 span {
+background-position:0 -468px;
+}
+
+.server_3 span {
+background-position:0 -507px;
+}
+
+.server_14 span {
+background-position:0 -546px;
+}
+
+.server_4007 span {
+background-position:0 -585px;
+}
+
+.server_601 span {
+background-position:0 -624px;
+}
+
+.server_9001 span {
+background-position:0 -663px;
+}
+
+.server_35 span {
+background-position:0 -702px;
+}
+
+.server_27 span {
+background-position:0 -741px;
+}
+
+.server_5 span {
+background-position:0 -780px;
+}
+
+.server_23 span {
+background-position:0 -819px;
+}
+
+.server_6002 span {
+background-position:0 -858px;
+}
+
+.server_18 span {
+background-position:0 -897px;
+}
+
+.server_17 span {
+background-position:0 -936px;
+}
+
+.server_1 span {
+background-position:0 -975px;
+}
+
+.server_25 span {
+background-position:0 -1014px;
+}
+
+.server_33 span {
+background-position:0 -1053px;
+}
+
+.server_21 span {
+background-position:0 -1092px;
+}
+
+.server_9 span {
+background-position:0 -1131px;
+}
+
+.server_30 span {
+background-position:0 -1170px;
+}
+
+.server_7 span {
+background-position:0 -1209px;
+}
+
+.server_26 span {
+background-position:0 -1248px;
+}
+
+.server_3001 span {
+background-position:0 -1287px;
+}
+
+.server_4006 span {
+background-position:0 -1326px;
+}
+
+.server_22 span {
+background-position:0 -1365px;
+}
+
+.server_20 span {
+background-position:0 -1404px;
+}
+
+.server_5001 span {
+background-position:0 -1443px;
+}
+
+.server_12 span {
+background-position:0 -1482px;
+}
+
+.server_4 span {
+background-position:0 -1521px;
+}
+
+.server_8 span {
+background-position:0 -1560px;
+}
+
+.server_2 span {
+background-position:0 -1599px;
+}
+
+.server_16 span {
+background-position:0 -1638px;
+}
+
+.server_1001 span {
+background-position:0 -1677px;
+}
+
+.server_13 span {
+background-position:0 -1716px;
+}
+
+.server_10 span {
+background-position:0 -1755px;
+}
+
+.server_31 span {
+background-position:0 -1794px;
+}
+
+.server_6001 span {
+background-position:0 -1833px;
+}
+
+.server_6 span {
+background-position:0 -1872px;
+}
+
+.server_28 span {
+background-position:0 -1950px;
+}
+
+.server_29 span {
+background-position:0 -1989px;
+}
+
+.server_41 span {
+background-position:0 -2028px;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-position {
+width:46px;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-position .ak-icon-position {
+line-height:37px;
+margin:4px auto;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-avatar {
+width:42px;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-ladder-avatar img {
+display:block;
+position:relative;
+margin:4px auto;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos .ak-breed-icon {
+margin:.3rem;
+}
+
+.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt {
+border-bottom-color:#b1b1b1;
+}
+
+.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt img {
+background:#be9669;
+}
+
+.ak-directories-header .ak-directories-level,.ak-guilds .ak-guilds-members-number {
+font-weight:700;
+color:#f2801b;
+}
+
+.ak-directories-header .ak-directories-icon,.ak-success-points .ak-circle-progressbar-less-50 .ak-semi-circle-left {
+display:none;
+}
+
+.ak-directories-header .ak-directories-breed,.ak-directories-header .ak-directories-grade,.ak-directories-header .ak-directories-server,.ak-directories .ak-alignment-level,.ak-infos-success .ak-character-score .ak-score-text,.ak-success-points .progress .text {
+color:#fff;
+}
+
+.ak-character-actions ul,.ak-character-infos .ak-character-jobs ul,.ak-character-posts ul {
+margin:0;
+padding:0;
+}
+
+.ak-character-banner .ak-character-ornament-show.on,.ak-character-banner .ak-character-picture-show.on,.ak-tooltip-members .ak-guildmember-breed {
+width:45px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-2 span,.ak-character-banner .ak-character-ornament.ornament-3 span,.ak-character-banner .ak-character-ornament.ornament-27 span,.ak-character-banner .ak-character-ornament.ornament-52 span,.ak-character-banner .ak-character-ornament.ornament-53 span,.ak-character-banner .ak-character-ornament.ornament-54 span,.ak-character-banner .ak-character-ornament.ornament-55 span,.ak-character-banner .ak-character-ornament.ornament-56 span,.ak-character-banner .ak-character-ornament.ornament-57 span,.ak-character-banner .ak-character-ornament.ornament-58 span,.ak-character-banner .ak-character-ornament.ornament-59 span,.ak-character-banner .ak-character-ornament.ornament-60 span,.ak-character-banner .ak-character-ornament.ornament-61 span,.ak-character-banner .ak-character-ornament.ornament-62 span,.ak-character-banner .ak-character-ornament.ornament-63 span,.ak-character-banner .ak-character-ornament.ornament-64 span,.ak-character-banner .ak-character-ornament.ornament-65 span,.ak-character-banner .ak-character-ornament.ornament-66 span,.ak-character-banner .ak-character-ornament.ornament-67 span,.ak-character-banner .ak-character-ornament.ornament-68 span,.ak-character-banner .ak-character-ornament.ornament-69 span,.ak-character-banner .ak-character-ornament.ornament-70 span,.ak-character-banner .ak-character-ornament.ornament-71 span,.ak-character-banner .ak-character-ornament.ornament-72 span,.ak-character-banner .ak-character-ornament.ornament-73 span,.ak-character-banner .ak-character-ornament.ornament-74 span,.ak-character-banner .ak-character-ornament.ornament-75 span,.ak-character-banner .ak-character-ornament.ornament-76 span,.ak-character-banner .ak-character-ornament.ornament-77 span,.ak-character-banner .ak-character-ornament.ornament-78 span,.ak-character-banner .ak-character-ornament.ornament-79 span,.ak-character-banner .ak-character-ornament.ornament-80 span,.ak-character-banner .ak-character-ornament.ornament-81 span,.ak-character-banner .ak-character-ornament.ornament-82 span,.ak-character-banner .ak-character-ornament.ornament-83 span,.ak-character-banner .ak-character-ornament.ornament-84 span,.ak-character-banner .ak-character-ornament.ornament-85 span,.ak-character-banner .ak-character-ornament.ornament-86 span,.ak-character-banner .ak-character-ornament.ornament-87 span {
+margin-top:105px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-4 span,.ak-character-banner .ak-character-ornament.ornament-26 span,.ak-character-banner .ak-character-ornament.ornament-35 span,.ak-character-banner .ak-character-ornament.ornament-41 span,.ak-character-banner .ak-character-ornament.ornament-45 span {
+margin-top:130px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-5 span,.ak-character-banner .ak-character-ornament.ornament-33 span {
+margin-top:125px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-7 span,.ak-character-banner .ak-character-ornament.ornament-8 span,.ak-character-banner .ak-character-ornament.ornament-10 span,.ak-character-banner .ak-character-ornament.ornament-11 span,.ak-character-banner .ak-character-ornament.ornament-18 span,.ak-character-banner .ak-character-ornament.ornament-31 span {
+margin-top:140px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-12 span,.ak-character-banner .ak-character-ornament.ornament-13 span,.ak-character-banner .ak-character-ornament.ornament-14 span,.ak-character-banner .ak-character-ornament.ornament-22 span {
+margin-top:138px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-19 span,.ak-character-banner .ak-character-ornament.ornament-20 span,.ak-character-banner .ak-character-ornament.ornament-21 span,.ak-character-banner .ak-character-ornament.ornament-24 span,.ak-character-banner .ak-character-ornament.ornament-25 span,.ak-character-banner .ak-character-ornament.ornament-28 span,.ak-character-banner .ak-character-ornament.ornament-29 span,.ak-character-banner .ak-character-ornament.ornament-34 span,.ak-character-banner .ak-character-ornament.ornament-42 span,.ak-character-banner .ak-character-ornament.ornament-43 span {
+margin-top:136px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-36 span,.ak-character-banner .ak-character-ornament.ornament-48 span {
+margin-top:122px;
+}
+
+.ak-character-banner .ak-character-ornament.ornament-37 span,.ak-character-banner .ak-character-ornament.ornament-40 span {
+margin-top:116px;
+}
+
+.ak-accountcharacters img,.ak-famous-objects img {
+border:1px solid;
+}
+
+.ak-accountcharacters .ak-panel-content,.ak-directories,.ak-spell-details .ak-spell-details-effects ul {
+padding:0;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-accountcharacters-login>a,.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content .ak-title>a:hover {
+text-decoration:underline;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element .ak-main,.ak-directories .ak-directories-left .ak-infos-success .ak-character-score-layer {
+border-bottom:1px solid;
+}
+
+.ak-accountcharacters .ak-panel-content .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content .ak-text>div,.ak-ladder-tiny .ak-cell-elt.ak-character-infos div {
+font-style:italic;
+}
+
+.ak-famous-objects ul li img,.ak-character-infos .ak-character-job,.ak-character-infos .ak-character-jobs,.ak-character-infos .row .ak-character-col-info {
+border-color:#88765c;
+}
+
+.ak-directories h2,.ak-guilds .ak-guild-members h2 {
+border-bottom:1px solid;
+line-height:40px;
+margin-bottom:0;
+border-color:#b1ac9c;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-achievement-ranking,.ak-directories .ak-directories-left .ak-belong-alliance .ak-panel-content,.ak-directories .ak-directories-left .ak-belong-guild .ak-panel-content,.ak-caracteristics-content .ak-equipment-list,.ak-caracteristics-content .ak-equipment-middle,.ak-caracteristics-content .ak-equipment-left,.ak-caracteristics-content .ak-equipment-right,.ak-spell-details .ak-spell-detail-picto,.ak-adminbanner-image-list {
+text-align:center;
+}
+
+.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-guildname,.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-alliancename,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-guildname,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-alliancename {
+font-size:1.9rem;
+font-family:bebas_neueregular,sans-serif;
+}
+
+.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-guildlevel,.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-alliancelevel,.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-guildmembers,.ak-directories .ak-directories-left .ak-belong-alliance .ak-infos-allianceguild,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-guildlevel,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-alliancelevel,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-guildmembers,.ak-directories .ak-directories-left .ak-belong-guild .ak-infos-allianceguild {
+font-size:1.2rem;
+}
+
+.ak-directories .ak-directories-left .ak-infos-success .ak-icon-med,.ak-directories .ak-directories-left .ak-infos-spouse .ak-icon-med,.ak-success-content .ak-character-score-layer .ak-icon-big,.ak-caracteristics-details .ak-icon-small,.ak-responsivetable .ak-breed-icon,.ak-server-list th,.ak-server-list td.ak-server-online .ak-icon-med,.ak-server-list td.ak-server-maintenance .ak-icon-med {
+vertical-align:middle;
+}
+
+.ak-directories .ak-directories-left .ak-main,.ak-directories.ak-directories-right {
+overflow:hidden;
+}
+
+.ak-directories .ak-directories-left .ak-infos-jobs .ak-list-image-col .ak-elt,.ak-success-details-list h2,.ak-caracteristics-details .ak-caracteristics-table-container tr td:first-child span.ak-icon-small {
+margin:0;
+}
+
+.ak-directories .ak-directories-left .ak-infos-jobs .ak-list-image-col .ak-elt:last-child .ak-main,.ak-caracteristics-content.large:before {
+border:none;
+}
+
+.ak-directories .ak-actions .date,.ak-directories .ak-character-posts .ak-post-date,.ak-success-accomplished .ak-list-text .ak-elt span,.ak-caracteristics-details .ak-caracteristics-table-container td strong,.ak-spell-details .ak-spell-detail-other-effect .ak-aside {
+font-style:normal;
+}
+
+.ak-directories .ak-character-ranking .ak-panel-content,.ak-spells-list .ak-spell-details-level-selector a {
+padding:1.5rem;
+}
+
+.ak-directories .ak-character-ranking .ak-total-xp span,.ak-directories .ak-character-ranking .ak-total-kolizeum span,.ak-directories .ak-character-ranking .ak-total-kolizeum-max span,.ak-directories .ak-character-ranking .ak-total-success span,.ak-success-details-list .ak-rewards-name,.ak-stats .ak-first-col,.ak-tooltip-members .ak-guild-name a,.ak-ladder-tiny .ak-cell-elt.ak-character-infos a {
+font-weight:700;
+}
+
+.ak-character-infos .ak-character-jobs .job_grey_circle .ak-character-job-info,.ak-character-infos .ak-character-jobs .job_grey_star .ak-character-job-info,.ak-caracteristics-details .ak-secondary-caracteristics,.ak-caracteristics-details .ak-resistance-pvp-caracteristics,.ak-caracteristics-details .ak-primary-caracteristics,.ak-caracteristics-details .ak-resistance-caracteristics {
+padding-top:1.2rem;
+}
+
+.ak-character-infos .ak-character-job-info div,.ak-character-infos .ak-character-alliance div a,.ak-caracteristics-content .ak-equipment-columns,.ak-spell-details .ak-spell-description,.ak-guilds .ak-alliance-member:hover .ak-alliance-tooltip,.ak-guilds .ak-guild-member:hover .ak-guild-tooltip {
+display:block;
+}
+
+.ak-directories .ak-infos-guildname,.ak-directories .ak-infos-alliancename,.ak-directories .ak-infos-success>div,.ak-directories .ak-infos-spousename,.ak-directories .ak-infos-guildname a,.ak-directories .ak-infos-alliancename a,.ak-directories .ak-infos-success>div a,.ak-directories .ak-infos-spousename a,.ak-server-list .recommanded {
+color:#848e21;
+}
+
+.ak-directories .ak-infos-guildlevel,.ak-directories .ak-infos-alliancelevel,.ak-directories .ak-character-ranking .ak-total-xp span,.ak-directories .ak-character-ranking .ak-total-kolizeum span,.ak-directories .ak-character-ranking .ak-total-kolizeum-max span,.ak-directories .ak-character-ranking .ak-total-success span,.ak-success-details-list .ak-rewards-level,.ak-tooltip-members .ak-member-level {
+color:#f2801b;
+}
+
+.ak-directories .ak-infos-jobs .ak-list-image-col,.ak-directories.ak-directories-left .ak-infos-spouse,.ak-directories.ak-directories-left .ak-infos-jobs .ak-list-image-col .ak-elt .ak-main,.ak-directories.ak-directories-right .ak-list-text ul .ak-elt,.ak-success-points .ak-current-success .ak-semi-circle,.ak-success-points .ak-current-success .ak-semi-circle-right,.ak-spell-details .ak-spell-details-effects .ak-list-text .ak-elt {
+border-color:#b1ac9c;
+}
+
+.ak-directories .ak-actions .date,.ak-directories .ak-character-posts .ak-list-element .ak-post-date,.ak-infos-success .ak-last-achievement .date,.ak-ladder-tiny .ak-panel-content .ak-list-rows .ak-row-elt .ak-character-infos div {
+color:#828282;
+}
+
+.ak-directories .ak-actions .ak-action-link,.ak-directories .ak-post-link {
+color:#848e02;
+}
+
+.ak-directories .ak-character-ranking .ak-table tr th,.ak-spell-details ul li.ak-elt:nth-child(2n),.ak-spell-details .ak-list-text-col .col-xs-6:nth-child(odd) .ak-elt {
+background-color:#e4e0d7;
+}
+
+.ak-character-infos .ak-character-job-info div:last-child,.ak-character-infos .ak-character-alliance span,.ak-infos-success .ak-achievement-ranking span,.ak-infos-success .ak-last-achievement,.ak-character-item .ak-title,.ak-success-points .ak-points-label,.ak-caracteristics-details .ak-caracteristics-table-container .ak-line-text,.ak-spell-details .ak-spell-detail-other-effect .ak-aside,.ak-spell-details .ak-spell-description,.ak-spell-details .ak-list-text-col .ak-elt span,.ak-best-alliance .ak-elt .ak-alliance-members {
+color:#28170e;
+}
+
+.ak-caracteristics-content,.ak-guilds .ak-guild-members {
+overflow:visible;
+}
+
+.ak-character-item .ak-item-effects .ak-elt,.ak-character-item .ak-item-conditions .ak-elt,.ak-character-item .ak-item-set .ak-elt,.ak-character-item .ak-item-links .ak-elt,.ak-character-item .ak-item-effects .ak-elt:first-child,.ak-character-item .ak-item-conditions .ak-elt:first-child,.ak-character-item .ak-item-set .ak-elt:first-child,.ak-character-item .ak-item-links .ak-elt:first-child,.ak-character-item .ak-item-effects .ak-aside,.ak-character-item .ak-item-conditions .ak-aside,.ak-character-item .ak-item-set .ak-aside,.ak-character-item .ak-item-links .ak-aside {
+border-color:#c9c6bb;
+}
+
+.ak-success-content .ak-points-block-container:after,.ak-success-details-content .ak-success-detail-score:after,.ak-spell-details .ak-spell-details-infos:after {
+clear:both;
+}
+
+.ak-success-content .progress,.ak-success-details-content .progress {
+border-radius:0;
+height:66px;
+margin-bottom:0;
+position:relative;
+background-color:#3a3932;
+}
+
+.ak-success-content .ak-progress-bar-total,.ak-success-details-content .ak-progress-bar-total {
+font-size:2.2rem;
+top:-.3rem;
+position:relative;
+margin-left:.4rem;
+}
+
+.ak-success-content .ak-progress-bar-text sup,.ak-success-details-content .ak-progress-bar-text sup {
+top:-.8rem;
+}
+
+.ak-success-content .progress-bar,.ak-success-details-content .progress-bar,.ak-caracteristics-details .ak-progress-bar-health {
+background-color:#bfcb16;
+}
+
+.ak-success-accomplished,.ak-success-details-list .ak-responsivetable tbody>tr.ak-success-accomplished>td.ak-responsivetable-expand,.ak-success-details-list .ak-responsivetable tbody>tr:hover,.ak-success-details-list .ak-responsivetable tbody>tr:hover>td.ak-responsivetable-expand,.ak-spell-details ul li.ak-elt:nth-child(2n+1),.ak-spell-details .ak-list-text-col .col-xs-6:nth-child(even) .ak-elt,.ak-guilds.ak-guilds-list,.ak-guilds.ak-guilds-conquest,.ak-guilds.ak-guild-members {
+background-color:#f8f8f6;
+}
+
+.ak-success-accomplished .ak-actions-list ul li span.date,.ak-spell-details .ak-spell-po-pa,.ak-spell-details .ak-spell-carac,.ak-spell-details .ak-spell-required-lvl {
+color:#78664c;
+}
+
+.ak-spells-list .ak-spell-list-row+.ak-spell-list-row .ak-spell,.ak-spell-details .ak-spell-details-effects .ak-list-text .ak-elt:last-child {
+border-top:none;
+}
+
+.ak-job-icon-w43h43.ak-job-2,.ak-job-icon-w30h30.ak-job-2,.ak-breed-icon.breed1_1,.ak-breed-icon-big:hover.breed1_0,.ak-breed-icon-big.on.breed1_0,li.ak-selected .ak-breed-icon.breed1_0,.server_40 span {
+background-position:0 0;
+}
+
+.ak-job-icon-w30h30.ak-job-26,.ak-job-icon-w30h30.ak-job-41 {
+background-position:-32px -63px;
+}
+
+.ak-breed-icon-big:hover,.ak-breed-icon-big.on,li.ak-selected .ak-breed-icon {
+background:transparent url("../imgs/assets/breeds_big.png") 0 0 no-repeat;
+}
+
+.ak-breed-icon-big:hover.breed2_0,.ak-breed-icon-big.on.breed2_0,li.ak-selected .ak-breed-icon.breed2_0 {
+background-position:0 -397px;
+}
+
+.ak-breed-icon-big:hover.breed3_0,.ak-breed-icon-big.on.breed3_0,li.ak-selected .ak-breed-icon.breed3_0 {
+background-position:0 -453px;
+}
+
+.ak-breed-icon-big:hover.breed4_0,.ak-breed-icon-big.on.breed4_0,li.ak-selected .ak-breed-icon.breed4_0 {
+background-position:0 -510px;
+}
+
+.ak-breed-icon-big:hover.breed5_0,.ak-breed-icon-big.on.breed5_0,li.ak-selected .ak-breed-icon.breed5_0 {
+background-position:0 -567px;
+}
+
+.ak-breed-icon-big:hover.breed6_0,.ak-breed-icon-big.on.breed6_0,li.ak-selected .ak-breed-icon.breed6_0 {
+background-position:0 -623px;
+}
+
+.ak-breed-icon-big:hover.breed7_0,.ak-breed-icon-big.on.breed7_0,li.ak-selected .ak-breed-icon.breed7_0 {
+background-position:0 -680px;
+}
+
+.ak-breed-icon-big:hover.breed8_0,.ak-breed-icon-big.on.breed8_0,li.ak-selected .ak-breed-icon.breed8_0 {
+background-position:0 -737px;
+}
+
+.ak-breed-icon-big:hover.breed9_0,.ak-breed-icon-big.on.breed9_0,li.ak-selected .ak-breed-icon.breed9_0 {
+background-position:0 -793px;
+}
+
+.ak-breed-icon-big:hover.breed10_0,.ak-breed-icon-big.on.breed10_0,li.ak-selected .ak-breed-icon.breed10_0 {
+background-position:0 -57px;
+}
+
+.ak-breed-icon-big:hover.breed11_0,.ak-breed-icon-big.on.breed11_0,li.ak-selected .ak-breed-icon.breed11_0 {
+background-position:0 -114px;
+}
+
+.ak-breed-icon-big:hover.breed12_0,.ak-breed-icon-big.on.breed12_0,li.ak-selected .ak-breed-icon.breed12_0 {
+background-position:0 -169px;
+}
+
+.ak-breed-icon-big:hover.breed13_0,.ak-breed-icon-big.on.breed13_0,li.ak-selected .ak-breed-icon.breed13_0 {
+background-position:0 -227px;
+}
+
+.ak-breed-icon-big:hover.breed14_0,.ak-breed-icon-big.on.breed14_0,li.ak-selected .ak-breed-icon.breed14_0 {
+background-position:0 -284px;
+}
+
+.ak-breed-icon-big:hover.breed15_0,.ak-breed-icon-big.on.breed15_0,li.ak-selected .ak-breed-icon.breed15_0 {
+background-position:0 -340px;
+}
+
+.ak-breed-icon-big:hover.breed16_0,.ak-breed-icon-big.on.breed16_0,li.ak-selected .ak-breed-icon.breed16_0 {
+background-position:0 -850px;
+}
+
+.ak-breed-icon-big:hover.breed17_0,.ak-breed-icon-big.on.breed17_0,li.ak-selected .ak-breed-icon.breed17_0 {
+background-position:0 -910px;
+}
+
+.ak-server-list .ak-server-maintenance,.ak-server-list .ak-server-maintenance,.ak-server-list .high {
+color:#df5011;
+}
+
+.ak-ladder-tiny .ak-cell-elt.ak-character-infos,.ak-ladder-tiny .ak-cell-elt.ak-character-infos span {
+line-height:1.25em;
+font-size:.8em;
+}
+
+@media all and (min-width: 768px){
+.ak-directories-header .ak-directories-icon {
+display:block;
+float:left;
+position:relative;
+width:35px;
+margin:0 0 0 1em;
+}
+
+.ak-directories-header .ak-directories-icon img {
+display:inline-block;
+height:35px;
+width:35px;
+}
+
+.ak-directories-header .ak-directories-property {
+border-left:1px solid;
+display:inline-block;
+vertical-align:top;
+min-height:43px;
+}
+
+.ak-character-banner .ak-character-picture-show,.ak-character-banner .ak-character-ornament-show {
+display:none;
+}
+
+.ak-character-banner .ak-character-edit-banner {
+bottom:0;
+display:inline-block;
+height:30px;
+line-height:30px;
+padding-right:.5em;
+position:absolute;
+right:0;
+width:300px;
+}
+
+.ak-character-banner .ak-character-ornament {
+display:block;
+left:auto;
+position:absolute;
+right:40px;
+top:0;
+}
+
+.ak-famous-objects ul li:nth-child(odd) {
+border-right:1px dashed;
+}
+
+.ak-famous-objects ul li.last:after {
+content:' ';
+display:block;
+position:relative;
+clear:both;
+}
+
+.ak-character-infos .masterpage-inside-block-content {
+padding-bottom:0;
+}
+
+.ak-character-infos .ak-character-col-info:first-child {
+border-left:none;
+}
+
+.ak-character-infos .ak-character-jobs {
+border-left:1px dashed;
+border-right:1px dashed;
+padding-bottom:2.2rem;
+}
+
+.ak-character-infos .ak-character-jobs>img:first-child {
+margin-left:1.5rem;
+}
+
+.ak-character-infos .ak-character-jobs .ak-character-job-info {
+height:43px;
+vertical-align:top;
+padding-top:0;
+}
+
+.ak-character-infos .ak-character-alliance div {
+max-width:265px;
+}
+
+.ak-character-points .ak-points-block {
+float:left;
+width:50%;
+position:relative;
+border-left:1px dashed;
+padding:0 1.5em;
+}
+
+.ak-character-points .ak-points-block:first-child {
+border-bottom:none;
+}
+
+.ak-success-details-content .ak-character-score {
+float:left;
+width:180px;
+}
+
+.ak-success-details-content .ak-success-points {
+overflow:hidden;
+margin-left:18rem;
+}
+
+.ak-caracteristics-content .ak-equipment-columns {
+display:table;
+width:100%;
+}
+
+.ak-caracteristics-content .ak-equipment-columns .ak-equipment-left,.ak-caracteristics-content .ak-equipment-columns .ak-equipment-middle,.ak-caracteristics-content .ak-equipment-columns .ak-equipment-right {
+display:table-cell;
+vertical-align:top;
+}
+
+.ak-caracteristics-content .ak-equipment-columns .ak-equipment-left,.ak-caracteristics-content .ak-equipment-columns .ak-equipment-right {
+width:95px;
+}
+
+.ak-chracter-illustration {
+left:100px;
+}
+
+.ak-character-equipments {
+margin-bottom:0;
+}
+
+.ak-famous-objects ul li,.ak-character-infos .ak-character-alliance {
+float:left;
+width:50%;
+}
+
+.ak-character-infos,.ak-character-infos .ak-character-jobs .ak-character-job-info a,.ak-character-infos .ak-character-jobs .ak-character-job-info div {
+display:block;
+}
+}
+
+@media all and (min-width: 992px){
+.ak-directories-header .ak-directories-main-infos {
+width:93%;
+}
+
+.ak-directories-header .ak-directories-main-infos .ak-directories-message {
+float:right;
+margin:0 .5em 0 1.2em;
+}
+
+.ak-famous-objects ul li {
+float:none;
+width:100%;
+}
+
+.ak-famous-objects ul li:nth-child(odd) {
+border-right:none;
+}
+
+.ak-character-infos .ak-character-alliance div {
+max-width:320px;
+}
+
+.ak-character-infos .row .ak-character-col-info {
+border-top:1px dashed;
+}
+
+.ak-character-infos .ak-character-job img {
+margin-top:0;
+margin-left:.8rem;
+}
+
+.ak-character-infos .ak-character-job-info a,.ak-character-infos .ak-character-job-info div {
+display:inline-block;
+}
+
+.ak-equipment-left {
+text-align:right;
+}
+
+.ak-equipment-right {
+text-align:left;
+}
+
+.ak-caracteristics-details .ak-update-info {
+margin:0 100px;
+}
+
+.ak-spell-list-row {
+display:table-row;
+}
+
+.ak-spell-details .ak-spell-description {
+margin-left:7rem;
+padding-left:1.2rem;
+}
+
+.ak-guilds .ak-alliance-guild-member .ak-panel-content {
+text-align:center;
+}
+}

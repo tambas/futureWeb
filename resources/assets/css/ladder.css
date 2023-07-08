@@ -1,0 +1,595 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+
+.ak-breed-icon {
+    display: inline-block;
+    height: 35px;
+    position: relative;
+    width: 35px
+}
+
+.ak-breed-icon-big {
+    display: inline-block;
+    height: 54px;
+    width: 54px
+}
+
+.ak-responsivetable .ak-breed-icon {
+    vertical-align: middle
+}
+
+aside .ak-right-breed-list .ak-panel-content {
+    padding-top: 10px;
+    padding-top: 1rem;
+    padding-left: 10px;
+    padding-left: 1rem;
+    padding-right: 6px;
+    padding-right: 0.6rem;
+    padding-bottom: 0;
+    text-align: left
+}
+
+.ak-breed-icon {
+    background-image: url("../imgs/assets/breeds.jpg")
+}
+
+.ak-breed-icon.ak-selected {
+    box-shadow: inset 0 0 0 4px #e78a11
+}
+
+.ak-breed-icon.breed1_1 {
+    background-position: 0 0
+}
+
+.ak-breed-icon.breed1_0 {
+    background-position: 0 -35px
+}
+
+.ak-breed-icon.breed2_1 {
+    background-position: -35px 0
+}
+
+.ak-breed-icon.breed2_0 {
+    background-position: -35px -35px
+}
+
+.ak-breed-icon.breed3_1 {
+    background-position: -70px 0
+}
+
+.ak-breed-icon.breed3_0 {
+    background-position: -70px -35px
+}
+
+.ak-breed-icon.breed4_1 {
+    background-position: -105px 0
+}
+
+.ak-breed-icon.breed4_0 {
+    background-position: -105px -35px
+}
+
+.ak-breed-icon.breed5_1 {
+    background-position: -140px 0
+}
+
+.ak-breed-icon.breed5_0 {
+    background-position: -140px -35px
+}
+
+.ak-breed-icon.breed6_1 {
+    background-position: -175px 0
+}
+
+.ak-breed-icon.breed6_0 {
+    background-position: -175px -35px
+}
+
+.ak-breed-icon.breed7_1 {
+    background-position: -210px 0
+}
+
+.ak-breed-icon.breed7_0 {
+    background-position: -210px -35px
+}
+
+.ak-breed-icon.breed8_1 {
+    background-position: -245px 0
+}
+
+.ak-breed-icon.breed8_0 {
+    background-position: -245px -35px
+}
+
+.ak-breed-icon.breed9_1 {
+    background-position: -280px 0
+}
+
+.ak-breed-icon.breed9_0 {
+    background-position: -280px -35px
+}
+
+.ak-breed-icon.breed10_1 {
+    background-position: -315px 0
+}
+
+.ak-breed-icon.breed10_0 {
+    background-position: -315px -35px
+}
+
+.ak-breed-icon.breed11_1 {
+    background-position: -350px 0
+}
+
+.ak-breed-icon.breed11_0 {
+    background-position: -350px -35px
+}
+
+.ak-breed-icon.breed12_1 {
+    background-position: -385px 0
+}
+
+.ak-breed-icon.breed12_0 {
+    background-position: -385px -35px
+}
+
+.ak-breed-icon.breed13_1 {
+    background-position: -420px 0
+}
+
+.ak-breed-icon.breed13_0 {
+    background-position: -420px -35px
+}
+
+.ak-breed-icon.breed14_1 {
+    background-position: -455px 0
+}
+
+.ak-breed-icon.breed14_0 {
+    background-position: -455px -35px
+}
+
+.ak-breed-icon.breed15_1 {
+    background-position: -490px 0
+}
+
+.ak-breed-icon.breed15_0 {
+    background-position: -490px -35px
+}
+
+.ak-breed-icon.breed16_1 {
+    background-position: -525px 0
+}
+
+.ak-breed-icon.breed16_0 {
+    background-position: -525px -35px
+}
+
+.ak-breed-icon.breed17_1 {
+    background-position: -1155px 0
+}
+
+.ak-breed-icon.breed17_0 {
+    background-position: -1155px -35px
+}
+
+.ak-breed-icon.breed18_1 {
+    background-position:-595px 0
+}
+
+.ak-breed-icon.breed18_0 {
+    background-position:-595px -35px
+}
+
+.ak-breed-icon-big {
+    background: transparent url("../imgs/assets/breeds_big.png") 0 0 no-repeat
+}
+
+.ak-breed-icon-big.breed1_0 {
+    background-position: -56px 0
+}
+
+.ak-breed-icon-big.breed2_0 {
+    background-position: -56px -397px
+}
+
+.ak-breed-icon-big.breed3_0 {
+    background-position: -56px -453px
+}
+
+.ak-breed-icon-big.breed4_0 {
+    background-position: -56px -510px
+}
+
+.ak-breed-icon-big.breed5_0 {
+    background-position: -56px -567px
+}
+
+.ak-breed-icon-big.breed6_0 {
+    background-position: -56px -623px
+}
+
+.ak-breed-icon-big.breed7_0 {
+    background-position: -56px -680px
+}
+
+.ak-breed-icon-big.breed8_0 {
+    background-position: -56px -737px
+}
+
+.ak-breed-icon-big.breed9_0 {
+    background-position: -56px -793px
+}
+
+.ak-breed-icon-big.breed10_0 {
+    background-position: -56px -57px
+}
+
+.ak-breed-icon-big.breed11_0 {
+    background-position: -56px -114px
+}
+
+.ak-breed-icon-big.breed12_0 {
+    background-position: -56px -169px
+}
+
+.ak-breed-icon-big.breed13_0 {
+    background-position: -56px -227px
+}
+
+.ak-breed-icon-big.breed14_0 {
+    background-position: -56px -284px
+}
+
+.ak-breed-icon-big.breed15_0 {
+    background-position: -56px -340px
+}
+
+.ak-breed-icon-big.breed16_0 {
+    background-position: -56px -850px
+}
+
+.ak-breed-icon-big.breed17_0 {
+    background-position: -56px -910px
+}
+
+.ak-breed-icon-big:hover, .ak-breed-icon-big.on {
+    background: transparent url("../imgs/assets/breeds_big.png") 0 0 no-repeat
+}
+
+.ak-breed-icon-big:hover.breed1_0, .ak-breed-icon-big.on.breed1_0 {
+    background-position: 0 0
+}
+
+.ak-breed-icon-big:hover.breed2_0, .ak-breed-icon-big.on.breed2_0 {
+    background-position: 0 -397px
+}
+
+.ak-breed-icon-big:hover.breed3_0, .ak-breed-icon-big.on.breed3_0 {
+    background-position: 0 -453px
+}
+
+.ak-breed-icon-big:hover.breed4_0, .ak-breed-icon-big.on.breed4_0 {
+    background-position: 0 -510px
+}
+
+.ak-breed-icon-big:hover.breed5_0, .ak-breed-icon-big.on.breed5_0 {
+    background-position: 0 -567px
+}
+
+.ak-breed-icon-big:hover.breed6_0, .ak-breed-icon-big.on.breed6_0 {
+    background-position: 0 -623px
+}
+
+.ak-breed-icon-big:hover.breed7_0, .ak-breed-icon-big.on.breed7_0 {
+    background-position: 0 -680px
+}
+
+.ak-breed-icon-big:hover.breed8_0, .ak-breed-icon-big.on.breed8_0 {
+    background-position: 0 -737px
+}
+
+.ak-breed-icon-big:hover.breed9_0, .ak-breed-icon-big.on.breed9_0 {
+    background-position: 0 -793px
+}
+
+.ak-breed-icon-big:hover.breed10_0, .ak-breed-icon-big.on.breed10_0 {
+    background-position: 0 -57px
+}
+
+.ak-breed-icon-big:hover.breed11_0, .ak-breed-icon-big.on.breed11_0 {
+    background-position: 0 -114px
+}
+
+.ak-breed-icon-big:hover.breed12_0, .ak-breed-icon-big.on.breed12_0 {
+    background-position: 0 -169px
+}
+
+.ak-breed-icon-big:hover.breed13_0, .ak-breed-icon-big.on.breed13_0 {
+    background-position: 0 -227px
+}
+
+.ak-breed-icon-big:hover.breed14_0, .ak-breed-icon-big.on.breed14_0 {
+    background-position: 0 -284px
+}
+
+.ak-breed-icon-big:hover.breed15_0, .ak-breed-icon-big.on.breed15_0 {
+    background-position: 0 -340px
+}
+
+.ak-breed-icon-big:hover.breed16_0, .ak-breed-icon-big.on.breed16_0 {
+    background-position: 0 -850px
+}
+
+.ak-breed-icon-big:hover.breed17_0, .ak-breed-icon-big.on.breed17_0 {
+    background-position: 0 -910px
+}
+
+li.ak-selected .ak-breed-icon {
+    background: transparent url("../imgs/assets/breeds_big.png") 0 0 no-repeat
+}
+
+li.ak-selected .ak-breed-icon.breed1_0 {
+    background-position: 0 0
+}
+
+li.ak-selected .ak-breed-icon.breed2_0 {
+    background-position: 0 -397px
+}
+
+li.ak-selected .ak-breed-icon.breed3_0 {
+    background-position: 0 -453px
+}
+
+li.ak-selected .ak-breed-icon.breed4_0 {
+    background-position: 0 -510px
+}
+
+li.ak-selected .ak-breed-icon.breed5_0 {
+    background-position: 0 -567px
+}
+
+li.ak-selected .ak-breed-icon.breed6_0 {
+    background-position: 0 -623px
+}
+
+li.ak-selected .ak-breed-icon.breed7_0 {
+    background-position: 0 -680px
+}
+
+li.ak-selected .ak-breed-icon.breed8_0 {
+    background-position: 0 -737px
+}
+
+li.ak-selected .ak-breed-icon.breed9_0 {
+    background-position: 0 -793px
+}
+
+li.ak-selected .ak-breed-icon.breed10_0 {
+    background-position: 0 -57px
+}
+
+li.ak-selected .ak-breed-icon.breed11_0 {
+    background-position: 0 -114px
+}
+
+li.ak-selected .ak-breed-icon.breed12_0 {
+    background-position: 0 -169px
+}
+
+li.ak-selected .ak-breed-icon.breed13_0 {
+    background-position: 0 -227px
+}
+
+li.ak-selected .ak-breed-icon.breed14_0 {
+    background-position: 0 -284px
+}
+
+li.ak-selected .ak-breed-icon.breed15_0 {
+    background-position: 0 -340px
+}
+
+li.ak-selected .ak-breed-icon.breed16_0 {
+    background-position: 0 -850px
+}
+
+li.ak-selected .ak-breed-icon.breed17_0 {
+    background-position: 0 -910px
+}
+
+.ak-ladder .ak-icon-position {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0 auto
+}
+
+.ak-ladder .ak-icon-position.ak-position-1, .ak-ladder .ak-icon-position.ak-position-2,
+.ak-ladder .ak-icon-position.ak-position-3 {
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 21px;
+    font-size: 2.1rem;
+    font-weight: bold
+}
+
+.ak-ladder .ak-breed-icon {
+    vertical-align: middle
+}
+
+.ak-ladder th:first-child {
+    text-align: center
+}
+
+.ak-ladder th:first-child > a {
+    position: relative
+}
+
+.ak-ladder th:first-child > a > span {
+    position: absolute;
+    top: 6px
+}
+
+.ak-ladder.ak-ladder-tiny .ak-character-points {
+    font-size: 13px;
+    font-size: 1.3rem;
+    padding: 0 2.5px;
+    padding: 0 0.25rem;
+    min-width: 80px;
+    text-align: right
+}
+
+.ak-ladder.ak-ladder-section .ak-icon-position {
+    line-height: 28px;
+    line-height: 2.8rem;
+    height: 30px;
+    width: 30px
+}
+
+.ak-ladder.ak-ladder-section td.ak-rank {
+    padding: 6px;
+    padding: 0.6rem;
+    width: 40px
+}
+
+.ak-ladder.ak-ladder-section td.ak-name {
+    padding: 6px;
+    padding: 0.6rem
+}
+
+.ak-ladder .ak-event-icon .ak-breed-icon {
+    height: 30px;
+    width: 30px
+}
+
+.ak-ladder .ak-event-type {
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-ladder .ak-event-icon {
+    width: 30px;
+    height: 30px
+}
+
+.ak-ladder .ak-ladder-more-characters {
+    font-size: 13px;
+    font-size: 1.3rem
+}
+
+.ak-ladder .ak-ladder-more-characters img {
+    display: inline-block;
+    padding-right: 7px;
+    padding-right: 0.7rem;
+    padding-left: 5px;
+    padding-left: 0.5rem
+}
+
+.ak-firsts-on-server-intro {
+    padding: 12px;
+    padding: 1.2rem;
+    font-weight: bold
+}
+
+.ak-firsts-on-server-line .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content .ak-title {
+    font-size: 15px;
+    font-size: 1.5rem
+}
+
+.ak-firsts-on-server-line .ak-breed-icon {
+    width: 30px;
+    height: 30px
+}
+
+.ak-tooltip-ladder .ak-content-list .ak-list-element {
+    border: none;
+    padding: 1px 3px;
+    padding: 0.1rem 0.3rem
+}
+
+.ak-tooltip-ladder .ak-breed-icon {
+    height: 30px;
+    width: 30px
+}
+
+.ak-ladder .ak-icon-position.ak-position-1 {
+    background: #ffba00;
+    color: #ffffff;
+    box-shadow: inset 0 0 3px 2px #ffe300
+}
+
+.ak-ladder .ak-icon-position.ak-position-2 {
+    background: #b6b6b6;
+    color: #eeeeee;
+    box-shadow: inset 0 0 3px 2px #ddddcd
+}
+
+.ak-ladder .ak-icon-position.ak-position-3 {
+    background: #ff6100;
+    color: #ffbb3f;
+    box-shadow: inset 0 0 3px 2px #ff9b00
+}
+
+.ak-ladder.ak-ladder-section .ak-position-1 {
+    box-shadow: inset 0 0 3px 2px #ffe300, 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.ak-ladder.ak-ladder-section .ak-position-2 {
+    box-shadow: inset 0 0 3px 2px #ddddcd, 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.ak-ladder.ak-ladder-section .ak-position-3 {
+    box-shadow: inset 0 0 3px 2px #ff9b00, 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.ak-firsts-on-server-intro {
+    background: #f8f8f6
+}

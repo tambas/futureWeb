@@ -1,0 +1,8 @@
+{
+    "fields": [{
+        "type": "characters",
+        "name": "Personnage",
+        "hint": "Selectionnez le personnage impacté.",
+        "child": "final"
+    }]
+}

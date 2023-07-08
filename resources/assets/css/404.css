@@ -1,0 +1,169 @@
+.ak-picto-less-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -287px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-more-white {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -260px 0;
+    background-repeat: no-repeat
+}
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+.ak-picto-help.ak-orange {
+    background-position: -116px -25px
+}
+.ak-icon-big.ak-filter, .ak-icon-med.ak-filter {
+    background-image: url("../imgs/assets/sprite_zoom.png");
+    background-repeat: no-repeat
+}
+.ak-icon-big {
+    background-size: 65px auto
+}
+.ak-icon-big.ak-filter {
+    background-position: 0 -10px
+}
+.ak-icon-med {
+    background-size: 46px auto
+}
+.ak-icon-med.ak-filter {
+    background-position: 0 -7px
+}
+body .breadcrumb, body .btn-info.ak-btn-play {
+    display: none
+}
+body .container .ak-main-page {
+    background: none;
+    padding: 0
+}
+body .ak-404 {
+    min-height: 1000px;
+    padding-bottom: 50px;
+    padding-top: 0;
+    text-align: center
+}
+body .ak-404 .row {
+    margin: 0
+}
+body .ak-404 .row .col-md-6 {
+    padding: 0
+}
+body .ak-404 .ak-block-search {
+    font-size: 1em;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #97A800;
+    display: inline-block;
+    padding: 6px;
+    padding-left: 40px
+}
+body .ak-404 .ak-block-search input[type="text"] {
+    height: 44px;
+    padding: 0 5px;
+    padding-right: 50px;
+    width: 240px;
+    border: 1px solid
+}
+body .ak-404 .ak-block-search input[type="submit"] {
+    position: absolute;
+    right: 11px;
+    top: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 40px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 13px;
+    line-height: 1.3rem
+}
+body .ak-404 .ak-block-search .search_global_results {
+    position: absolute !important;
+    top: 50px !important
+}
+body .ak-404 .ak-text {
+    font-family: "bebas_neueregular", sans-serif
+}
+body .ak-404 .ak-text div:nth-child(1) {
+    font-size: 74px;
+    font-size: 7.4rem;
+    line-height: 74px;
+    line-height: 7.4rem
+}
+body .ak-404 .ak-text div:nth-child(2) {
+    font-size: 33px;
+    font-size: 3.3rem;
+    line-height: 33px;
+    line-height: 3.3rem
+}
+body .ak-404 .ak-text div:nth-child(3) {
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 42px;
+    line-height: 4.2rem
+}
+body .ak-404 form {
+    margin: 22px 0;
+    margin: 2.2rem 0
+}
+body .ak-404 .ak-text div:nth-child(1) {
+    color: #848e02
+}
+body .ak-404 .ak-text div:nth-child(2) {
+    color: #3ba7e1
+}
+body .ak-404 .ak-text div:nth-child(3) {
+    color: #bce3f8
+}
+body .ak-404 .ak-block-search {
+    background: #96a702 url("../imgs/assets/search.png") 2px center no-repeat;
+    color: #fff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.35);
+    border-color: #97A800
+}
+body .ak-404 .ak-block-search input[type="submit"] {
+    background: #c9c4b3;
+    color: #fff
+}
+body .ak-404 .ak-block-search input[type="submit"]:hover {
+    background: #bfd500
+}
+body .ak-404 .ak-block-search input[type="text"] {
+    border-color: #3d5a89;
+    color: #42301a
+}
+body .ak-404 .ak-block-search input[type="text"]:focus {
+    box-shadow: 0 0 2px #000000;
+    color: #42301a
+}
+@media all and (min-width: 992px) {
+    body .ak-404 {
+        min-height: 540px;
+        padding-top: 0
+    }
+    body .ak-404 .ak-block-search input[type="text"] {
+        width: 270px
+    }
+    body .ak-main-container {
+        margin-top: 45px
+    }
+}
+body {
+    background: url("../imgs/assets/404_tablet.jpg") no-repeat center 40% #010624 !important;
+    background-size: 100%
+}
+@media all and (min-width: 992px) {
+    body {
+        background: url("../imgs/assets/404_desktop.jpg") no-repeat center top #010624 !important
+    }
+}

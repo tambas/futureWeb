@@ -1,0 +1,22 @@
+{
+    "fields": [{
+        "type": "text",
+        "name": "Sujet",
+        "required": "required"
+    },{
+        "type": "textarea",
+        "hint": "Veuillez nous exposer votre demande le plus clairement possible",
+        "name": "Message",
+        "required": "required"
+    }, {
+        "type": "file",
+        "name": "Preuve d'achat",
+        "hint": "Veuillez nous fournir la preuve d'achat (e-mail, appel,..)",
+        "input": "image",
+        "accept": "image/*",
+        "required": "required"
+    }, {
+        "type": "submit",
+        "name": "Envoyer"
+    }]
+}

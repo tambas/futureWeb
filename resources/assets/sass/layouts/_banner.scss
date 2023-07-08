@@ -1,0 +1,102 @@
+section[role=banner] {
+    padding: 80px 20px;
+    width: 100%;
+    z-index: 500;
+    margin-top: 85px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4) inset;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    h1 {
+        animation: linear bannerH1 0.7s;
+        font-family: 'montserratbold';
+        font-size: 60px;
+        margin-bottom: 30px;
+        line-height: 55px;
+    }
+
+    h2 {
+        animation: linear bannerH2 1s;
+        font-family: 'montserratregular';
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 17px;
+    }
+
+    a {
+        animation: linear bannerH2 1s;
+        display: inline-block;
+        position: relative;
+        font-family: 'montserratlight';
+        font-size: 16px;
+        padding: 8px 15px;
+
+        span {
+            display: inline-block;
+            position: absolute;
+            background: #ffffff;
+        }
+
+        &:hover {
+            background: #ffffff;
+            color: #35b2da;
+            text-shadow: 0 0 0;
+        }
+
+        span {
+            &:nth-child(1) {
+                width: 1px;
+                height: 100%;
+                left: 0;
+                bottom: 0;
+                animation: linear bannerA_span1 1s;
+            }
+
+            &:nth-child(2) {
+                width: 1px;
+                height: 100%;
+                right: 0;
+                top: 0;
+                animation: linear bannerA_span1 1s;
+            }
+
+            &:nth-child(3) {
+                width: 100%;
+                height: 1px;
+                left: 0;
+                top: 0;
+                animation: linear bannerA_span2 1s;
+            }
+
+            &:nth-child(4) {
+                width: 100%;
+                height: 1px;
+                right: 0;
+                bottom: 0;
+                animation: linear bannerA_span2 1s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section[role=banner] {
+        h1 {
+            font-size: 45px;
+            line-height: 40px;
+        }
+        h2 {
+            font-size: 15px;
+            line-height: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    section[role=banner] {
+        margin-top: 60px;
+    }
+}

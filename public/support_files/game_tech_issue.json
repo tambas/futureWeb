@@ -1,0 +1,8 @@
+{
+    "fields": [{
+        "type": "accounts",
+        "name": "Compte de jeu",
+        "hint": "Selectionnez le compte impacté.",
+        "child": "game_bug_account"
+    }]
+}

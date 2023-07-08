@@ -1,0 +1,27 @@
+{
+    "fields": [{
+        "type": "text",
+        "name": "Pseudo",
+        "hint": "Indiquez le pseudo du joueur qui pose problème.",
+        "required": "required"
+    }, {
+        "type": "text",
+        "name": "Sujet",
+        "required": "required"
+    },{
+        "type": "textarea",
+        "hint": "Veuillez nous exposer votre demande le plus clairement possible",
+        "name": "Message",
+        "required": "required"
+    }, {
+        "type": "file",
+        "name": "Preuve",
+        "hint": "Veuillez nous fournir une preuve accompagnant cette plainte",
+        "input": "image",
+        "accept": "image/*",
+        "required": "required"
+    }, {
+        "type": "submit",
+        "name": "Envoyer"
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "fr":{
+        "sms":[
+            {
+                "points":100,
+                "number":"81211",
+                "keyword":"ABCD8366",
+                "cost":"4.5",
+                "devise":"&euro;",
+                "text":"4.5 &euro;/SMS + prix d'un SMS<br>1 envoi de SMS par code d'accès",
+            },
+        ],
+        "audiotel":[
+            {
+                "method":"",
+                "number":"0899 230 431",
+                "cost":"1.35",
+                "devise":"&euro;",
+                "costText":"La communication vous sera facturée :<br>1.35 &euro;/appel + 0.34 &euro;/min depuis une ligne fixe<br>Obtention du code en < 1,30 min. Coût : 1.86 &euro;",
+            },
+        ]
+    },
+    "en":[
+        {
+
+        }
+    ]
+}

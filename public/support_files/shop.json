@@ -1,0 +1,13 @@
+{
+    "fields": [{
+        "type": "select",
+        "name": "Ma situation",
+        "data": [{
+            "value": "J'ai effectué un achat, j'ai reçu un code mais il est invalide",
+            "child": "shop_code_final"
+        }, {
+            "value": "J'ai effectué un achat mais je n'ai reçu aucun code",
+            "child": "shop_final"
+        }]
+    }]
+}

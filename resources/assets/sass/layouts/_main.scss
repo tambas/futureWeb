@@ -1,0 +1,75 @@
+main {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    padding-top: 25px;
+
+    #left {
+        width: calc(70% - 25px);
+        float: left;
+    }
+
+    #right {
+        width: 30%;
+        float: right;
+
+        a {
+            &[butt] {
+                width: 100%;
+                padding: 20px 10px 15px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #ffffff;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+                text-transform: uppercase;
+                display: inline-block;
+                font-family: 'montserratbold';
+                font-size: 18px;
+
+                span {
+                    width: 100%;
+                    display: inline-block;
+                    font-size: 14px;
+                    font-family: 'montserratlight';
+                    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+                }
+
+                &:hover {
+                    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.8) inset;
+                    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+
+                    span {
+                        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+                    }
+                }
+
+                &:after {
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+            &[butt=register]:after {
+                content: "\f234";
+            }
+
+            &[butt=support]:after {
+                content: "\f0e6";
+            }
+
+            &[butt=youtube]:after {
+                content: "\f16a";
+            }
+
+            &[butt=twitch]:after {
+                content: "\f1e8";
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 100%;
+        padding: 25px 25px 0;
+    }
+}

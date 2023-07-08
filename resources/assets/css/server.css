@@ -1,0 +1,249 @@
+/****************************************************************************/
+/* MODULES */
+/****************************************************************************/
+.ak-picto-less-white {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-position: -287px 0;
+  background-repeat: no-repeat; }
+
+.ak-picto-more-white {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-position: -260px 0;
+  background-repeat: no-repeat; }
+
+.ak-picto-help {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-position: -116px 2px;
+  background-repeat: no-repeat;
+  cursor: help; }
+  .ak-picto-help.ak-orange {
+    background-position: -116px -25px; }
+
+.ak-icon-big.ak-filter
+,
+.ak-icon-med.ak-filter {
+  background-image: url("../imgs/assets/sprite_zoom.png");
+  background-repeat: no-repeat; }
+
+.ak-icon-big {
+  background-size: 65px auto; }
+
+.ak-icon-big.ak-filter {
+  background-position: 0 -10px; }
+
+.ak-icon-med {
+  background-size: 46px auto; }
+
+.ak-icon-med.ak-filter {
+  background-position: 0 -7px; }
+
+/* Auto Moved */
+/* Auto Moved End */
+.ak-server-list {
+  line-height: 2em;
+  margin-bottom: 12px;
+  margin-bottom: 1.2rem; }
+  .ak-server-list th {
+    vertical-align: middle; }
+    .ak-server-list th .ak-picto-common {
+      display: inline-block;
+      vertical-align: middle; }
+      .ak-server-list th .ak-picto-common.ak-picto-help {
+        top: -5px;
+        position: relative; }
+  .ak-server-list .server span {
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5em 0 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    vertical-align: middle; }
+  .ak-server-list td.ak-server-online .ak-icon-med, .ak-server-list td.ak-server-maintenance .ak-icon-med {
+    vertical-align: middle; }
+  .ak-server-list td.ak-server-access {
+    padding-left: 45px; }
+  .ak-server-list .ak-server-maintenance {
+    color: #df5011; }
+  .ak-server-list .ak-server-access.no {
+    background: url("../imgs/assets/no.png") 14px center no-repeat;
+    color: #df5011; }
+  .ak-server-list .ak-server-access.yes {
+    background: url("../imgs/assets/yes.png") 14px center no-repeat;
+    color: #848e21; }
+  .ak-server-list .full {
+    color: #df0a0a; }
+  .ak-server-list .ak-server-maintenance, .ak-server-list .high {
+    color: #df5011; }
+  .ak-server-list .medium {
+    color: #817159; }
+  .ak-server-list .recommanded {
+    color: #848e21; }
+  .ak-server-list .server span {
+    border-color: #b1ac9c; }
+
+.server span {
+  background: url("../imgs/assets/servers.jpg") 0 -2069px no-repeat; }
+
+.server_40 span {
+  background-position: 0 0; }
+
+.server_36 span {
+  background-position: 0 -39px; }
+
+.server_4002 span {
+  background-position: 0 -78px; }
+
+.server_19 span {
+  background-position: 0 -117px; }
+
+.server_4001 span {
+  background-position: 0 -156px; }
+
+.server_15 span {
+  background-position: 0 -195px; }
+
+.server_4005 span {
+  background-position: 0 -234px; }
+
+.server_37 span {
+  background-position: 0 -273px; }
+
+.server_11 span {
+  background-position: 0 -312px; }
+
+.server_4003 span {
+  background-position: 0 -351px; }
+
+.server_32 span {
+  background-position: 0 -390px; }
+
+.server_24 span {
+  background-position: 0 -429px; }
+
+.server_7001 span {
+  background-position: 0 -468px; }
+
+.server_3 span {
+  background-position: 0 -507px; }
+
+.server_14 span {
+  background-position: 0 -546px; }
+
+.server_4007 span {
+  background-position: 0 -585px; }
+
+.server_601 span {
+  background-position: 0 -624px; }
+
+.server_9001 span {
+  background-position: 0 -663px; }
+
+.server_35 span {
+  background-position: 0 -702px; }
+
+.server_27 span {
+  background-position: 0 -741px; }
+
+.server_5 span {
+  background-position: 0 -780px; }
+
+.server_23 span {
+  background-position: 0 -819px; }
+
+.server_6002 span {
+  background-position: 0 -858px; }
+
+.server_18 span,
+.server_sigma span {
+  background-position: 0 -897px; }
+
+.server_17 span {
+  background-position: 0 -936px; }
+
+.server_1 span {
+  background-position: 0 -975px; }
+
+.server_25 span {
+  background-position: 0 -1014px; }
+
+.server_33 span {
+  background-position: 0 -1053px; }
+
+.server_21 span {
+  background-position: 0 -1092px; }
+
+.server_9 span {
+  background-position: 0 -1131px; }
+
+.server_30 span {
+  background-position: 0 -1170px; }
+
+.server_7 span {
+  background-position: 0 -1209px; }
+
+.server_26 span {
+  background-position: 0 -1248px; }
+
+.server_3001 span {
+  background-position: 0 -1287px; }
+
+.server_4006 span {
+  background-position: 0 -1326px; }
+
+.server_22 span {
+  background-position: 0 -1365px; }
+
+.server_20 span {
+  background-position: 0 -1404px; }
+
+.server_5001 span {
+  background-position: 0 -1443px; }
+
+.server_12 span {
+  background-position: 0 -1482px; }
+
+.server_4 span {
+  background-position: 0 -1521px; }
+
+.server_8 span {
+  background-position: 0 -1560px; }
+
+.server_2 span {
+  background-position: 0 -1599px; }
+
+.server_16 span {
+  background-position: 0 -1638px; }
+
+.server_1001 span {
+  background-position: 0 -1677px; }
+
+.server_13 span {
+  background-position: 0 -1716px; }
+
+.server_10 span {
+  background-position: 0 -1755px; }
+
+.server_31 span {
+  background-position: 0 -1794px; }
+
+.server_6001 span {
+  background-position: 0 -1833px; }
+
+.server_6 span {
+  background-position: 0 -1872px; }
+
+.server_28 span {
+  background-position: 0 -1950px; }
+
+.server_29 span {
+  background-position: 0 -1989px; }
+
+.server_41 span {
+  background-position: 0 -2028px; }

@@ -1,0 +1,10 @@
+{
+    "fields": [{
+        "type": "textarea",
+        "name": "Message",
+        "required": "required"
+    }, {
+        "type": "submit",
+        "name": "Envoyer"
+    }]
+}

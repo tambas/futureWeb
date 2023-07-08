@@ -1,0 +1,63 @@
+/* SWEET Alert */
+.sweet-alert p{
+    word-wrap: break-word;
+}
+
+/* Dashboard */
+
+.card-box .widget-chart-1 .widget-chart-box-1 i
+{
+    font-size: 80px;
+    color: #71b6f9;
+    padding-right: 15px;
+}
+
+/* Posts form */
+
+.image-wrapper{
+    display:inline;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+    height:200px;
+    padding:5px 10px;
+    font-size:13px;
+    line-height:22px;
+    color:#777;
+    background-color:#FFF;
+    background-image:none;
+    text-align:center;
+    border:2px dashed lightskyblue;
+    -webkit-transition:border-color .15s linear;
+    transition:border-color .15s linear;
+}
+.image-wrapper.image-has-error{
+    border: 2px dashed red;
+}
+.image-wrapper:hover
+{
+    border:2px solid lightskyblue;
+    -webkit-transition:border-color .15s linear;
+    transition:border-color .15s linear;
+}
+.image-wrapper .image-message
+{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.image-wrapper .image-message span.zmdi-image
+{
+    font-size: 40px;
+    color: lightskyblue;
+}
+.image-wrapper img.image-image{
+    width: 240px;
+    display:inline;
+}
+
+.xdsoft_datetimepicker {
+    z-index: 10 !important;
+}
